@@ -1,0 +1,205 @@
+.Partners {
+  padding: 6rem 0rem;
+  background: #1a1a1a;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.Partners-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Partner-cards-title .first-layout {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.Partner-cards-title h5 {
+  font-size: 16px;
+  position: relative;
+  z-index: 3;
+  text-align: left !important;
+  color: yellow;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.Partner-cards-title h6 {
+  font-size: 18px;
+
+  font-weight: 400;
+  color: white;
+}
+.Partner-cards-title .first-layout h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-right: 10px;
+  color: white;
+}
+.Partner-cards-title .first-layout h4 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+
+.Partner-cards-title .second-layout {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.Partner-cards-title .second-layout h4 {
+  font-size: 70px;
+  font-weight: 400;
+  /* margin-right: 10px; */
+  color: white;
+}
+.Partner-cards-title .second-layout h3 {
+  font-size: 35px;
+  font-weight: 300;
+  margin-right: 10px;
+  color: white;
+}
+
+.Partners-box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "pcard1 pcard2 pcard3 pcard3"
+    "pcard4 pcard5 pcard6 pcard7";
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pcard1 {
+  grid-area: pcard1;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard2 {
+  grid-area: pcard2;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard3 {
+  grid-area: pcard3;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard4 {
+  grid-area: pcard4;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard5 {
+  grid-area: pcard5;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard6 {
+  grid-area: pcard6;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard7 {
+  grid-area: pcard7;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+@media (min-width: 1200px) {
+  .Partners-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Partners-box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "pcard3"
+      "pcard4"
+      "pcard1"
+      "pcard2"
+      "pcard5"
+      "pcard6"
+      "pcard7";
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pcard3 .PtrCard .PtrCard-box {
+    position: relative !important;
+    right: 0;
+    top: 0;
+    padding: 2rem 3rem;
+  }
+
+  .pcard3 .PtrCard .top {
+    display: none;
+  }
+  .pcard3 .PtrCard {
+    border: none;
+  }
+
+  .pcard3 .PtrCard .PtrCard-box:after {
+    display: none;
+  }
+
+  .pcard4 .PtrCard {
+    border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
+  }
+  .Partner-cards-title .first-layout h3 {
+    font-size: 27px;
+  }
+  .Partner-cards-title .first-layout h4 {
+    font-size: 27px;
+  }
+}

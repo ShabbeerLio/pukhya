@@ -1,0 +1,141 @@
+.ChooseUS {
+  padding: 6rem 0rem;
+  width: 100%;
+  background-color: #1d1d1d;
+}
+
+.ChooseUS-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+.ChooseUS-main-heading h5 {
+  color: yellow;
+  display: flex;
+  align-items: center;
+}
+.ChooseUS-main-heading h5 svg {
+  rotate: 130deg;
+  margin-right: 10px;
+}
+
+.ChooseUS-main-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ChooseUS-main-head h2 {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  padding: 5px;
+  padding-bottom: 15px;
+  margin: 0;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.ChooseUS-main-head h2 span{
+  font-weight: 100;
+  margin-left: 20px;
+}
+.ChooseUS-main-head h2 svg {
+    color: white;
+  font-size: 70px;
+  margin-right: 20px;
+  /* rotate: 90deg; */
+}
+.ChooseUS-main-head p {
+  border: none;
+  padding: 22px 35px !important;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0px 20px 0px 20px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+}
+.ChooseUS-main-head p:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #73b628;
+  transition: all 0.3s;
+  border-radius: 0px 20px 0px 20px;
+  z-index: -1;
+}
+.ChooseUS-main-head p:hover:before {
+  width: 100%;
+}
+
+.ChooseUS-main-body {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  padding-top: 50px;
+}
+
+.choose-body-item .line {
+  height: 1px;
+  margin: 20px 0px;
+  background-color: #cccccc83;
+  width: 100%;
+}
+
+.choose-body-item-head {
+  display: flex;
+  align-items: baseline;
+}
+.choose-body-item-head h5 {
+  font-size: 25px;
+}
+.choose-body-item-head svg {
+  margin-right: 10px;
+  color: yellow;
+}
+
+@media (min-width: 1200px) {
+  .ChooseUS-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .ChooseUS-main {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+.ChooseUS-main-body{
+  display: block;
+}
+
+.choose-body-item{
+  padding-top: 20px;
+}
+
+.choose-body-item .line {
+  margin: 5px 0px 20px 0px ;
+}
+
+.ChooseUS-main-head h2{
+  font-size: 40px;
+}
+}

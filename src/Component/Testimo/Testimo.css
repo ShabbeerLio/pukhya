@@ -1,0 +1,161 @@
+.Testimo {
+  padding: 6rem 0rem;
+  background: #1d1d1d;
+  width: 100%;
+  position: relative;
+}
+
+.Testimo-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Testimo-box {
+  display: flex;
+  gap: 2rem;
+}
+
+.Testimo-left {
+  width: 35%;
+}
+.testimo-line {
+  position: absolute;
+  bottom: 16%;
+  left: 0;
+  width: 22%;
+}
+.testimo-line svg path {
+  stroke: #6c6969;
+}
+.Testimo-left p {
+  color: yellow;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.Testimo-left h3 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+.Testimo-left h3 span {
+  font-weight: 100;
+}
+
+.Testimo-right {
+  width: 65%;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.testimo-right-des {
+  position: absolute;
+  top: -20%;
+  left: 0;
+}
+.testimo-right-des svg {
+  width: 60%;
+}
+.testimo-right-card {
+  margin: 0rem 1rem;
+}
+
+.testimo-right-card p {
+  line-height: 1.8;
+  font-size: 30px;
+  color: #c6c8c9;
+  margin: 0rem 1rem;
+}
+
+.testimo-card-down {
+  border-top: 1px solid #494949;
+  margin: 1rem 0;
+}
+
+.testimo-card-profile {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.testimo-card-profile img {
+  width: 14% !important;
+  object-fit: cover;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  margin-right: 1rem;
+  padding: 10px;
+}
+
+.testimo-card-title h5 {
+  color: white;
+  margin-bottom: 5px;
+}
+.testimo-card-title p {
+  color: yellow;
+  font-size: 15px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.Testimo-right .owl-nav {
+  right: 0%;
+  bottom: 10%;
+  position: absolute;
+}
+
+.Testimo-right .owl-carousel .owl-nav button.owl-prev,
+.Testimo-right .owl-carousel .owl-nav button.owl-next {
+  background: transparent;
+  color: #b8b8b8;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 7px;
+  position: relative;
+  border: 1px solid #494949;
+}
+
+.Testimo-right .owl-carousel .owl-nav button.owl-prev span,
+.Testimo-right .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  position: absolute;
+  top: -15%;
+  right: 20px;
+}
+
+@media (min-width: 1200px) {
+  .Testimo-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Testimo-box {
+    flex-wrap: wrap;
+  }
+
+  .Testimo-right,
+  .Testimo-left {
+    width: 100%;
+    margin: 0;
+  }
+
+  .testimo-right-card p {
+    line-height: 1.8;
+    font-size: 20px;
+    color: #c6c8c9;
+    margin: 0rem;
+  }
+
+  .Testimo-right .owl-nav {
+    right: 35%;
+    bottom: -15%;
+    position: absolute;
+  }
+}

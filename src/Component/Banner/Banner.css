@@ -1,0 +1,169 @@
+.Banners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Banners-detail {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner-desc {
+    width: 50%;
+}
+
+.Banners img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(0.5);
+}
+
+.Banners-detail {
+    position: relative;
+    text-align: left;
+    bottom: 0;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+.Banners-detail h1 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    /* text-transform: uppercase; */
+    line-height: 1.35em;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.Banners-detail h4 {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+    line-height: 25px;
+}
+
+.banner-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-radius: 0px 20px 0px 20px;
+    background-color: #1d1d1d;
+
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.banner-button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    border-radius: 0px 20px 0px 20px;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+
+
+.banner-button:hover:before {
+    width: 100%;
+}
+
+/* .banner-button:hover {
+    background-color: #194341;
+} */
+
+
+
+.banner-button p {
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    padding: 20px 15px 20px 30px;
+    margin: 0;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.banner-button svg {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+
+
+.Banners-order-box-checkin {
+    background-color: #aa8453;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .Banners-detail {
+        max-width: 1080px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .Banners-detail{
+        bottom: 10%;
+    }
+
+    .banner-desc{
+        width: 100%;
+    }
+    .Banners-detail h1 {
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+    
+
+    .banner-button{
+        width: 100%;
+    }
+
+    .counter-box{
+        margin-bottom: 10px;
+    }
+
+}

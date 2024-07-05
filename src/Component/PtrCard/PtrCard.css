@@ -1,0 +1,106 @@
+.PtrCard {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  height: 100%;
+}
+
+.PtrCard img {
+  width: 30%;
+  object-fit: cover;
+  /* padding: 2rem; */
+}
+
+.PtrCard svg {
+  position: relative;
+  z-index: 3;
+  /* opacity: 1; */
+  color: rgba(255, 255, 255, 0.08);
+  font-size: 40px;
+}
+.PtrCard .top {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+.PtrCard .bottom {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.PtrCard .top:after,
+.PtrCard .bottom:after,
+.PtrCard .left:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background: #1a1a1a;
+  z-index: 2;
+}
+
+.PtrCard .left {
+  display: none;
+}
+.pcard4 .PtrCard .left {
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}
+.pcard4 .PtrCard {
+  border-bottom: none;
+  border-left: none;
+}
+.pcard3 .PtrCard {
+  border-top: none;
+  border-right: none;
+}
+
+.pcard3 .PtrCard .PtrCard-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2rem 3rem;
+}
+.pcard3 .PtrCard .PtrCard-box:after {
+  content: "";
+  position: absolute;
+  top: -65%;
+  left: 0px;
+  right: -60%;
+  bottom: 0;
+  background: #1d1d1d;
+  border-radius: 0;
+}
+
+.PtrCard:hover:after {
+  opacity: 1;
+}
+
+.PtrCard:after {
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  right: 35px;
+  bottom: 35px;
+  background: -webkit-linear-gradient(320deg, transparent, #14cf93);
+  background: -o-linear-gradient(320deg, transparent, #14cf93);
+  background: linear-gradient(130deg, transparent, #14cf93);
+  opacity: 0;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.pcard3 .PtrCard:after ,
+.pcard4 .PtrCard:after {
+  display: none;
+}

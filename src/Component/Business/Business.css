@@ -1,0 +1,274 @@
+.services {
+    padding: 6rem 0rem 0 0;
+    background-color: #1a1a1a;
+    width: 100%;
+}
+
+.service-box {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.services-cards-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    -webkit-transition: top .5s, right .5s, bottom .5s, left .5s;
+    -o-transition: top .5s, right .5s, bottom .5s, left .5s;
+    transition: top .5s, right .5s, bottom .5s, left .5s;
+}
+
+.services-cards-image img {
+    filter: brightness(0.5);
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    font-family: "object-fit: cover; object-position: 50% 50%";
+    transition: opacity .2s, -webkit-transform .7s cubic-bezier(.25, .46, .45, .94);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94), opacity .2s;
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94), opacity .2s, -webkit-transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+
+.services-cards-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    color: white;
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+}
+
+.services-cards-title:hover {
+    background-color: #1a1a1ab0;
+}
+
+.services-cards-title:first-child:hover {
+    background-color: transparent;
+}
+
+
+.services-cards-title h2 {
+    font-size: 4rem;
+    padding: 5px;
+    margin: 0;
+    font-weight: 900;
+    color: white;
+}
+
+.services-cards-title p {
+    margin: 0 0 0px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.services-cards-title h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.services-cards-title h2 span {
+    font-weight: 100;
+}
+
+/* boxes */
+
+.boxes1 {
+    grid-area: box1;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes2 {
+    grid-area: box2;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes3 {
+    grid-area: box3;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes4 {
+    grid-area: box4;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes5 {
+    grid-area: box5;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes6 {
+    grid-area: box6;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes7 {
+    grid-area: box7;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes8 {
+    grid-area: box8;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.boxes9 {
+    grid-area: box9;
+    height: 325px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transition: padding .5s;
+}
+
+.WorkBox {
+    position: relative;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'box1 box1 box2 box3'
+        'box4 box5 box6 box6'
+        'box9 box7 box7 box8'
+    ;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* ..../...... */
+
+@media (min-width: 1200px) {
+    /* .service-box {
+        max-width: 1140px;
+    } */
+}
+
+
+@media only screen and (max-width: 990px) {
+    .WorkBox {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-template-areas: 'box1 box1 box2 '
+            'box3 box4 box5'
+            ' box6 box6 box9'
+            ' box7 box7 box8'
+        ;
+    }
+
+    /* .service-box {
+        max-width: 720px;
+    } */
+}
+
+@media only screen and (max-width: 720px) {
+    .WorkBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-template-areas:
+            'box1 box1'
+            'box2 box3'
+            'box4 box5'
+            'box6 box6'
+            'box7 box7'
+            'box8 box9'
+        ;
+    }
+
+    .about-left .about-right {
+        width: 100%;
+    }
+
+    /* .service-box {
+        max-width: 520px;
+    } */
+}
+
+@media only screen and (max-width: 420px) {
+    .WorkBox {
+        display: block;
+    }
+
+    .boxes1,
+    .boxes2,
+    .boxes3,
+    .boxes4,
+    .boxes5,
+    .boxes6,
+    .boxes7,
+    .boxes8 {
+        margin-bottom: 10px;
+    }
+
+    .services-cards-title h2{
+        font-size: 40px;
+    }
+
+}
