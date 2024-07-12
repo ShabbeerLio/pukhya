@@ -7,38 +7,45 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
 
+    const scrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'auto'
+        });
+    };
+
     return (
         <>
             <div className="aboutUs">
                 <div className="about-main">
                     <div className="about-detail-box">
                         <div className="about-left">
-                            <Link to="/">
+                            <Link onClick={scrollTop} to="/">
                                 <img className="image2" src={Aboutimg} alt="" />
                             </Link>
                         </div>
                         <div className="footer-right-quick">
                             <ul>
                                 <li>
-                                    <Link to="/walls&dreams/"  >Home</Link>
+                                    <Link onClick={scrollTop} to="/walls&dreams/"  >Home</Link>
                                 </li>
                                 <li>
-                                    <Link to="/walls&dreams/about"  >About Us</Link>
+                                    <Link onClick={scrollTop} to="/walls&dreams/about"  >About Us</Link>
                                 </li>
                                 <li>
-                                    <Link to="/walls&dreams/business"  >Our Business</Link>
+                                    <Link onClick={scrollTop} to="/walls&dreams/business"  >Our Business</Link>
                                 </li>
                                 <li>
-                                    <Link to="/walls&dreams/gallery"  >Gallery</Link>
+                                    <Link onClick={scrollTop} to="/walls&dreams/gallery"  >Gallery</Link>
                                 </li>
                                 <li>
-                                    <Link to="/walls&dreams/careers"  >Careers</Link>
+                                    <Link onClick={scrollTop} to="/walls&dreams/careers"  >Careers</Link>
                                 </li>
                                 <li>
-                                    <Link to="/walls&dreams/blogs" >Blogs</Link>
+                                    <Link onClick={scrollTop} to="/walls&dreams/blogs" >Blogs</Link>
                                 </li>
                                 <li>
-                                    <Link to="/contactUs"  >Contact Us</Link>
+                                    <Link onClick={scrollTop} to="/contactUs"  >Contact Us</Link>
                                 </li>
                             </ul>
                         </div>
@@ -53,14 +60,14 @@ const About = () => {
                     </div>
                     <div className="footer-copyright-menu">
                         <ul>
-                            <li><Link to="/">Legal</Link></li>
-                            <li><Link to="/">Cookie Policy</Link></li>
-                            <li><Link to="/">Press</Link></li>
-                            <li><Link to="/">Cookie Setting</Link></li>
-                            <li><Link to="/">Careers</Link></li>
-                            <li><Link to="/">Sitemap</Link> </li>
-                            <li><Link to="/">Disclaimers</Link></li>
-                            <li><Link to="/">Terms of Use</Link></li>
+                            <li><Link onClick={scrollTop} to="/">Legal</Link></li>
+                            <li><Link onClick={scrollTop} to="/">Cookie Policy</Link></li>
+                            <li><Link onClick={scrollTop} to="/">Press</Link></li>
+                            <li><Link onClick={scrollTop} to="/">Cookie Setting</Link></li>
+                            <li><Link onClick={scrollTop} to="/">Careers</Link></li>
+                            <li><Link onClick={scrollTop} to="/">Sitemap</Link> </li>
+                            <li><Link onClick={scrollTop} to="/">Disclaimers</Link></li>
+                            <li><Link onClick={scrollTop} to="/">Terms of Use</Link></li>
                         </ul>
                     </div>
                 </div>

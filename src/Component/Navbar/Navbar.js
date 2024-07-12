@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import Logo from "../../Assets/logo.jpg"
-import { IoSearch, IoApps, IoPeopleOutline } from "react-icons/io5";
+import { IoApps, IoPeopleOutline } from "react-icons/io5";
 import { FaLocationDot, FaEnvelope } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
@@ -48,7 +48,7 @@ const Navbar = (props) => {
                    
                     <nav className="row navbar navbar-expand-lg navbar-light align-items-lg-end">
                         <div className="container-fluid">
-                            <Link className="navBar-logo" to="/walls&dreams">
+                            <Link className="navBar-logo" to="/">
                                 <img src={Logo} alt="walls&dreams" />
                             </Link>
                             <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,28 +59,28 @@ const Navbar = (props) => {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item">
-                                        <Link className="nav-link active" to="/walls&dreams" onClick={closeMenu}>Home</Link>
+                                        <Link className="nav-link active" to="/" onClick={closeMenu}>Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/about" onClick={closeMenu}>About Us</Link>
+                                        <Link className="nav-link" to="/about" onClick={closeMenu}>About Us</Link>
                                     </li>
                                     <li className="nav-item ">
-                                        <Link className="nav-link dropdown-toggle" to="/walls&dreams/business" onClick={closeMenu}>Our Business</Link>
+                                        <Link className="nav-link dropdown-toggle" to="/business" onClick={closeMenu}>Our Business</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/gallery" onClick={closeMenu}>Gallery</Link>
+                                        <Link className="nav-link" to="/gallery" onClick={closeMenu}>Gallery</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/careers" onClick={closeMenu}>Careers</Link>
+                                        <Link className="nav-link" to="/careers" onClick={closeMenu}>Careers</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/blogs" onClick={closeMenu}>Blogs</Link>
+                                        <Link className="nav-link" to="/blogs" onClick={closeMenu}>Blogs</Link>
                                     </li>
                                 </ul>
                             <div className="nav-action">
-                                <div className="navbar-search">
+                                {/* <div className="navbar-search">
                                     <IoSearch />
-                                </div>
+                                </div> */}
                                 <div className="navbar-search">
                                     <IoPeopleOutline />
                                 </div>
@@ -97,7 +97,7 @@ const Navbar = (props) => {
                                         </div>
                                         <div class="offcanvas-body">
                                             <h6>Welcome to Walls & Dreams </h6>
-                                            <p>JU Agri Sciences private Limited is a group company of Walls & Dreams.</p>
+                                            <p>Walls & Dreams is a group company of house constructor.</p>
                                             <div className="side-contactInfo">
                                                 <h6>Contact Us</h6>
                                                 <div className="line1"></div>

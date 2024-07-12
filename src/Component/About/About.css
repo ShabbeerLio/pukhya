@@ -1,8 +1,8 @@
 .aboutUs {
-    padding: 0rem 0 0 0;
+    padding: 3rem 0 0 0;
     width: 100%;
     position: relative;
-    background-color: black;    
+    background-color: #1d1d1d;    
 }
 
 .aboutUs:before {
@@ -10,7 +10,7 @@
     right: 0;
     /* top: 90px; */
     width: 367px;
-    height: 91%;
+    height: 80%;
     background-image: url(../../Assets/dots1.png);
     content: "";
 }
@@ -45,6 +45,7 @@
 
 .about-left img {
     width: 45%;
+    border-radius: 8px;
 }
 
 

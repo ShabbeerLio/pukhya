@@ -1,34 +1,28 @@
-const BannerData =[
+const BannerData = [
     {
-        id:1,
-        title: 'Mitti Muskurayegi',
-        heading:'Envisaging and working towards a future in which "Mitti Muskurayegi"',
-        cover:require("../../Assets/Images/Banner/Banner1.jpeg"),
+        id: 1,
+        title: 'We Make Inspired Design',
+        heading: 'For Your Custom Home',
+        cover: require("../../Assets/Banner/banner.webp"),
     },
     {
-        id:2,
-        title: 'Nature',
-        heading:'Growing in harmony with nature for a better tommorrow.',
-        cover:require("../../Assets/Images/Banner/Banner2.avif"),
+        id: 2,
+        title: "Let's Create",
+        heading: 'Your Dream Home',
+        cover: require("../../Assets/Banner/banner2.webp"),
     },
-    
+
     {
-        id:3,
-        title: 'Technology & Innovation',
-        heading:'With technological advancements, the field of Agriculture is ever-changing and so are we. ',
-        cover:require("../../Assets/Images/Banner/Banner5.webp"),
-    },
-    {
-        id:4,
-        title: 'Sustainability',
-        heading:'All our actions are a reflection of our unwavering commitment towards a better environment.',
-        cover:require("../../Assets/Images/Banner/Banner4.webp"),
+        id: 3,
+        title: 'Home Builder ',
+        heading: 'Build Your Custom Home ',
+        cover: require("../../Assets/Banner/banner3.jpg"),
     },
     {
-        id:5,
-        title: 'Collabration  ',
-        heading:'We collaborate with best to bring the best solutions for your problems.',
-        cover:require("../../Assets/Images/Banner/Banner3.jpeg"),
+        id: 4,
+        title: 'Home Builder ',
+        heading: 'Build Your Custom Home ',
+        cover: require("../../Assets/Banner/banner1.jpg"),
     },
 ]
 

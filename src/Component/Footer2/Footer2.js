@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Footer2.css"
+import imag from "../../Assets/Image/image1.jpg"
+import imag2 from "../../Assets/Image/image2.avif"
+import imag3 from "../../Assets/Image/image3.webp"
 
 const Footer2 = () => {
     return (
@@ -15,7 +18,7 @@ const Footer2 = () => {
                     <div className="footer2-left-item-box">
                         <div className="footer2-item-image">
                             <div className="overlayer"></div>
-                            <img src="https://www.fao.org/fileadmin/user_upload/food-agriculture-statistics/images/medium_1_FAO_PO_SYR_20220606_0009.jpg" alt="" />
+                            <img src={imag} alt="" />
                         </div>
                         <div className="footer2-item-box">
                             <div className="footer2-box-text">
@@ -34,12 +37,12 @@ const Footer2 = () => {
                             </div>
                         </div>
                         <div className="footer2-item-image">
-                            <img src="https://img.freepik.com/free-photo/agriculture-iot-with-rice-field-background_53876-124635.jpg" alt="" />
+                            <img src={imag2} alt="" />
                         <div className="overlayer"></div>
                         </div>
                         <div className="footer2-item-image">
                         <div className="overlayer"></div>
-                            <img src="https://lvivity.com/wp-content/uploads/2020/04/iot-in-agriculture.jpg" alt="" />
+                            <img src={imag3} alt="" />
                         </div>
                         <div className="footer2-item-box">
                             <div className="footer2-box-text">
