@@ -14,8 +14,8 @@ const Partners = () => {
                                 <div class="Partner-cards-title">
                                     <h5>SPECIAL THANKS TO</h5>
                                     <div class="first-layout">
-                                        <h3>ALL OUR</h3>
-                                        <h4>PARTNERS</h4>
+                                        <h3>Construction</h3>
+                                        <h4>Packages</h4>
                                     </div>
                                 </div>
                             </div>
