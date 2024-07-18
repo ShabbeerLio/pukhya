@@ -1,7 +1,7 @@
 const BannerData = [
     {
         id: 1,
-        title: 'We Make Inspired Design',
+        title: 'DESIGN BUILD CONCEPT COMPANY',
         heading: 'For Your Custom Home',
         cover: require("../../Assets/Banner/banner.webp"),
     },

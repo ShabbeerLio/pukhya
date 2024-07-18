@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Navbar.css"
+import "./SocialMedia.css"
 import { FaInstagram, FaFacebookF, FaYoutube, FaTwitter, FaLinkedinIn } from "react-icons/fa6";
 
 

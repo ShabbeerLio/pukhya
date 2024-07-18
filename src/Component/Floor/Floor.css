@@ -59,7 +59,7 @@
   margin-bottom: 2rem;
   color: white;
 }
-.floor-right-title h2 span{
+.floor-right-title h2 span {
   font-size: 1rem;
 }
 .Floor-box1-right p {
@@ -106,10 +106,29 @@
   color: black;
   border-radius: 8px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 @media (min-width: 1200px) {
   .Floor-main {
     max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Floor-box1 {
+    flex-wrap: wrap;
+  }
+
+  .Floor-box1-right {
+    width: 100%;
+  }
+
+  .floor-right-catg {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .floor-catg-card img {
+    width: 30%;
   }
 }
