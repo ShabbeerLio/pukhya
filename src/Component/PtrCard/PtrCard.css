@@ -18,7 +18,7 @@
   position: relative;
   z-index: 3;
   /* opacity: 1; */
-  color: rgba(255, 255, 255, 0.08);
+  color:  rgba(255, 255, 255, 0.08);
   font-size: 40px;
 }
 .PtrCard .top {
@@ -41,7 +41,7 @@
   left: -15px;
   right: -15px;
   bottom: -15px;
-  background: #1a1a1a;
+  background: black;
   z-index: 2;
 }
 
@@ -85,22 +85,22 @@
 }
 
 .PtrCard:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 35px;
   left: 35px;
   right: 35px;
   bottom: 35px;
-  background: -webkit-linear-gradient(320deg, transparent, #14cf93);
-  background: -o-linear-gradient(320deg, transparent, #14cf93);
-  background: linear-gradient(130deg, transparent, #14cf93);
+  background: -webkit-linear-gradient(320deg, transparent, #4b4b4b);
+  background: -o-linear-gradient(320deg, transparent, #4b4b4b);
+  background: linear-gradient(130deg, transparent, #4b4b4b);
   opacity: 0;
-  -webkit-transition: all .4s;
-  -o-transition: all .4s;
-  transition: all .4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
-.pcard3 .PtrCard:after ,
+.pcard3 .PtrCard:after,
 .pcard4 .PtrCard:after {
   display: none;
 }

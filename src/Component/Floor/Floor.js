@@ -49,46 +49,7 @@ const Floor = () => {
                     </div>
                 </div>
             </div>
-            <div className='Floor-bg2'>
-                <div className='Floor-main'>
-                    <div className='Floor-box'>
-                        <div className='Floor-box1-left'>
-                        </div>
-                        <div className='Floor-box1-right'>
-                            <div className="floor-right-title">
-                                <h2>Ground Floor</h2>
-                                <h2>968 <span>m/sq</span></h2>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque impedit repellendus tempore natus facere repudiandae sapiente distinctio, voluptatum iste ex vel earum accusantium, ratione aut asperiores sed ab blanditiis quia!</p>
-                            <div className="floor-right-catg">
-                                <div className="floor-catg-card">
-                                    <img src={floor1} alt="" />
-                                    <p>Living Room <span>125 m/sq</span></p>
-                                </div>
-                                <div className="floor-catg-card">
-                                    <img src={floor2} alt="" />
-                                    <p>Kitchen <span>24 m/sq</span></p>
-                                </div>
-                                <div className="floor-catg-card">
-                                    <img src={floor3} alt="" />
-                                    <p>Bedroom <span>17 m/sq</span></p>
-                                </div>
-                                <div className="floor-catg-card">
-                                    <img src={floor4} alt="" />
-                                    <p>Toilet <span>14 m/sq</span></p>
-                                </div>
-                                <div className="floor-catg-card">
-                                    <img src={floor5} alt="" />
-                                    <p>Laundry <span>9 m/sq</span></p>
-                                </div>
-                            </div>
-                            <div className="floor-right-button">
-                                <p>View more</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     )
 }

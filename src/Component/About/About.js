@@ -55,9 +55,11 @@ const About = () => {
                     </div>
                 </div>
                 <div className="footer-down">
-                    <div className="footer-copyright">
-                        <p>© 2024 ©Walls & Dreams</p>
-                    </div>
+                    {/* <div className="footer-copyright-logo">
+                        <Link onClick={scrollTop} to="/">
+                            <img className="image2" src={Aboutimg} alt="" />
+                        </Link>
+                    </div> */}
                     <div className="footer-copyright-menu">
                         <ul>
                             <li><Link onClick={scrollTop} to="/">Legal</Link></li>
@@ -69,6 +71,9 @@ const About = () => {
                             <li><Link onClick={scrollTop} to="/">Disclaimers</Link></li>
                             <li><Link onClick={scrollTop} to="/">Terms of Use</Link></li>
                         </ul>
+                    </div>
+                    <div className="footer-copyright">
+                        <p>© 2024 Walls & Dreams</p>
                     </div>
                 </div>
             </div>

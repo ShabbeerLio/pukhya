@@ -132,7 +132,7 @@
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 400;
-  color: white !important;
+  color: #929495 !important;
 }
 .nav-menu ul li a:hover {
   color: #bbb !important;
@@ -153,12 +153,12 @@
   cursor: pointer;
   transition: all 0.3s;
   margin-left: 20px;
-  border-left: 1px solid rgb(126, 126, 126);
+  border-left: 1px solid #929495;
 }
 
 .call-button p a {
   text-decoration: none;
-  color: white;
+  color: #929495;
 }
 
 .call-button p a svg {
@@ -249,7 +249,7 @@
   right: 2%;
 }
 .fix-icon-call a {
-  color: black;
+  color: white;
   cursor: pointer;
   height: 50px;
   width: 50px;
@@ -257,7 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
+  background-color: #4b4b4b;
   margin-bottom: 8px;
   z-index: 1;
 }
@@ -269,7 +269,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: #4b4b4b;
   animation: shine 2s infinite;
   z-index: -1;
 }
@@ -285,8 +285,8 @@
 }
 
 .fix-icon-enquery p {
-  background-color: yellow;
-  color: black;
+  background-color: #4b4b4b;
+  color: white;
   border-radius: 8px 8px 0 0;
   cursor: pointer;
   display: flex;
@@ -300,7 +300,7 @@
   width: 150px;
 }
 .fix-icon-enquery p:hover {
-  background-color: yellow;
+  background-color: #363636;
   color: black;
 }
 

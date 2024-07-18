@@ -61,11 +61,12 @@
 
 
 .services-cards-title h2 {
-    font-size: 4rem;
+    font-size: 40px;
     padding: 5px;
     margin: 0;
-    font-weight: 900;
+    font-weight: 700;
     color: white;
+    text-transform: uppercase;
 }
 
 .services-cards-title p {
@@ -77,8 +78,8 @@
 }
 
 .services-cards-title h3 {
-    font-size: 2.5rem;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -194,7 +195,7 @@
     display: grid;
     gap: 10px;
     grid-template-areas: 'box1 box1 box2 box3'
-        'box4 box5 box6 box6'
+        'box5 box5 box6 box6'
         'box9 box7 box7 box8'
     ;
     grid-template-columns: repeat(4, 1fr);
@@ -216,7 +217,7 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         grid-template-areas: 'box1 box1 box2 '
-            'box3 box4 box5'
+            'box3 box5 box5'
             ' box6 box6 box9'
             ' box7 box7 box8'
         ;
