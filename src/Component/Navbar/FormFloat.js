@@ -11,7 +11,7 @@ const FormFloat = (props) => {
                     <div className="formfloat-button">
                         <IoMdClose onClick={props.formIsClose} />
                     </div>
-                    <Form />
+                    <Form btntxt={"Enquire Now"}/>
                 </div>
             </div>
         </div>

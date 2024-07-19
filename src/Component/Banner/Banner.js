@@ -2,11 +2,12 @@ import React, { useRef } from 'react'
 import "./Banner.css"
 import BannerData from '../Datas/BannerData';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const Banner = () => {
     const swiperRef1 = useRef(null);
@@ -17,15 +18,17 @@ const Banner = () => {
             <div className="banner-main">
                 <div className="banner-right">
                     <Swiper
-                        modules={[Autoplay, Pagination]}
                         className="mySwiper"
                         autoplay={{
                             delay: 3000,
                             disableOnInteraction: false,
                         }}
-                        // pagination={{ clickable: true }}
+                        speed={1500}
+                        // navigation={true}
+                        pagination={{ clickable: true }}
                         onSwiper={(swiper) => { swiperRef1.current = swiper; }}
                         onSlideChange={(swiper) => { swiperRef2.current.slideTo(swiper.activeIndex); }}
+                        modules={[Autoplay, Pagination, Navigation]}
                     >
                         {BannerData.map((item) => (
                             <SwiperSlide key={item.id}>
@@ -40,13 +43,9 @@ const Banner = () => {
                 </div>
                 <div className="banner-text">
                     <Swiper
-                        modules={[Autoplay ,Pagination]}
+                        modules={[Pagination]}
                         className="mySwiper"
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                        }}
-                        // pagination={{ clickable: true }}
+                        speed={2000}
                         onSwiper={(swiper) => { swiperRef2.current = swiper; }}
                         onSlideChange={(swiper) => { swiperRef1.current.slideTo(swiper.activeIndex); }}
                     >

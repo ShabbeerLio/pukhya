@@ -2,27 +2,27 @@ const PartnersData = [
     {
         id: 1,
         className: "pcard1",
-        cover: require("../../Assets/Partners/p1.png")
+        cover: "Atmos Blue"
     },
     {
         id: 2,
         className: "pcard2",
-        cover: require("../../Assets/Partners/p2.png")
+        cover: "Atmos Blue Advance",
     },
     {
         id: 5,
         className: "pcard5",
-        cover: require("../../Assets/Partners/p3.png")
+        cover: "Alive Green",
     },
     {
         id: 6,
         className: "pcard6",
-        cover: require("../../Assets/Partners/p4.png")
+        cover: "Avenue Breige",
     },
     {
         id: 7,
         className: "pcard7",
-        cover: require("../../Assets/Partners/p5.png")
+        cover: "Ambience Black",
     },
 ]
 export default PartnersData;

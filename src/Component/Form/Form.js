@@ -66,7 +66,7 @@ const Form = ({btntxt}) => {
 
     return (
         <>
-            <h4>Book Your Site Visit</h4>
+            <h4 className='form-heading'>Enquire Now</h4>
             {messageSent ? (
                 <div className='form-message'>
                     <p>Message sent successfully!</p>
@@ -117,7 +117,7 @@ const Form = ({btntxt}) => {
                         />
                     </div>
                     <button type="submit" className="btn btn-primary">
-                        {btntxt}
+                        Submit
                     </button>
                 </form>
             )}

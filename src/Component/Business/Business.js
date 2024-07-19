@@ -14,7 +14,7 @@ const Business = () => {
                             <div className="services-cards-title">
                                 <div className="title-box">
                                     <span>Project done by </span>
-                                    <h2>Walls & Dreams</h2>
+                                    <h2>Our Services</h2>
                                     {/* <p>The Jhaver Group is today a highly respected business group and has emerged as one of the fastest-growing innovators in South Asia.</p> */}
                                 </div>
                             </div>

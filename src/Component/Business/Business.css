@@ -1,5 +1,5 @@
 .services {
-    padding: 6rem 0rem 0 0;
+    /* padding: 6rem 0rem 0 0; */
     background-color: #1a1a1a;
     width: 100%;
 }
@@ -60,12 +60,22 @@
 }
 
 
+.services-cards-title span {
+    font-size: 16px;
+    position: relative;
+    z-index: 3;
+    text-align: left !important;
+    color: #bebebe;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
 .services-cards-title h2 {
     font-size: 40px;
-    padding: 5px;
+    padding: 5px 0;
     margin: 0;
     font-weight: 700;
-    color: white;
+    color: #bebebe;
     text-transform: uppercase;
 }
 
@@ -73,7 +83,7 @@
     margin: 0 0 0px 0;
     font-weight: 400;
     font-size: 16px;
-    color: white;
+    color: #bebebe;
     padding-bottom: 10px;
 }
 
@@ -81,6 +91,7 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    color: #bebebe;
 }
 
 
@@ -223,9 +234,6 @@
         ;
     }
 
-    /* .service-box {
-        max-width: 720px;
-    } */
 }
 
 @media only screen and (max-width: 720px) {

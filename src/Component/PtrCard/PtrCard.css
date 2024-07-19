@@ -99,6 +99,9 @@
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
+.pcard1 .PtrCard:after {
+  opacity: 1;
+}
 
 .pcard3 .PtrCard:after,
 .pcard4 .PtrCard:after {

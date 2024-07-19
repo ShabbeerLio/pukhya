@@ -64,11 +64,11 @@
   width: 400px;
   height: 1px;
   border-radius: 5px;
-  background-color: white;
+  background-color: #646464;
 }
 
 .swiper-slide.swiper-slide-active .Banners-detail h1 {
-  color: #fff !important;
+  color: #bebebe !important;
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0);
 }
 
@@ -81,10 +81,45 @@
   letter-spacing: 3px;
 }
 .swiper-slide.swiper-slide-active .Banners-detail h4 {
-  color: #fff;
+  color: #bebebe;
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0);
 }
 /* .banner-text .swiper-slide{
   width: 982px !important;
   margin-right: 100px;
 } */
+
+/* next preview button */
+
+/* .swiper-button-prev{
+ left: 5% !important;
+}
+
+.swiper-button-next{
+  right: 80% !important;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  top: 95% !important;
+  z-index: 99999 !important;
+  color: white !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 20px !important;
+  font-weight: 900;
+} */
+
+.swiper-pagination {
+  bottom: 4% !important;
+}
+
+.swiper-pagination-bullet{
+  height: 10px !important;
+  width: 10px !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #777777 !important;
+}
