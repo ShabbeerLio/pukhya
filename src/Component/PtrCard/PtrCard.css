@@ -4,8 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.315);
   height: 100%;
+  cursor: pointer;
 }
 
 .PtrCard img {
@@ -18,18 +19,18 @@
   position: relative;
   z-index: 3;
   /* opacity: 1; */
-  color:  rgba(255, 255, 255, 0.08);
-  font-size: 40px;
+  color:  rgba(255, 255, 255, 0.212);
+  font-size: 30px;
 }
 .PtrCard .top {
   position: absolute;
-  top: -20px;
-  left: -20px;
+  top: -15px;
+  left: -15px;
 }
 .PtrCard .bottom {
   position: absolute;
-  bottom: -20px;
-  right: -20px;
+  bottom: -15px;
+  right: -15px;
 }
 
 .PtrCard .top:after,
@@ -76,15 +77,40 @@
   left: 0px;
   right: -60%;
   bottom: 0;
-  background: #1d1d1d;
+  background: black;
   border-radius: 0;
 }
 
-.PtrCard:hover:after {
+/* .PtrCard:hover:after {
   opacity: 1;
+} */
+
+.PtrCard.active:after{
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  right: 35px;
+  bottom: 35px;
+  /* background-color: #4b4b4b; */
+  background: -webkit-linear-gradient(320deg, transparent, #4b4b4b);
+  background: -o-linear-gradient(320deg, transparent, #4b4b4b);
+  background: #4b4b4b;
+  opacity: 1;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
-.PtrCard:after {
+.Partner-cards-image h5{
+  color: white;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* .PtrCard:after {
   content: "";
   position: absolute;
   top: 35px;
@@ -98,10 +124,7 @@
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-}
-.pcard1 .PtrCard:after {
-  opacity: 1;
-}
+} */
 
 .pcard3 .PtrCard:after,
 .pcard4 .PtrCard:after {

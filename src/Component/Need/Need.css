@@ -1,0 +1,76 @@
+.Need {
+  padding: 6rem 0rem;
+  background: #121212;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.Need-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Need-box {
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+}
+
+.Need-box-left {
+  width: 50%;
+}
+.Need-box-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.need-right-top {
+  border-radius: 25px;
+  background-color: #121212;
+  padding: 4rem 3rem;
+}
+.need-right-top h3{
+  color: white;
+}
+
+.need-right-bottom {
+  display: flex;
+  gap: 2rem;
+}
+
+.need-right-botm-left {
+  background-color: #4b4b4b;
+  border-radius: 25px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  cursor: pointer;
+}
+.need-right-botm-left svg {
+  font-size: 100px;
+  color: white;
+}
+
+.need-right-botm-right {
+  width: 50%;
+  height: 250px;
+}
+.need-right-botm-right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+@media (min-width: 1200px) {
+  .Need-main {
+    max-width: 1140px;
+  }
+}

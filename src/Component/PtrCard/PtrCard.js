@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react'
 import "./PtrCard.css"
 import { IoAdd } from "react-icons/io5";
 
-const PtrCard = ({ item }) => {
+const PtrCard = ({ item, active, onMouseEnter, onMouseLeave}) => {
 
     return (
         <>
             <div className={item.className} key={item.id} >
-                <div className="PtrCard">
+                <div className={`PtrCard ${active ? 'active' : ''}`}
+                    onMouseEnter={onMouseEnter}
+                    onMouseLeave={onMouseLeave}>
                     {item.cover ? (
                         <div className="Partner-cards-image">
                             <h5>{item.cover}</h5>

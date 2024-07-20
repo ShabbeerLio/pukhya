@@ -1,0 +1,61 @@
+.StyleCard {
+  height: 100%;
+  position: relative;
+}
+.StyleCard-box {
+  background-color: black;
+  width: 100%;
+  padding: 3rem;
+  border-radius: 25px;
+  height: 100%;
+  position: relative;
+  background-image: url("../../Assets/About/about-us.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.StyleCard-box h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.7;
+}
+.StyleCard-box .border {
+  border-top-left-radius: 10px;
+  height: 60px;
+  width: 120px;
+  background: #121212;
+  position: absolute;
+  bottom: -1%;
+  right: -1%;
+  border: none !important;
+}
+.StyleCard-box .border:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -20px;
+  right: 5px;
+  background: rgba(255, 255, 255, 0);
+  border-bottom-right-radius: 20px;
+  box-shadow: 7px 2px 0 2px #121212;
+}
+.StyleCard-box .border:after {
+    content: "";
+    position: absolute;
+    bottom: 4%;
+    left: -20px;
+    background: rgba(255, 255, 255, 0);
+    width: 20px;
+    height: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 7px 2px 0 2px #121212;
+}
+
+.StyleCard p{
+    position: absolute;
+    right: 3%;
+    bottom: 0;
+    font-size: 18px;
+}

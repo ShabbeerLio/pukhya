@@ -1,6 +1,6 @@
 .services {
     /* padding: 6rem 0rem 0 0; */
-    background-color: #1a1a1a;
+    background-color: black;
     width: 100%;
 }
 
@@ -92,11 +92,7 @@
     font-weight: 600;
     text-align: center;
     color: #bebebe;
-}
-
-
-.services-cards-title h2 span {
-    font-weight: 100;
+    text-transform: uppercase;
 }
 
 /* boxes */
@@ -110,6 +106,17 @@
     width: 100%;
     justify-content: center;
     transition: padding .5s;
+}
+.boxes1 .services-cards-title .title-box {
+    /* position: absolute;
+    top: 30%;
+    right: 24%; */
+    margin-left: 40px;
+}
+.boxes1 .services-cards-title .title-box h2 span{
+    font-size: 40px;
+    font-weight: 400;
+    color: #bebebe;
 }
 
 .boxes2 {
@@ -210,6 +217,7 @@
         'box9 box7 box7 box8'
     ;
     grid-template-columns: repeat(4, 1fr);
+    padding-top: 10px;
 }
 
 

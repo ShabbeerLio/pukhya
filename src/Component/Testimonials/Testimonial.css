@@ -1,9 +1,22 @@
 .testimonial {
   padding: 6rem 0rem;
-  background: #1a1a1a;
+  background: #121212;
   /* background: linear-gradient(15deg,  rgb(9, 97, 34) 20%, rgb(1, 48, 22) 50%); */
   width: 100%;
   position: relative;
+}
+
+.testimonial-background {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+}
+.testimonial-background img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .testimonial-main {
@@ -12,15 +25,16 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
+  z-index: 2;
 }
 
 .testimonial-main-body {
-  display: flex;
   color: white;
 }
 
 .testimonial-main-left {
-  width: 100%;
+  width: 70%;
 }
 
 .testimonial-left-head {
@@ -49,6 +63,13 @@
   color: #bebebe;
 }
 
+.testimonial-main-left h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 2rem;
+  position: relative;
+}
 .testimonial-main-left h2 {
   font-size: 70px;
   font-weight: 600;
@@ -58,7 +79,7 @@
   -webkit-transition: all 0.6s;
   -o-transition: all 0.6s;
   transition: all 0.6s;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
   position: relative;
   padding-bottom: 12px;
 }
@@ -139,6 +160,23 @@
   position: absolute;
   right: 0;
   bottom: -8.5%;
+}
+
+.testimonial-main-right {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.testimonial-left {
+  width: 35%;
+}
+.testimonial-right {
+  width: 35%;
+}
+.testimonial-right p {
+  margin-top: 1rem;
+  color: #666666;
 }
 
 @media (min-width: 1200px) {

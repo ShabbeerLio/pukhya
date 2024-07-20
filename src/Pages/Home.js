@@ -11,6 +11,7 @@ import Wave from '../Component/Wave/Wave'
 import Partners from '../Component/Partners/Partners'
 import Testimo from '../Component/Testimo/Testimo'
 import Floor from '../Component/Floor/Floor'
+import Need from '../Component/Need/Need'
 
 const Home = () => {
     return (<>
@@ -20,11 +21,12 @@ const Home = () => {
             {/* <Map /> */}
             <Testimonials />
             <Business />
-            <Testimo />
             <Partners />
             {/* <ChooseUS /> */}
             {/* <Floor /> */}
-            <Footer2 />
+            {/* <Footer2 /> */}
+            <Need/>
+            <Testimo />
             {/* <Blog2 /> */}
             {/* <Wave /> */}
 

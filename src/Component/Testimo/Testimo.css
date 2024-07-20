@@ -31,7 +31,7 @@
   stroke: #6c6969;
 }
 .Testimo-left p {
-  color: yellow;
+  color: #bebebe;
   margin-bottom: 1rem;
   letter-spacing: 2px;
   font-size: 16px;
@@ -65,7 +65,7 @@
 
 .testimo-right-card p {
   line-height: 1.8;
-  font-size: 30px;
+  font-size: 25px;
   color: #c6c8c9;
   margin: 0rem 1rem;
 }
@@ -80,13 +80,16 @@
   display: flex;
   align-items: center;
 }
-.testimo-card-profile img {
-  width: 14% !important;
-  object-fit: cover;
+.testimo-card-profile svg {
+  /* width: 14% !important; */
+  /* object-fit: cover; */
+  background-color: #494949;
   border-radius: 50%;
-  aspect-ratio: 1 / 1;
+  /* aspect-ratio: 1 / 1; */
   margin-right: 1rem;
-  padding: 10px;
+  padding: 8px;
+  color: white;
+  font-size: 55px;
 }
 
 .testimo-card-title h5 {
@@ -94,7 +97,7 @@
   margin-bottom: 5px;
 }
 .testimo-card-title p {
-  color: yellow;
+  color: #bebebe;
   font-size: 15px;
   margin: 0;
   text-transform: uppercase;
