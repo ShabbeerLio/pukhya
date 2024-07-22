@@ -1,8 +1,16 @@
 .aboutUs {
-  padding: 3rem 0 0 0;
+  padding: 10rem 0 0 0;
   width: 100%;
   position: relative;
   background-color: black;
+}
+
+.about-bg img{
+  position: absolute;
+  width: 100%;
+  top: -30%;
+  left: 0;
+  opacity: 0.2;
 }
 
 /* .aboutUs:before {

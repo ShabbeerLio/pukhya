@@ -65,7 +65,7 @@
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #283664;
+  background: #4b4b4b;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -385,6 +385,10 @@
   }
   .company-logo img {
     max-height: 80px;
-    width: 80%;
+    width: 30%;
   }
+  .action {
+    position: fixed;
+    right: 15%;
+}
 }

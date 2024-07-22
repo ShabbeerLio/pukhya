@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Partners.css';
 import PartnersData from './PartnersData';
 import PtrCard from '../PtrCard/PtrCard';
+import pimg from "../../Assets/Partners/decoration-1-dark.png"
 
 const Partners = () => {
     const defaultActiveIndex = 0; // Default active card index
@@ -9,6 +10,9 @@ const Partners = () => {
 
     return (
         <div className='Partners'>
+            <div className="partners-bg">
+                {/* <img src={pimg} alt="" /> */}
+            </div>
             <div className='Partners-main'>
                 <div className='Partners-box'>
                     <div className="pcard3">

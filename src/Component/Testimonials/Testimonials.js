@@ -5,6 +5,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import bg from "../../Assets/About/texture-4.png"
 import StyleCard from '../StyleCard/StyleCard';
+import styimg from "../../Assets/About/about-us.jpg"
 
 
 const Testimonials = () => {
@@ -23,15 +24,21 @@ const Testimonials = () => {
                 <div className="testimonial-main-body">
                     <div className="testimonial-main-left">
                         <h2>Walls & Dreams</h2>
-                        <h4>At Walls and Dreams, we're not just a construction company; we're your partners in turning visions into exceptional living spaces.</h4>
+                        <h4>With a perfect blend of creativity, expertise, and dedication, we specialize in offering a seamless design-build home construction experience that encompasses every step of your project – from conceptualization to construction and beyond.</h4>
                         {/* <p>At Walls and Dreams, we're not just a construction company; we're your partners in turning visions into exceptional living spaces. With a perfect blend of creativity, expertise, and dedication, we specialize in offering a seamless design-build home construction experience that encompasses every step of your project – from conceptualization to construction and beyond.</p> */}
                     </div>
                     <div className="testimonial-main-right">
                         <div className="testimonial-left">
-                            <StyleCard />
+                            <div className="testimonial-box">
+                                <img src={styimg} alt="" />
+                            </div>
+                            {/* <StyleCard cover={styimg}/> */}
+                            <div className="testimonial-btn">
+                                <p>About Us</p>
+                            </div>
                         </div>
                         <div className="testimonial-right">
-                            <p>With a perfect blend of creativity, expertise, and dedication, we specialize in offering a seamless design-build home construction experience that encompasses every step of your project – from conceptualization to construction and beyond.</p>
+                            <p>At Walls and Dreams, we're not just a construction company; we're your partners in turning visions into exceptional living spaces.</p>
                         </div>
                     </div>
                 </div>

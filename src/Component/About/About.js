@@ -3,6 +3,7 @@ import "./About.css"
 import Aboutimg from "../../Assets/logo.jpg"
 import SocialMedia from '../Navbar/SocialMedia';
 import { Link } from 'react-router-dom';
+import fimg from "../../Assets/Footer/texture-2-light.png"
 
 
 const About = () => {
@@ -17,6 +18,9 @@ const About = () => {
     return (
         <>
             <div className="aboutUs">
+                <div className="about-bg">
+                    <img src={fimg} alt="" />
+                </div>
                 <div className="about-main">
                     <div className="about-detail-box">
                         <div className="about-left">
