@@ -1,0 +1,62 @@
+.Work {
+  padding: 6rem 0rem;
+  background: black;
+  width: 100%;
+  position: relative;
+}
+
+.Work-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.Work-box {
+  display: flex;
+}
+
+.Work-box-left {
+  width: 50%;
+  position: relative;
+}
+.work-left-box1 img {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.work-left-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  padding: 5rem;
+}
+.work-left-box2 img {
+  width: 100%;
+}
+
+.work-left-box3 img {
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.Work-box-right {
+  width: 50%;
+}
+
+@media (min-width: 1200px) {
+  .Work-main {
+    max-width: 1140px;
+  }
+}

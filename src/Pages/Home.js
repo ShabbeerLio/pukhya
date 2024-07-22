@@ -12,6 +12,7 @@ import Partners from '../Component/Partners/Partners'
 import Testimo from '../Component/Testimo/Testimo'
 import Floor from '../Component/Floor/Floor'
 import Need from '../Component/Need/Need'
+import Work from '../Component/Work/Work'
 
 const Home = () => {
     return (<>
@@ -26,6 +27,7 @@ const Home = () => {
             {/* <Floor /> */}
             {/* <Footer2 /> */}
             <Need/>
+            <Work/>
             <Testimo />
             {/* <Blog2 /> */}
             {/* <Wave /> */}
