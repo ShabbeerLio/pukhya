@@ -4,7 +4,7 @@ import PartnersData from './PartnersData';
 import PtrCard from '../PtrCard/PtrCard';
 
 const Partners = () => {
-    const defaultActiveIndex = 0; // Default active card index
+    const defaultActiveIndex = 0; 
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
     return (

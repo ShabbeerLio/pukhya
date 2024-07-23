@@ -77,7 +77,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="footer-copyright">
-                        <p>© 2024 Walls & Dreams</p>
+                        <p>© 2024 Walls & Dreams. All rights reserved.</p>
                     </div>
                 </div>
             </div>

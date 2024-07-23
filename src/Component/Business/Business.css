@@ -285,7 +285,10 @@
     }
 
     .services-cards-title h2{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .services-cards-title h2 span{
+        font-size: 29px !important;
     }
 
 }

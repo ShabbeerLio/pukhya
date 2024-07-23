@@ -390,5 +390,6 @@
   .action {
     position: fixed;
     right: 15%;
+    top: 25px;
 }
 }

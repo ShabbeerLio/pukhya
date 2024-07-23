@@ -118,8 +118,6 @@
   /* width: 40%; */
 }
 
-
-
 .testimonial-right-body {
   background-color: white;
   border-radius: 5px;
@@ -249,7 +247,7 @@
 
 @media only screen and (max-width: 420px) {
   .testimonial-main-left h2 {
-    font-size: 50px;
+    font-size: 48px;
     overflow: hidden;
   }
 
@@ -262,9 +260,21 @@
   }
 
   .testimonial-left {
-    width: 90%;
+    width: 100%;
   }
+
   .testimonial-right {
     width: 100%;
+    position: relative;
+    left: 0;
+  }
+
+  .testimonial-btn {
+    position: static;
+  }
+
+  .testimonial-btn p {
+    right: 10%;
+    bottom: -7%;
   }
 }

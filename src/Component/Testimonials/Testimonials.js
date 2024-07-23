@@ -4,7 +4,6 @@ import { BsChatQuoteFill } from "react-icons/bs";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import bg from "../../Assets/About/texture-4.png"
-import StyleCard from '../StyleCard/StyleCard';
 import styimg from "../../Assets/About/about-us.jpg"
 
 
@@ -32,7 +31,6 @@ const Testimonials = () => {
                             <div className="testimonial-box">
                                 <img src={styimg} alt="" />
                             </div>
-                            {/* <StyleCard cover={styimg}/> */}
                             <div className="testimonial-btn">
                                 <p>About Us</p>
                             </div>
