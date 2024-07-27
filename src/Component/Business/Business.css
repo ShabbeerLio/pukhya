@@ -1,6 +1,6 @@
 .services {
     /* padding: 6rem 0rem 0 0; */
-    background-color: black;
+    background-color: #4592d1;
     width: 100%;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .services-cards-title:hover {
-    background-color: #1a1a1ab0;
+    background-color: #4592d15d;
 }
 
 .services-cards-title:first-child:hover {
@@ -65,7 +65,7 @@
     position: relative;
     z-index: 3;
     text-align: left !important;
-    color: #bebebe;
+    color: white;
     letter-spacing: 2px;
     font-weight: 400;
     text-transform: uppercase;
@@ -75,7 +75,7 @@
     padding: 5px 0;
     margin: 0;
     font-weight: 700;
-    color: #bebebe;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -83,7 +83,7 @@
     margin: 0 0 0px 0;
     font-weight: 400;
     font-size: 16px;
-    color: #bebebe;
+    color: white;
     padding-bottom: 10px;
 }
 
@@ -91,7 +91,7 @@
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-    color: #bebebe;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -116,7 +116,7 @@
 .boxes1 .services-cards-title .title-box h2 span{
     font-size: 40px;
     font-weight: 400;
-    color: #bebebe;
+    color: white;
 }
 
 .boxes2 {

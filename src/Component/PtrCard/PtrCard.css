@@ -12,14 +12,13 @@
 .PtrCard img {
   width: 30%;
   object-fit: cover;
-  /* padding: 2rem; */
 }
 
 .PtrCard svg {
   position: relative;
   z-index: 3;
   /* opacity: 1; */
-  color:  rgba(255, 255, 255, 0.212);
+  color: rgba(255, 255, 255, 0.568);
   font-size: 30px;
 }
 .PtrCard .top {
@@ -42,7 +41,7 @@
   left: -15px;
   right: -15px;
   bottom: -15px;
-  background: black;
+  background: #4592d1;
   z-index: 2;
 }
 
@@ -76,8 +75,9 @@
   top: -65%;
   left: 0px;
   right: -60%;
+  width: 700px;
   bottom: 0;
-  background: black;
+  background: white;
   border-radius: 0;
 }
 
@@ -85,24 +85,21 @@
   opacity: 1;
 } */
 
-.PtrCard.active:after{
+.PtrCard.active:after {
   content: "";
   position: absolute;
   top: 35px;
   left: 35px;
   right: 35px;
   bottom: 35px;
-  /* background-color: #4b4b4b; */
-  background: -webkit-linear-gradient(320deg, transparent, #4b4b4b);
-  background: -o-linear-gradient(320deg, transparent, #4b4b4b);
-  background: #4b4b4b;
+  background: rgba(255, 255, 255, 0.315);
   opacity: 1;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 
-.Partner-cards-image h5{
+.Partner-cards-image h5 {
   color: white;
   position: relative;
   z-index: 2;

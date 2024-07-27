@@ -22,7 +22,7 @@ const Testimonials = () => {
                 </div>
                 <div className="testimonial-main-body">
                     <div className="testimonial-main-left">
-                        <h2>Walls & Dreams</h2>
+                        <h2>Pukhya</h2>
                         <h4>With a perfect blend of creativity, expertise, and dedication, we specialize in offering a seamless design-build home construction experience that encompasses every step of your project – from conceptualization to construction and beyond.</h4>
                         {/* <p>At Walls and Dreams, we're not just a construction company; we're your partners in turning visions into exceptional living spaces. With a perfect blend of creativity, expertise, and dedication, we specialize in offering a seamless design-build home construction experience that encompasses every step of your project – from conceptualization to construction and beyond.</p> */}
                     </div>

@@ -1,6 +1,6 @@
 .Work {
   padding: 6rem 0rem;
-  background: black;
+  background: white;
   width: 100%;
   position: relative;
 }
@@ -57,7 +57,7 @@
   z-index: 3;
 }
 
-.work-left-box3:after {
+/* .work-left-box3:after {
   content: "";
   position: absolute;
   top: 0%;
@@ -72,22 +72,22 @@
     #000000b6 0%,
     rgba(0, 0, 0, 0.637) 100%
   );
-}
+} */
 
 .Work-box-right {
   width: 50%;
 }
 
 .Work-box-right h2 {
-  color: #bebebe;
+  color: black;
 }
 
 .Work-box-right-title h2 {
   font-size: 50px;
   font-weight: 700;
   padding-bottom: 2rem;
-  color: #bebebe;
-  border-bottom: 1px solid rgb(146, 146, 146);
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.527);
 }
 
 .accordion-button {
@@ -96,42 +96,25 @@
 
 .accordion-body {
   padding: 1rem 0rem;
-  color: #666666;
+  color: black;
 }
 
 .accordion-flush .accordion-item {
-  background: black;
-  color: #bebebe;
-  border-bottom: 1px solid rgb(102, 102, 102) !important;
+  background: white;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.527) !important;
 }
 
 .accordion-flush .accordion-item .accordion-button {
-  background: black;
-  color: #bebebe;
+  background: white;
+  color: black;
 }
 
 .accordion-button:focus {
   z-index: 3;
-  border-color: black;
+  border-color: white;
   outline: 0;
   box-shadow: none;
-}
-
-.Work-box-right-btun {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 2rem;
-}
-.Work-box-right-btun p {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 12px 40px;
-  background-color: #4b4b4b;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
 }
 
 .accordion-button:not(.collapsed)::after {

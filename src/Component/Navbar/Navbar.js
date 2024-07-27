@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import Logo from "../../Assets/logo.jpg"
+import Logo from "../../Assets/Logo.png"
 import { Link } from 'react-router-dom';
 import { IoLogoWhatsapp } from "react-icons/io5";
 import FormFloat from './FormFloat';
@@ -128,14 +128,22 @@ const Navbar = (props) => {
                                                 About
                                             </a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a
-                                                className={`nav-link ${activeLink === '/construction' ? 'active' : ''}`}
-                                                href="/construction"
-                                                onClick={() => closeMenu('/construction')}
-                                            >
-                                                Construction
-                                            </a>
+                                        <li className="nav-item dropdown">
+                                            <Link className="nav-link dropdown-toggle"
+                                                to="#" id="navbarDropdown"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Research & Sports Medicine
+                                            </Link>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><Link className={`dropdown-item ${activeLink === '/sports-science' ? 'active' : ''}`} to="/sports-science" onClick={() => closeMenu('/sports-science')}>Sports Science</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/ergonomics' ? 'active' : ''}`} to="/ergonomics" onClick={() => closeMenu('/ergonomics')}>Ergonomics</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/physilogy' ? 'active' : ''}`} to="/physilogy" onClick={() => closeMenu('/physilogy')}>Physilogy</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/biomechanics' ? 'active' : ''}`} to="/biomechanics" onClick={() => closeMenu('/biomechanics')}>Biomechanics</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/phychology' ? 'active' : ''}`} to="/phychology" onClick={() => closeMenu('/phychology')}>Phychology</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}>Scientific Gym</Link></li>
+                                            </ul>
                                         </li>
 
                                         <li className="nav-item">
@@ -143,28 +151,7 @@ const Navbar = (props) => {
                                                 className={`nav-link ${activeLink === '/interior' ? 'active' : ''}`}
                                                 href="/interior"
                                                 onClick={() => closeMenu('/interior')}
-                                            >Interior</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a
-                                                className={`nav-link ${activeLink === '/renovation' ? 'active' : ''}`}
-                                                href="/renovation"
-                                                onClick={() => closeMenu('/renovation')}
-                                            >Renovation</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a
-                                                className={`nav-link ${activeLink === '/blog' ? 'active' : ''}`}
-                                                href="/blog"
-                                                onClick={() => closeMenu('/blog')}
-                                            >Blog</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a
-                                                className={`nav-link ${activeLink === '/dashboard' ? 'active' : ''}`}
-                                                href="/dashboard"
-                                                onClick={() => closeMenu('/dashboard')}
-                                            >Dashboard</a>
+                                            >Career</a>
                                         </li>
                                         <li className="nav-item">
                                             <a
@@ -230,11 +217,11 @@ const Navbar = (props) => {
                                     </svg>
                                 </Link>
                             </div>
-                            <div className="action">
+                            {/* <div className="action">
                                 <p>
                                     <IoReorderTwo />
                                 </p>
-                            </div>
+                            </div> */}
                             <div className="fix-icon">
                                 <span className='shine'></span>
                                 <Link to="https://wa.me/+918130377070">

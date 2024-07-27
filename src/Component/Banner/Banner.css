@@ -1,5 +1,5 @@
 .banner-main {
-  background-color: black;
+  background-color: #4592d1;
   position: relative;
   overflow: hidden;
 }
@@ -14,9 +14,6 @@
   width: 100%;
   top: 50%;
   left: 8vw;
-  /* -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
   z-index: 9;
 }
 
@@ -64,12 +61,12 @@
   width: 400px;
   height: 1px;
   border-radius: 5px;
-  background-color: #646464;
+  background-color: white;
 }
 
 .swiper-slide.swiper-slide-active .Banners-detail h1 {
-  color: #bebebe !important;
-  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0);
+  color: white !important;
+  /* -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0); */
 }
 
 .Banners-detail h4 {
@@ -79,65 +76,42 @@
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 3px;
+  color: white;
 }
 .swiper-slide.swiper-slide-active .Banners-detail h4 {
-  color: #bebebe;
-  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0);
+  color: white;
+  /* -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0); */
 }
-/* .banner-text .swiper-slide{
-  width: 982px !important;
-  margin-right: 100px;
-} */
-
-/* next preview button */
-
-/* .swiper-button-prev{
- left: 5% !important;
-}
-
-.swiper-button-next{
-  right: 80% !important;
-}
-
-.swiper-button-prev, .swiper-button-next{
-  top: 95% !important;
-  z-index: 99999 !important;
-  color: white !important;
-}
-
-.swiper-button-prev:after, .swiper-button-next:after {
-  font-size: 20px !important;
-  font-weight: 900;
-} */
 
 .swiper-pagination {
   bottom: 4% !important;
 }
 
 .swiper-pagination-bullet {
-  height: 10px !important;
-  width: 10px !important;
+  height: 8px !important;
+  width: 8px !important;
   opacity: 1 !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #777777 !important;
+  background-color: #4592d1 !important;
 }
 
 .swiper-pagination-bullet {
   position: relative;
+  background-color: white !important;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
   content: "";
-  border: 1px solid #777777;
+  border: 2px solid #4592d1 !important;
   background-color: transparent;
   border-radius: 50%;
   position:absolute;
   top: -33%;
   left: -35%;
   display: flex;
-  height: 17px;
-  width: 17px;
+  height: 14px;
+  width: 14px;
 }
 
 @media only screen and (max-width: 420px) {

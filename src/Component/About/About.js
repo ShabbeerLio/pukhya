@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import Aboutimg from "../../Assets/logo.jpg"
+import Aboutimg from "../../Assets/Logo-footer.png"
 import SocialMedia from '../Navbar/SocialMedia';
 import { Link } from 'react-router-dom';
 import fimg from "../../Assets/Footer/texture-2-light.png"
@@ -77,7 +77,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="footer-copyright">
-                        <p>© 2024 Walls & Dreams. All rights reserved.</p>
+                        <p>© 2024 Pukhya Pvt. Ltd. | All rights reserved</p>
                     </div>
                 </div>
             </div>
