@@ -1,5 +1,5 @@
 .banner-main {
-  background-color: #4592d1;
+  background-color: #47a8a8;
   position: relative;
   overflow: hidden;
 }
@@ -94,7 +94,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #4592d1 !important;
+  background-color: #47a8a8 !important;
 }
 
 .swiper-pagination-bullet {
@@ -103,7 +103,7 @@
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
   content: "";
-  border: 2px solid #4592d1 !important;
+  border: 2px solid #47a8a8 !important;
   background-color: transparent;
   border-radius: 50%;
   position:absolute;

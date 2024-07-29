@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color: #4592d1;
+  background-color: #47a8a8;
   border-radius: 50px;
   width: 50px;
   height: 50px;
@@ -93,7 +93,7 @@
   width: 300px;
   height: 1px;
   border-radius: 5px;
-  background-color: #4592d1;
+  background-color: #47a8a8;
 }
 
 .testimonial-right-stars {
@@ -157,7 +157,7 @@
   font-weight: 400;
   margin-top: 1rem;
   margin-left: 2rem;
-  color: #4592d1;
+  color: #47a8a8;
   font-family: "Playwrite IN", cursive;
 }
 
@@ -169,7 +169,7 @@
   bottom: -50px;
   right: -70%;
   border-radius: 50%;
-  background-color: #4592d1;
+  background-color: #47a8a8;
   z-index: 9;
   width: 100px;
   height: 100px;

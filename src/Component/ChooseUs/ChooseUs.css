@@ -1,0 +1,94 @@
+.ChooseUs {
+  padding: 3rem 0rem;
+  background: white;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  margin: 3rem 0rem;
+}
+
+.ChooseUs-main {
+  background-attachment: fixed;
+  background-image: url(../../Assets/ChooseUs/choose-us.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ChooseUs-main:before {
+  content: "";
+  background-color: #47a8a8;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.ChooseUs-box {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.choose-left {
+  padding: 4rem 4rem 4rem 0;
+  width: 50%;
+}
+
+.choose-left h4 {
+  color: white;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.choose-left h2 {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.choose-card{
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+.choose-card-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.choose-card-head p svg {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.choose-card-head p {
+  margin: 0;
+}
+.choose-card-head h5 {
+  color: white;
+  font-size: 20px;
+  margin-right: 5px;
+  margin: 0;
+  
+}
+
+.choose-card-body p {
+  color: white;
+  margin-left: 30px;
+}
+
+@media (min-width: 1200px) {
+  .ChooseUs-box {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+}

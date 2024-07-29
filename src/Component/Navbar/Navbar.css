@@ -170,7 +170,7 @@
   margin-right: 10px;
 }
 .call-button p:hover {
-    color: #4592d1;
+    color: #47a8a8;
   }
 
 
@@ -261,7 +261,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4592d1;
+  background-color: #47a8a8;
   margin-bottom: 8px;
   z-index: 1;
 }
@@ -273,7 +273,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #4592d1;
+  background-color: #47a8a8;
   animation: shine 2s infinite;
   z-index: -1;
 }
@@ -289,7 +289,7 @@
 }
 
 .fix-icon-enquery p {
-  background-color: #4592d1;
+  background-color: #47a8a8;
   color: white;
   border-radius: 8px 8px 0 0;
   cursor: pointer;
@@ -304,7 +304,7 @@
   width: 150px;
 }
 .fix-icon-enquery p:hover {
-  background-color: #4592d1;
+  background-color: #47a8a8;
   color: black;
 }
 

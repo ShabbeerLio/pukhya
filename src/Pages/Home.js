@@ -7,6 +7,7 @@ import Partners from '../Component/Partners/Partners'
 import Testimo from '../Component/Testimo/Testimo'
 import Need from '../Component/Need/Need'
 import Work from '../Component/Work/Work'
+import ChooseUs from '../Component/ChooseUs/ChooseUs'
 
 const Home = () => {
     return (<>
@@ -14,6 +15,7 @@ const Home = () => {
         <div className="home">
             <Banner />
             <Testimonials />
+            <ChooseUs/>
             {/* <Business /> */}
             <Need />
             {/* <Partners /> */}
