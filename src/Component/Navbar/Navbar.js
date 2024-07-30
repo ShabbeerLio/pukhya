@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { IoLogoWhatsapp } from "react-icons/io5";
 import FormFloat from './FormFloat';
 import { IoReorderTwo } from "react-icons/io5";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Navbar = (props) => {
 
@@ -137,12 +138,12 @@ const Navbar = (props) => {
                                                 Research & Sports Medicine
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link className={`dropdown-item ${activeLink === '/sports-science' ? 'active' : ''}`} to="/sports-science" onClick={() => closeMenu('/sports-science')}>Sports Science</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/ergonomics' ? 'active' : ''}`} to="/ergonomics" onClick={() => closeMenu('/ergonomics')}>Ergonomics</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/physilogy' ? 'active' : ''}`} to="/physilogy" onClick={() => closeMenu('/physilogy')}>Physilogy</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/biomechanics' ? 'active' : ''}`} to="/biomechanics" onClick={() => closeMenu('/biomechanics')}>Biomechanics</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/phychology' ? 'active' : ''}`} to="/phychology" onClick={() => closeMenu('/phychology')}>Phychology</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}>Scientific Gym</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/sports-science' ? 'active' : ''}`} to="/sports-science" onClick={() => closeMenu('/sports-science')}> <RiArrowDropDownLine/>Sports Science</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/ergonomics' ? 'active' : ''}`} to="/ergonomics" onClick={() => closeMenu('/ergonomics')}> <RiArrowDropDownLine/>Ergonomics</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/physilogy' ? 'active' : ''}`} to="/physilogy" onClick={() => closeMenu('/physilogy')}> <RiArrowDropDownLine/>Physilogy</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/biomechanics' ? 'active' : ''}`} to="/biomechanics" onClick={() => closeMenu('/biomechanics')}> <RiArrowDropDownLine/>Biomechanics</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/phychology' ? 'active' : ''}`} to="/phychology" onClick={() => closeMenu('/phychology')}> <RiArrowDropDownLine/>Phychology</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}> <RiArrowDropDownLine/>Scientific Gym</Link></li>
                                             </ul>
                                         </li>
 
@@ -184,7 +185,7 @@ const Navbar = (props) => {
                                                                 </path>
                                                             </g>
                                                         </svg>
-                                                        Call Us
+                                                        9876543210
                                                     </Link>
                                                 </p>
                                             </div>

@@ -21,8 +21,9 @@ const Work = () => {
                         </div>
                     </div>
                     <div className='Work-box-right'>
-                        <div className="Work-box-right-title">
-                            <h2>How we Work?</h2>
+                        <div className="News-title">
+                            {/* <p>Leatest</p> */}
+                            <h3>How We<span>Work?</span></h3>
                         </div>
                         <div className="accordion accordion-flush" id="accordionFlushExample">
                             <div className="accordion-item">
@@ -33,7 +34,7 @@ const Work = () => {
                                 </h2>
                                 <div id="flush-collapseOne" className="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div className="accordion-body">
-                                    No two homes built by us are ever the same. That’s because every home is uniquely built for you. With high quality of craftsmanship and energy efficient materials, we design and build your home as per your lifestyle. Whether you choose one of our construction packages or personalize it, we offer that flexibility to each of our customers. Once you’ve finalized all of your design selections and our construction package, we’ll start building your dream home.
+                                        No two homes built by us are ever the same. That’s because every home is uniquely built for you. With high quality of craftsmanship and energy efficient materials, we design and build your home as per your lifestyle. Whether you choose one of our construction packages or personalize it, we offer that flexibility to each of our customers. Once you’ve finalized all of your design selections and our construction package, we’ll start building your dream home.
                                     </div>
                                 </div>
                             </div>

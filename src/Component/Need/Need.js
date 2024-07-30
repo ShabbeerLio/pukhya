@@ -20,6 +20,7 @@ const Need = () => {
                         <div className="need-right-bottom">
                             <div className="need-right-botm-left">
                                 <HiMiniArrowUpRight />
+                                <p>Read More</p>
                             </div>
                             <div className="need-right-botm-right">
                                 <img src={needit} alt="" />

@@ -23,11 +23,11 @@ const About = () => {
                 </div>
                 <div className="about-main">
                     <div className="about-detail-box">
-                        <div className="about-left">
+                        {/* <div className="about-left">
                             <Link onClick={scrollTop} to="/">
                                 <img className="image2" src={Aboutimg} alt="" />
                             </Link>
-                        </div>
+                        </div> */}
                         <div className="footer-right-quick">
                             <ul>
                                 <li>

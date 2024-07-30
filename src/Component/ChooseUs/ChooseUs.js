@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ChooseUs.css"
-import { FaCheck } from "react-icons/fa6";
+import { GiCheckMark } from "react-icons/gi";
+
 const ChooseUs = () => {
     return (
         <div className='ChooseUs'>
@@ -11,7 +12,7 @@ const ChooseUs = () => {
                         <h2>Choose us for a dental home where you can feel relaxed</h2>
                         <div className="choose-card">
                             <div className="choose-card-head">
-                                <p><FaCheck /></p>
+                                <p><GiCheckMark /></p>
                                 <h5>Patient-Centric Approach</h5>
                             </div>
                             <div className="choose-card-body">
@@ -20,7 +21,7 @@ const ChooseUs = () => {
                         </div>
                         <div className="choose-card">
                             <div className="choose-card-head">
-                                <p><FaCheck /></p>
+                                <p><GiCheckMark /></p>
                                 <h5>State-of-the-Art Technology</h5>
                             </div>
                             <div className="choose-card-body">
@@ -29,7 +30,7 @@ const ChooseUs = () => {
                         </div>
                         <div className="choose-card">
                             <div className="choose-card-head">
-                                <p><FaCheck /></p>
+                                <p><GiCheckMark /></p>
                                 <h5>Expertise You Can Trust</h5>
                             </div>
                             <div className="choose-card-body">
