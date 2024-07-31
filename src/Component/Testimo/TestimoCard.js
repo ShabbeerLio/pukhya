@@ -5,7 +5,7 @@ const TestimoCard = () => {
     return (
         <>
             <div className="testimo-right-card">
-                <p>Walls and Dreams is our go to option no matter what our requirements are, be it renovation or even construction. The service they provide is one of a kind and a special mention has to be made to the creative ideas that they come up with. I am an ardent fan of their services and will continue to seek services from them in the future.</p>
+                <p>Pukhya Has strong marketing network spread across India, we supply state-of-the-art medical equipments in India. Head office in Delhi, its offices at Bangalore. Expensive and sophisticated medical equipment need regular maintenance for its optimum performance. We have experienced service engineers, technical skill and availability of spare parts for good after-sales service.</p>
                 <div className="testimo-card-down">
                     <div className="testimo-card-profile">
                         <IoIosPerson/>
@@ -18,7 +18,7 @@ const TestimoCard = () => {
                 </div>
             </div>
             <div className="testimo-right-card">
-                <p>Time and again we have hired professionalized services but not a single time were we thissatisfied until we crossed paths with Walls and Dreams. They have some of the most premium designs and you can even get those customised just for your needs. Quality is something that we never want to compromise with and that has been a very strong pillar of growth.</p>
+                <p>Pukhya is committed to maintaining a trust relationship with their valued customers. Our major customers are the DRDO , ISRO , Universities, Research Institutions, Hospitals and related industries. The most important point to be considered when purchasing new equipment is the after-sales service offered by the Distributor/manufacturer. </p>
                 <div className="testimo-card-down">
                     <div className="testimo-card-profile">
                         <IoIosPerson/>
@@ -31,7 +31,7 @@ const TestimoCard = () => {
                 </div>
             </div>
             <div className="testimo-right-card">
-                <p>Recently my husband and I wanted to give our new bedroom a makeover. We stumbled upon Walls and Dreams and that was the best decision. The interiors they have provided are stunning and we are simply in awe of the innovation. We would even love to give our drawing room a new touch holding their hands in the future.</p>
+                <p>Biofeedback, Research in human-machine interface, Physiology Lab equipment, Ergonomics Lab Equipments, Biomechanics, Psychology, Rehabilitation, Neurosciences, Yoga Research,Sports Medicine Equipments , Respiratory Medicine, Agricultural research Products, Fire Fighting Products and Strength Training system for Sports Person After-Sales Service</p>
                 <div className="testimo-card-down">
                     <div className="testimo-card-profile">
                         <IoIosPerson/>

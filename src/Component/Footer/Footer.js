@@ -1,12 +1,12 @@
 import React from 'react'
-import "./About.css"
+import "./Footer.css"
 import Aboutimg from "../../Assets/Logo-footer.png"
 import SocialMedia from '../Navbar/SocialMedia';
 import { Link } from 'react-router-dom';
 import fimg from "../../Assets/Footer/texture-2-light.png"
 
 
-const About = () => {
+const Footer = () => {
 
     const scrollTop = () => {
         window.scrollTo({
@@ -17,17 +17,17 @@ const About = () => {
 
     return (
         <>
-            <div className="aboutUs">
-                <div className="about-bg">
+            <div className="Footer">
+                <div className="Footer-bg">
                     <img src={fimg} alt="" />
                 </div>
-                <div className="about-main">
-                    <div className="about-detail-box">
-                        {/* <div className="about-left">
+                <div className="Footer-main">
+                    <div className="footer-detail-box">
+                        <div className="footer-left">
                             <Link onClick={scrollTop} to="/">
                                 <img className="image2" src={Aboutimg} alt="" />
                             </Link>
-                        </div> */}
+                        </div>
                         <div className="footer-right-quick">
                             <ul>
                                 <li>
@@ -53,7 +53,7 @@ const About = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="about-social-media">
+                        <div className="footer-social-media">
                             <SocialMedia />
                         </div>
                     </div>
@@ -85,4 +85,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Footer

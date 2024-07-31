@@ -13,8 +13,8 @@ const AboutUs = () => {
                             <p>Pukhya</p>
                             <h3>About<span>Us</span></h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sunt repellendus praesentium iste, optio architecto eum, ea labore cumque maiores aut fugit, accusamus ratione. Ut neque obcaecati odio esse voluptate?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dignissimos laboriosam, nemo ut a obcaecati cum ipsum distinctio odio fugit asperiores architecto ipsam maxime odit rerum quae minima? Atque, autem.</p>
+                        <p>Pukhya is importer, supplier and distributor of quality healthcare medical equipment in India specializing in the fields of various Products Computer-aided Cognitive Rehabilitation, Neuro and Biofeedback, Physiology, Ergonomics, Psychology products , Yoga Research,and Sports Medicine Products.</p>
+                        <p>Our partnership integrates cutting-edge technology with medical expertise, delivering streamlined, efficient solutions. Pukhya's commitment to excellence transforms healthcare experiences, driving progress and enhancing outcomes for all stakeholders.</p>
                         <div className="aboutUs-btn">
                             <Link>About Us</Link>
                         </div>

@@ -138,12 +138,12 @@ const Navbar = (props) => {
                                                 Research & Sports Medicine
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link className={`dropdown-item ${activeLink === '/sports-science' ? 'active' : ''}`} to="/sports-science" onClick={() => closeMenu('/sports-science')}> <RiArrowDropDownLine/>Sports Science</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/ergonomics' ? 'active' : ''}`} to="/ergonomics" onClick={() => closeMenu('/ergonomics')}> <RiArrowDropDownLine/>Ergonomics</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/physilogy' ? 'active' : ''}`} to="/physilogy" onClick={() => closeMenu('/physilogy')}> <RiArrowDropDownLine/>Physilogy</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/biomechanics' ? 'active' : ''}`} to="/biomechanics" onClick={() => closeMenu('/biomechanics')}> <RiArrowDropDownLine/>Biomechanics</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/phychology' ? 'active' : ''}`} to="/phychology" onClick={() => closeMenu('/phychology')}> <RiArrowDropDownLine/>Phychology</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}> <RiArrowDropDownLine/>Scientific Gym</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/sports-science' ? 'active' : ''}`} to="/sports-science" onClick={() => closeMenu('/sports-science')}> <RiArrowDropDownLine />Sports Science</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/ergonomics' ? 'active' : ''}`} to="/ergonomics" onClick={() => closeMenu('/ergonomics')}> <RiArrowDropDownLine />Ergonomics</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/physilogy' ? 'active' : ''}`} to="/physilogy" onClick={() => closeMenu('/physilogy')}> <RiArrowDropDownLine />Physilogy</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/biomechanics' ? 'active' : ''}`} to="/biomechanics" onClick={() => closeMenu('/biomechanics')}> <RiArrowDropDownLine />Biomechanics</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/phychology' ? 'active' : ''}`} to="/phychology" onClick={() => closeMenu('/phychology')}> <RiArrowDropDownLine />Phychology</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}> <RiArrowDropDownLine />Scientific Gym</Link></li>
                                             </ul>
                                         </li>
 
@@ -159,12 +159,20 @@ const Navbar = (props) => {
                                                 className={`nav-link ${activeLink === '/contact-us' ? 'active' : ''}`}
                                                 href="/contact-us"
                                                 onClick={() => closeMenu('/contact-us')}
+                                            >Send Enquiry</a>
+                                        </li>
+                                        <li className="nav-item">
+                                            <a
+                                                className={`nav-link ${activeLink === '/contact-us' ? 'active' : ''}`}
+                                                href="/contact-us"
+                                                onClick={() => closeMenu('/contact-us')}
                                             >Contact Us</a>
                                         </li>
+
                                         <div className="nav-action">
                                             <div className="call-button">
                                                 <p>
-                                                    <Link to='tel: +919821128500'>
+                                                    <Link to='tel: +918800913399'>
                                                         <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
                                                             <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                                                                 <path strokeDasharray="64" strokeDashoffset="64" d="M8 3C8.5 3 10.5 7.5 10.5 8C10.5 9 9 10 8.5 11C8 12 9 13 10 14C10.3943 14.3943 12 16 13 15.5C14 15 15 13.5 16 13.5C16.5 13.5 21 15.5 21 16C21 18 19.5 19.5 18 20C16.5 20.5 15.5 20.5 13.5 20C11.5 19.5 10 19 7.5 16.5C5 14 4.5 12.5 4 10.5C3.5 8.5 3.5 7.5 4 6C4.5 4.5 6 3 8 3Z">
@@ -185,7 +193,7 @@ const Navbar = (props) => {
                                                                 </path>
                                                             </g>
                                                         </svg>
-                                                        9876543210
+                                                        8800913399
                                                     </Link>
                                                 </p>
                                             </div>
@@ -195,7 +203,7 @@ const Navbar = (props) => {
                             </div>
                             <div className="fix-icon-call">
                                 <span className='shine'></span>
-                                <Link to='tel: +918130377070'>
+                                <Link to='tel: +918800913399'>
                                     <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
                                         <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                                             <path strokeDasharray="64" strokeDashoffset="64" d="M8 3C8.5 3 10.5 7.5 10.5 8C10.5 9 9 10 8.5 11C8 12 9 13 10 14C10.3943 14.3943 12 16 13 15.5C14 15 15 13.5 16 13.5C16.5 13.5 21 15.5 21 16C21 18 19.5 19.5 18 20C16.5 20.5 15.5 20.5 13.5 20C11.5 19.5 10 19 7.5 16.5C5 14 4.5 12.5 4 10.5C3.5 8.5 3.5 7.5 4 6C4.5 4.5 6 3 8 3Z">
@@ -218,14 +226,14 @@ const Navbar = (props) => {
                                     </svg>
                                 </Link>
                             </div>
-                            {/* <div className="action">
+                            <div className="action">
                                 <p>
                                     <IoReorderTwo />
                                 </p>
-                            </div> */}
+                            </div>
                             <div className="fix-icon">
                                 <span className='shine'></span>
-                                <Link to="https://wa.me/+918130377070">
+                                <Link to="https://wa.me/+918800913399">
                                     <IoLogoWhatsapp />
                                 </Link>
                             </div>

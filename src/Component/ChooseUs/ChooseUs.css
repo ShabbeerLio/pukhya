@@ -9,7 +9,7 @@
 
 .ChooseUs-main {
   background-attachment: fixed;
-  background-image: url(../../Assets/ChooseUs/choose-us.jpg);
+  background-image: url(../../Assets/ChooseUs/choose-us1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,8 +41,9 @@
 }
 
 .choose-left h4 {
-  color: white;
-  margin-bottom: 1rem;
+  color: #f0800f;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
   letter-spacing: 2px;
   font-size: 16px;
   text-transform: uppercase;

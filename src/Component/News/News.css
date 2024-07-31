@@ -18,10 +18,11 @@
 }
 
 .News-title p {
-  color: black;
-  margin-bottom: 0.5rem;
+  color: #f0800f;
+  margin-bottom: 0.3rem;
   letter-spacing: 2px;
   font-size: 16px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .News-title h3 {

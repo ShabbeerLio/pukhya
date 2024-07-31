@@ -31,8 +31,9 @@
   stroke: white;
 }
 .Testimo-left p {
-  color: white;
-  margin-bottom: 1rem;
+  color: #f0800f;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
   letter-spacing: 2px;
   font-size: 16px;
 }
@@ -98,7 +99,8 @@
 }
 .testimo-card-title p {
   color: #f0800f;
-  font-size: 15px;
+  font-size: 12px;
+  font-weight: 500;
   margin: 0;
   text-transform: uppercase;
 }

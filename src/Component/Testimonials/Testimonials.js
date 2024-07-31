@@ -4,7 +4,7 @@ import { BsChatQuoteFill } from "react-icons/bs";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import bg from "../../Assets/About/texture-4.png"
-import styimg from "../../Assets/About/about-us.jpg"
+import styimg from "../../Assets/About/about.jpg"
 
 
 const Testimonials = () => {

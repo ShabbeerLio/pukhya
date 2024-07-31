@@ -2,7 +2,7 @@ import React from 'react'
 import "./Need.css"
 import StyleCard from '../StyleCard/StyleCard'
 import { HiMiniArrowUpRight } from "react-icons/hi2";
-import needit from "../../Assets/Needs/needs.jpg"
+import needit from "../../Assets/Story/story.jpg"
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Need = () => {
@@ -15,7 +15,7 @@ const Need = () => {
                     </div>
                     <div className='Need-box-right'>
                         <div className="need-right-top">
-                            <h3>The Walls & Dreams difference - Why build with anyone else?</h3>
+                            <h3>Pukhya Has strong marketing network spread across India</h3>
                         </div>
                         <div className="need-right-bottom">
                             <div className="need-right-botm-left">

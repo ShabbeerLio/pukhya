@@ -6,8 +6,8 @@ const StyleCard = ({ text, cover, butn, icn }) => {
         <div className='StyleCard'>
             <div className='StyleCard-box'>
                 <div className="stylecard-imag">
-                    <h2>We offer integrated treatment with personalized solutions for mental and cognitive health.</h2>
-                    <span>Discover our solution  HeadApp – Computer-Aided Cognitive Screening and Training specifically designed to aid patients with acquired brain injuries, neurodevelopmental disorders, and cognitive deficits in psychiatric conditions.</span>
+                    <h2>We have experienced service engineers, technical skill and availability of spare parts for good after-sales service.                    </h2>
+                    <span> It is important to look into the reputation of the manufacturer, service support committed by the distributors, and after-sales services.</span>
                 </div>
             </div>
         </div>

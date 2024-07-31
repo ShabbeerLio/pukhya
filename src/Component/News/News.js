@@ -1,6 +1,8 @@
 import React from 'react'
 import "./News.css"
-import { Link } from 'react-router-dom'
+import news1 from "../../Assets/News/news1.jpg"
+import news2 from "../../Assets/News/news2.jpg"
+import news3 from "../../Assets/News/news3.jpg"
 
 const News = () => {
     return (
@@ -16,34 +18,34 @@ const News = () => {
                 <div className="news-box">
                     <div className="news-card">
                         <div className="news-card-imag">
-                            <img src="https://static.vecteezy.com/system/resources/previews/010/811/799/non_2x/medicine-doctor-hand-working-on-a-patients-x-ray-scans-digital-healthcare-and-connection-with-modern-virtual-screen-interface-icons-medical-technology-and-network-concept-free-photo.jpg" alt="" />
+                            <img src={news1} alt="" />
                             <p> <span>29</span> Arpil 2024</p>
                         </div>
                         <div className="news-card-detail">
                             <span>Restorative CRT</span>
-                            <h3>Partner with NeuroZip for Improved Outcomes and ROI</h3>
+                            <h3>Pukhya Announces Partnership with Top Hospitals</h3>
 
                         </div>
                     </div>
                     <div className="news-card">
                         <div className="news-card-imag">
-                            <img src="https://static.vecteezy.com/system/resources/previews/007/420/595/large_2x/medical-appointment-female-doctor-gives-professional-medical-help-to-male-patient-explains-written-information-on-paper-in-clipboard-gives-support-and-good-service-pose-at-hospital-near-desktop-free-photo.jpg" alt="" />
+                            <img src={news2} alt="" />
                             <p> <span>29</span> Arpil 2024</p>
                         </div>
                         <div className="news-card-detail">
                             <span>Compensatory CRT</span>
-                            <h3>Advanced Digital Technology</h3>
+                            <h3>New User-Friendly System Solutions Rolled Out by Pukhya</h3>
 
                         </div>
                     </div>
                     <div className="news-card">
                         <div className="news-card-imag">
-                            <img src="https://static.vecteezy.com/system/resources/previews/010/204/572/non_2x/asian-woman-using-lancet-on-finger-for-checking-blood-sugar-level-by-glucose-meter-healthcare-and-medical-diabetes-glycemia-concept-free-photo.jpg" alt="" />
+                            <img src={news3} alt="" />
                             <p> <span>29</span> Arpil 2024</p>
                         </div>
                         <div className="news-card-detail">
                             <span>Cognitive Rehabilitation</span>
-                            <h3>Get inspired on how you can improve and restore brain function with your patients!</h3>
+                            <h3>Launches Cutting-Edge Technology to Improve Patient Care</h3>
                         </div>
                     </div>
                 </div>
