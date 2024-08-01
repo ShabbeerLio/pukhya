@@ -10,15 +10,15 @@ const SocialMedia = () => {
                 <p>
                     <FaTwitter />
                 </p>
-                <p>
+                {/* <p>
                     <FaInstagram />
-                </p>
+                </p> */}
                 <p>
                     <FaFacebookF />
                 </p>
-                <p>
+                {/* <p>
                     <FaYoutube />
-                </p>
+                </p> */}
                 <p>
                     <FaLinkedinIn />
                 </p>

@@ -1,5 +1,5 @@
 .Footer {
-  padding: 7rem 0 0 0;
+  padding: 6rem 0 0 0;
   width: 100%;
   position: relative;
   background-color: white;
@@ -37,15 +37,7 @@
 
 .footer-detail-box {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
-}
-
-.footer-left {
-  width: 30%;
-}
-.footer-left img {
-  width: 40%;
 }
 
 .footer-down {
@@ -53,18 +45,8 @@
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid #adadad;
-  margin-top: 7rem;
-  padding-top: 15px;
-}
-
-.footer-copyright-logo a img {
-  width: 40%;
-}
-
-.footer-copyright {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  margin-top: 3rem;
+  padding: 15px 0;
 }
 
 .footer-copyright p {
@@ -72,6 +54,7 @@
   font-size: 12px;
   font-weight: 600;
   color: black;
+  margin: 0;
 }
 
 .footer-copyright-menu ul {
@@ -93,14 +76,47 @@
   font-weight: 600;
   font-size: 12px;
 }
-
-.footer-right-quick {
-  width: 60%;
+.footer-copyright-menu ul li a:hover {
+  color: #2c82ad;
 }
-.footer-right-quick ul {
+
+.footer-left {
+  width: 40%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-left img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer-right-quick {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-right-quick h2 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  padding-right: 30px;
+}
+.footer-right-quick h2:after {
+  content: "";
+  background-color: #f0800f;
+  display: flex;
+  height: 2px;
+  width: 50%;
+  margin-top: 5px;
+}
+
+.footer-right-quick ul {
+  display: flex;
   padding: 0;
+  flex-direction: column;
 }
 .footer-right-quick ul li {
   display: flex;
@@ -114,7 +130,7 @@
 }
 .footer-right-quick ul li a:hover {
   text-decoration: none;
-  color: black;
+  color: #f0800f;
 }
 
 .footer-social-media svg {
@@ -150,7 +166,7 @@
   width: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
-  background-color: #47a8a8;
+  background-color: #f0800f;
   content: "";
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
@@ -192,16 +208,8 @@
     display: block;
   }
 
-  .footer-left,
-  .about-right {
+  .footer-left {
     width: 100%;
-  }
-
-  .about-right {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .footer-left a {
