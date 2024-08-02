@@ -13,7 +13,7 @@ const News = () => {
                         <p>Leatest</p>
                         <h3>Leatest<span>News</span></h3>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sunt repellendus praesentium iste, optio architecto eum, ea labore cumque maiores aut fugit, accusamus ratione. Ut neque obcaecati odio esse voluptate?</p>
+                    <p>In a groundbreaking move, Pukhya has partnered with top-tier hospitals to revolutionize the healthcare industry with innovative and user-friendly system solutions. This collaboration leverages the combined expertise of healthcare professionals and cutting-edge technology to create practical solutions that enhance patient care and streamline hospital operations.</p>
                 </div>
                 <div className="news-box">
                     <div className="news-card">

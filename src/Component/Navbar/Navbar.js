@@ -6,6 +6,7 @@ import { IoLogoWhatsapp } from "react-icons/io5";
 import FormFloat from './FormFloat';
 import { IoReorderTwo } from "react-icons/io5";
 import { RiArrowDropDownLine } from "react-icons/ri";
+import NavFloat from './NavFloat';
 
 const Navbar = (props) => {
 
@@ -13,6 +14,7 @@ const Navbar = (props) => {
     const [isCollapseOpen, setIsCollapseOpen] = useState(false);
     const [formopen, setFormopen] = useState(false);
     const [showEnquiry, setShowEnquiry] = useState(false);
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -73,6 +75,16 @@ const Navbar = (props) => {
 
     const formIsClose = () => {
         setFormopen(false);
+    };
+
+    const [navFloat, setNavFloat] = useState(false)
+
+    const NavFormIsOpen = () => {
+        setNavFloat(!formopen);
+    };
+
+    const NavFormIsClose = () => {
+        setNavFloat(false);
     };
 
 
@@ -148,25 +160,25 @@ const Navbar = (props) => {
                                         </li>
 
                                         <li className="nav-item">
-                                            <a
-                                                className={`nav-link ${activeLink === '/interior' ? 'active' : ''}`}
-                                                href="/interior"
-                                                onClick={() => closeMenu('/interior')}
-                                            >Career</a>
+                                            <Link
+                                                className={`nav-link ${activeLink === '/career' ? 'active' : ''}`}
+                                                to="/career"
+                                                onClick={() => closeMenu('/career')}
+                                            >Career</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a
+                                            <Link
                                                 className={`nav-link ${activeLink === '/contact-us' ? 'active' : ''}`}
-                                                href="/contact-us"
+                                                to="/contact-us"
                                                 onClick={() => closeMenu('/contact-us')}
-                                            >Send Enquiry</a>
+                                            >Send Enquiry</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a
+                                            <Link
                                                 className={`nav-link ${activeLink === '/contact-us' ? 'active' : ''}`}
-                                                href="/contact-us"
+                                                to="/contact-us"
                                                 onClick={() => closeMenu('/contact-us')}
-                                            >Contact Us</a>
+                                            >Contact Us</Link>
                                         </li>
 
                                         <div className="nav-action">
@@ -227,9 +239,14 @@ const Navbar = (props) => {
                                 </Link>
                             </div>
                             <div className="action">
-                                <p>
+                                <p onClick={NavFormIsOpen}>
                                     <IoReorderTwo />
                                 </p>
+                                {navFloat && (
+                                    <>
+                                        <NavFloat NavFormIsClose={NavFormIsClose} />
+                                    </>
+                                )}
                             </div>
                             <div className="fix-icon">
                                 <span className='shine'></span>
@@ -247,6 +264,7 @@ const Navbar = (props) => {
                                     <FormFloat formIsClose={formIsClose} />
                                 </>
                             )}
+
                         </div>
                     </nav>
 

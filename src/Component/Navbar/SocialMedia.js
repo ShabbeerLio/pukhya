@@ -1,27 +1,28 @@
 import React from 'react'
 import "./SocialMedia.css"
 import { FaInstagram, FaFacebookF, FaYoutube, FaTwitter, FaLinkedinIn } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 const SocialMedia = () => {
     return (
         <>
             <div className="media-items">
-                <p>
+                <Link to={"//facebook.com"}>
                     <FaTwitter />
-                </p>
+                </Link>
                 {/* <p>
                     <FaInstagram />
                 </p> */}
-                <p>
+                <Link to={"//facebook.com"}>
                     <FaFacebookF />
-                </p>
+                </Link>
                 {/* <p>
                     <FaYoutube />
                 </p> */}
-                <p>
+                <Link to={"//facebook.com"}>
                     <FaLinkedinIn />
-                </p>
+                </Link>
             </div>
         </>
     )

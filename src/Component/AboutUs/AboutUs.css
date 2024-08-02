@@ -57,4 +57,12 @@
   .AboutUs-box {
     flex-wrap: wrap;
   }
+
+  .AboutUs-left {
+    width: 100%;
+  }
+
+  .AboutUs-right {
+    width: 100%;
+  }
 }
