@@ -92,4 +92,13 @@
 }
 
 @media only screen and (max-width: 420px) {
+  .choose-left {
+    padding:  0;
+    width: 100%;
+}
+.choose-left h2 {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
 }

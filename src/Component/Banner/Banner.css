@@ -158,11 +158,27 @@
   .Banners {
     height: 50vh;
   }
+
+  .banner-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 4vw;
+    z-index: 9;
+  }
+
+  .Banners-detail {
+    padding: 0;
+}
   .banner-text {
     top: 45%;
   }
   .Banners-detail h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .Banners-detail h4 {
+    font-size: 14px;
+    width: 80%;
   }
   .Banners-detail h1:after {
     width: 200px;
