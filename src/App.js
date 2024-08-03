@@ -10,13 +10,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/sports-science" exact element={<Home />} />
-          <Route path="/ergonomics" exact element={<Home />} />
-          <Route path="/physilogy" exact element={<Home />} />
-          <Route path="/biomechanics" exact element={<Home />} />
-          <Route path="/phychology" exact element={<Home />} />
-          <Route path="/scientific-gym" exact element={<Home />} />
+          <Route path="/pukhya" exact element={<Home />} />
         </Routes>
         <Footer />
       </BrowserRouter>

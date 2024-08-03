@@ -399,8 +399,6 @@ margin-right: 8px;
     width: 30%;
   }
   .action {
-    position: fixed;
-    right: 15%;
-    top: 25px;
+    display: none;
   }
 }

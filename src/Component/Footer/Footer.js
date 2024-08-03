@@ -63,7 +63,7 @@ const Footer = () => {
                             {/* <h2>Quick Links</h2> */}
                             <ul>
                                 <li>
-                                    <Link onClick={scrollTop} to="/">Home</Link>
+                                    <Link onClick={scrollTop} to="/pukhya">Home</Link>
                                 </li>
                                 <li>
                                     <Link onClick={scrollTop} to="/about">About</Link>

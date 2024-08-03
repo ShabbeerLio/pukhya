@@ -97,9 +97,9 @@ const Navbar = (props) => {
                             <div className="company-logo">
                                 <div className="company-logo-box">
                                     <a
-                                        className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                        href="/"
-                                        onClick={() => handleLinkClick('/')}
+                                        className={`nav-link ${activeLink === '/pukhya' ? 'active' : ''}`}
+                                        href="/pukhya"
+                                        onClick={() => handleLinkClick('/pukhya')}
                                     >
                                         <img src={Logo} alt="" />
                                         {/* <h5>Godrej Jardinia</h5> */}
@@ -125,9 +125,9 @@ const Navbar = (props) => {
                                     <ul className="navbar-nav ml-auto">
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                                href="/"
-                                                onClick={() => closeMenu('/')}
+                                                className={`nav-link ${activeLink === '/pukhya' ? 'active' : ''}`}
+                                                href="/pukhya"
+                                                onClick={() => closeMenu('/pukhya')}
                                             >
                                                 Home
                                             </a>
