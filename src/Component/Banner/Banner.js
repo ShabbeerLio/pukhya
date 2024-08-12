@@ -1,69 +1,77 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Banner.css"
 import BannerData from '../Datas/BannerData';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
+
+import { PiHospitalFill } from "react-icons/pi";
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Link } from 'react-router-dom';
+import BannerItem from '../Datas/BannerItem';
 
 const Banner = () => {
-    const swiperRef1 = useRef(null);
-    const swiperRef2 = useRef(null);
 
     return (
         <>
-            <div className="banner-main">
-                <div className="banner-box">
-                    <div className="banner-right">
-                        <Swiper
-                            className="mySwiper"
-                            autoplay={{
-                                delay: 3000,
-                                disableOnInteraction: false,
-                            }}
-                            speed={1500}
-                            // navigation={true}
-                            pagination={{ clickable: true }}
-                            onSwiper={(swiper) => { swiperRef1.current = swiper; }}
-                            onSlideChange={(swiper) => { swiperRef2.current.slideTo(swiper.activeIndex); }}
-                            modules={[Autoplay, Pagination, Navigation]}
-                        >
-                            {BannerData.map((item) => (
+            <div className="banner">
+                <div className="banner-heading">
+                </div>
+                <Swiper
+                    className="mySwiper"
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
+                    effect={'fade'}
+                    speed={2000} 
+                    pagination={{ clickable: true }}
+                    modules={[Autoplay, EffectFade, Pagination]}
+                >
+                    {BannerData.map((item) => (
+                        <SwiperSlide key={item.id}>
+                            <div className='Banners' id={item.id}>
+                                <div className="banner-image">
+                                    <img src={item.cover} alt="" />
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+
+                <div className="banner-bottom">
+                    <Swiper
+                        className="mySwiper"
+                        slidesPerView={5}
+                        spaceBetween={20}
+                        autoplay={{
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        }}
+                        loop={true}
+                        speed={1500}
+                        navigation={true}
+                        modules={[Autoplay, Navigation]}
+                    >
+                        <div className="banner-items">
+                            {BannerItem.map((item) => (
                                 <SwiperSlide key={item.id}>
-                                    <div className='Banners' id={item.id}>
-                                        <div className="banner-image">
-                                            <img src={item.cover} alt="" />
+                                    <div className="banner-card">
+                                        <div className="banner-card-imag">
+                                            <PiHospitalFill />
+                                        </div>
+                                        <div className="banner-card-detail">
+                                            <h4>{item.title}</h4>
                                         </div>
                                     </div>
                                 </SwiperSlide>
                             ))}
-                        </Swiper>
-                    </div>
-                    <div className="banner-text">
-                        <Swiper
-                            modules={[Pagination]}
-                            className="mySwiper"
-                            speed={2000}
-                            onSwiper={(swiper) => { swiperRef2.current = swiper; }}
-                            onSlideChange={(swiper) => { swiperRef1.current.slideTo(swiper.activeIndex); }}
-                        >
-                            {BannerData.map((item) => (
-                                <SwiperSlide key={item.id}>
-                                    <div className="Banners-detail" id={item.id}>
-                                        <h4>{item.heading}</h4>
-                                        <h1>{item.title}</h1>
-                                        <div className="Banner-btn">
-                                            <Link>Read More</Link>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
-                    </div>
+                        </div>
+                    </Swiper>
                 </div>
             </div>
         </>

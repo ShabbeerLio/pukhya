@@ -1,186 +1,186 @@
-.banner-main {
-  background-color: #2c82ad;
-  position: relative;
-}
-
-.banner-right {
-  width: 75vw;
-  margin-left: 25vw;
-}
-.banner-main:after {
-  content: "";
-  background-color: #2c82ad;
+.banner-heading {
   position: absolute;
-  bottom: -7%;
-  left: 0;
-  width: 25vw;
-  height: 5rem;
-  z-index: 3;
-}
-
-.banner-box {
-  position: relative;
-  overflow: hidden;
-}
-
-.banner-text {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 8vw;
-  z-index: 9;
-}
-
-.Banners {
+  z-index: 999;
   display: flex;
+  top: 0;
   align-items: center;
+  /* height: 90%; */
+  width: 100%;
   justify-content: center;
-  height: 90vh;
-  margin-top: 80px;
-  overflow: visible;
-  position: relative;
+}
+.banner-heading h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #2077ba91;
+  padding: 20px 50px;
+  visibility: visible;
+  animation-delay: 0.4s;
+  font-size: 54px;
+  font-weight: 600;
+  border-radius: 8px;
 }
 
-.Banners img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  top: 0;
-  right: 0;
-  filter: brightness(0.5);
-}
-/* .Banners img:after {
+/* .banner-image:after {
   content: "";
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50%;
+  height: 30%;
   left: 0;
   display: inline-block;
   opacity: 0.9;
   background-image: linear-gradient(0deg, #000 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 25% 25% 50% 50% / 0% 0% 50% 50%;
 } */
-
-.Banners-detail {
-  padding: 0 0 0 5rem;
-}
-
-.Banners-detail h1 {
-  font-size: 60px;
-  font-weight: 600;
-  color: transparent;
-  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
-  line-height: 1;
-  -webkit-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
-  margin-bottom: 1.5rem;
-}
-.Banners-detail h1:after {
-  content: "";
-  position: absolute;
-  bottom: 0%;
-  left: 0;
-  display: flex;
-  width: 400px;
-  height: 1px;
-  border-radius: 5px;
-  background-color: white;
-}
-
-.swiper-slide.swiper-slide-active .Banners-detail h1 {
-  color: white !important;
-  /* -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0); */
-}
-
-.Banners-detail h4 {
-  margin-bottom: 15px;
-  overflow: hidden;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 3px;
-  color: white;
-}
-.swiper-slide.swiper-slide-active .Banners-detail h4 {
-  color: #f0800f;
-  /* -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0); */
-}
-
-.swiper-pagination {
-  bottom: 4% !important;
-}
-
-.swiper-pagination-bullet {
-  height: 8px !important;
-  width: 8px !important;
-  opacity: 1 !important;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #2c82ad !important;
-}
-
-.swiper-pagination-bullet {
+.banner-image {
   position: relative;
-  background-color: white !important;
-}
-.swiper-pagination-bullet.swiper-pagination-bullet-active:after {
-  content: "";
-  border: 2px solid #2c82ad !important;
-  background-color: transparent;
-  border-radius: 50%;
-  position: absolute;
-  top: -33%;
-  left: -35%;
-  display: flex;
-  height: 14px;
-  width: 14px;
+  overflow: hidden;
 }
 
-.Banner-btn {
-  margin: 2rem 0;
+.banner img {
+  height: 85vh;
+  width: 120%;
+  object-fit: cover;
+  filter: brightness(70%);
+  border-radius: 25% 25% 50% 50% / 0% 0% 25% 25%;
+  position: relative;
+  left: -10%;
 }
-.Banner-btn a {
-  padding: 12px 40px;
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  background-color: #f0800f;
+
+@keyframes breathe {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
-.Banner-btn a:hover {
+
+.banner-bottom {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  bottom: 80px;
+}
+
+.banner-card {
+  text-align: center;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+.banner-card-imag {
+  position: relative;
+  border-radius: 50%;
+  /* border: 1px solid rgb(63, 63, 63); */
+  padding: 1.5rem;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.banner-card-imag:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  height: 152px;
+  width: 152px;
+  border: 1px dashed gray;
+}
+
+.banner-card svg {
+  font-size: 80px;
   color: black;
 }
-
-@media only screen and (max-width: 420px) {
-  .Banners {
-    height: 50vh;
-  }
-
-  .banner-text {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 4vw;
-    z-index: 9;
-  }
-
-  .Banners-detail {
-    padding: 0;
+.banner-card h4 {
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 20px;
 }
-  .banner-text {
-    top: 45%;
+
+.banner-bottom .swiper-button-prev {
+  left: -7px !important;
+}
+.banner-bottom .swiper-button-next {
+  right: -7px !important;
+}
+
+.banner-bottom .swiper-button-prev:after,
+.banner-bottom .swiper-button-next:after {
+  /* border: 1px solid gray; */
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 25px !important;
+}
+
+@media (min-width: 990px) {
+  .banner-bottom {
+    max-width: 1140px;
   }
-  .Banners-detail h1 {
+}
+
+@media only screen and (max-width: 1180px) {
+  .banner img {
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .banner-items {
+    position: static;
+    padding-top: 2rem;
+  }
+
+  .banner-card {
+    color: white;
+    background-color: #1a667a;
+    padding: 20px 10px;
+  }
+  .banner-heading {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    top: 0;
+    align-items: center;
+    height: 65%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner-heading h1 {
     font-size: 30px;
   }
-  .Banners-detail h4 {
-    font-size: 14px;
-    width: 80%;
+
+  .banner img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
   }
-  .Banners-detail h1:after {
-    width: 200px;
+
+  .banner-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    left: 0;
+  }
+
+  .banner-card svg {
+    display: none;
+  }
+
+  .banner-card-detail {
+    width: 100%;
+  }
+  .banner-card h4:after {
+    background-color: white;
   }
 }
