@@ -1,0 +1,42 @@
+.HCategory-box-card {
+  position: relative;
+}
+
+.hcategory-card-bg img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  top: 32%;
+  left: 0;
+}
+
+.hcategory-card-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.hcategory-card-detail img {
+  width: 95%;
+  margin-bottom: 1.5rem;
+  margin-right: 1.8rem;
+}
+.hcategory-card-detail h5 {
+  margin-bottom: 1rem;
+}
+.hcategory-card-detail p {
+  text-align: center;
+  font-size: 14px;
+}
+.hcategory-card-detail-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hcategory-items-card svg {
+  font-size: 40px;
+}

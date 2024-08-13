@@ -238,7 +238,7 @@ const Navbar = (props) => {
                                     </svg>
                                 </Link>
                             </div>
-                            <div className="action">
+                            {/* <div className="action">
                                 <p onClick={NavFormIsOpen}>
                                     <IoReorderTwo />
                                 </p>
@@ -247,7 +247,7 @@ const Navbar = (props) => {
                                         <NavFloat NavFormIsClose={NavFormIsClose} />
                                     </>
                                 )}
-                            </div>
+                            </div> */}
                             <div className="fix-icon">
                                 <span className='shine'></span>
                                 <Link to="https://wa.me/+918800913399">

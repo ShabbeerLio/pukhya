@@ -18,8 +18,7 @@ const Banner = () => {
     return (
         <>
             <div className="banner">
-                <div className="banner-heading">
-                </div>
+
                 <Swiper
                     className="mySwiper"
                     autoplay={{
@@ -28,12 +27,15 @@ const Banner = () => {
                     }}
                     loop={true}
                     effect={'fade'}
-                    speed={2000} 
+                    speed={2000}
                     pagination={{ clickable: true }}
                     modules={[Autoplay, EffectFade, Pagination]}
                 >
                     {BannerData.map((item) => (
                         <SwiperSlide key={item.id}>
+                            <div className="banner-heading">
+                                <h1>{item.title}</h1>
+                            </div>
                             <div className='Banners' id={item.id}>
                                 <div className="banner-image">
                                     <img src={item.cover} alt="" />

@@ -1,0 +1,25 @@
+.HCategory {
+  padding: 6rem 0rem;
+  background: white;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.HCategory-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .HCategory-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+}
