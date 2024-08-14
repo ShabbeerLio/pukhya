@@ -50,10 +50,10 @@ const Banner = () => {
                         className="mySwiper"
                         slidesPerView={5}
                         spaceBetween={20}
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                        }}
+                        // autoplay={{
+                        //     delay: 3000,
+                        //     disableOnInteraction: false,
+                        // }}
                         loop={true}
                         speed={1500}
                         navigation={true}
@@ -64,7 +64,7 @@ const Banner = () => {
                                 <SwiperSlide key={item.id}>
                                     <div className="banner-card">
                                         <div className="banner-card-imag">
-                                            <PiHospitalFill />
+                                            <img src={item.cover} alt="" />
                                         </div>
                                         <div className="banner-card-detail">
                                             <h4>{item.title}</h4>

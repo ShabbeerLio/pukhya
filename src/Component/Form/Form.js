@@ -35,10 +35,10 @@ const Form = ({btntxt}) => {
         }, 2500);
 
         emailjs.sendForm(
-            'service_doayfq4',
-            'template_vi0ghkl',
+            // 'service_doayfq4',
+            // 'template_vi0ghkl',
             form.current,
-            'Iejd5R2PTV0wvsSiQ'
+            // 'Iejd5R2PTV0wvsSiQ'
         )
             .then((result) => {
                 console.log(result.text);
@@ -66,7 +66,7 @@ const Form = ({btntxt}) => {
 
     return (
         <>
-            <h4 className='form-heading'>Enquire Now</h4>
+            <h4 className='form-heading'>Contact Us</h4>
             {messageSent ? (
                 <div className='form-message'>
                     <p>Message sent successfully!</p>

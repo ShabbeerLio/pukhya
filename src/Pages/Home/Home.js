@@ -16,13 +16,13 @@ const Home = () => {
         <div className="home">
             <Banner />
             <ChooseUs />
-            <HCategory/>
             {/* <AboutUs /> */}
             <Need />
+            <HCategory/>
             <Work />
             <Testimo />
             <Walkthrough/>
-            <News />
+            {/* <News /> */}
         </div>
 
     </>

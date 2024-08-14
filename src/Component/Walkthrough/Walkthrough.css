@@ -1,7 +1,7 @@
 .Walkthrough {
   padding: 6rem 0rem;
   width: 100%;
-  background-color: white;
+  background-color: #f1f1f1;
 }
 
 .Walkthrough-main {
@@ -20,7 +20,7 @@
 .walkthrough-left {
   width: 60%;
 }
-.walkthrough-left img{
+.walkthrough-left img {
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -37,9 +37,11 @@
   border-radius: 8px;
   background-color: #2c82ad;
 }
-.walkthrough-form h4 {
-  font-size: 18px;
-  margin-bottom: 25px;
+
+.walkthrough-form .form-heading {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 1200px) {
