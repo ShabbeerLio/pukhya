@@ -18,11 +18,32 @@
   display: flex;
   gap: 2rem;
   height: 100%;
+  margin-bottom: 2rem;
 }
 
 .Need-box-left {
   width: 50%;
 }
+
+.StyleCard-box {
+  width: 100%;
+  padding: 3rem;
+  height: 100%;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  border: 1px solid #c9c9c9;
+}
+
+.StyleCard-box h2 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+.StyleCard-box span {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
 .Need-box-right {
   width: 50%;
   display: flex;
@@ -86,6 +107,7 @@
   height: 100%;
   /* border-radius: 25px; */
   object-fit: cover;
+  filter: brightness(70%);
 }
 /* .need-right-botm-right:after {
   content: "";

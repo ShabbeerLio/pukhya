@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Walkthrough.css"
 import Form from '../Form/Form'
-import rimg from "../../Assets/About/about.jpg"
+import rimg from "../../Assets/About/contact.jpg"
 
 const Walkthrough = () => {
     return (

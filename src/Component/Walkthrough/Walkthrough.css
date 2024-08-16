@@ -26,6 +26,7 @@
   height: 100%;
   border-radius: 8px;
   filter: brightness(70%);
+  aspect-ratio: 2/1;
 }
 
 .walkthrough-right {

@@ -24,22 +24,22 @@ const BannerItem = [
     {
         id: 5,
         title: "Hand and eye coordination",
-        cover: require("../../Assets/Banner/BannerItem/trigno-centro-system.jpg")
+        cover: require("../../Assets/Banner/BannerItem/realtime.jpeg")
     },
     {
         id: 6,
-        title: "real-time EMG",
+        title: "Real-time EMG",
         cover: require("../../Assets/Banner/BannerItem/trigno-centro-system.jpg")
     },
     {
         id: 7,
         title: "Retrain your muscles",
-        cover: require("../../Assets/Banner/BannerItem/Brain.png")
+        cover: require("../../Assets/Banner/BannerItem/fasttwitch.jpeg")
     },
     {
         id: 8,
-        title: "research, design and education",
-        cover: require("../../Assets/Banner/BannerItem/Brain.png")
+        title: "Research, design and education",
+        cover: require("../../Assets/Banner/BannerItem/nexgem.jpeg")
     },
 ]
 

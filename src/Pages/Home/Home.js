@@ -9,6 +9,7 @@ import News from '../../Component/News/News'
 import AboutUs from '../../Component/AboutUs/AboutUs'
 import HCategory from '../../Component/HCategory/HCategory'
 import Walkthrough from '../../Component/Walkthrough/Walkthrough'
+import PresClients from '../../Component/PresClients/PresClients'
 
 const Home = () => {
     return (<>
@@ -19,6 +20,7 @@ const Home = () => {
             {/* <AboutUs /> */}
             <Need />
             <HCategory/>
+            <PresClients/>
             <Work />
             <Testimo />
             <Walkthrough/>

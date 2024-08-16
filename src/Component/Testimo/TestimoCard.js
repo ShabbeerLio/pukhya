@@ -11,7 +11,7 @@ const TestimoCard = () => {
                         <IoIosPerson/>
                         {/* <img src="https://ui-themez.smartinnovates.net/items/infolio/Infolio/assets/imgs/testim/t1.jpg" alt="" /> */}
                         <div className="testimo-card-title">
-                            <h5>Vikram Kumar</h5>
+                            <h5>Anne Halgren </h5>
                             <p>Founder & CEO</p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const TestimoCard = () => {
                         <IoIosPerson/>
                         {/* <img src="https://ui-themez.smartinnovates.net/items/infolio/Infolio/assets/imgs/testim/t1.jpg" alt="" /> */}
                         <div className="testimo-card-title">
-                            <h5>Sushant Goswami</h5>
+                            <h5>Kristin Geis</h5>
                             <p>Founder & CEO</p>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const TestimoCard = () => {
                         <IoIosPerson/>
                         {/* <img src="https://ui-themez.smartinnovates.net/items/infolio/Infolio/assets/imgs/testim/t1.jpg" alt="" /> */}
                         <div className="testimo-card-title">
-                            <h5>Satish Verma</h5>
+                            <h5>Allison McCreath, PT</h5>
                             <p>Founder & CEO</p>
                         </div>
                     </div>

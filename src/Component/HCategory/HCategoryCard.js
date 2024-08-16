@@ -10,21 +10,23 @@ const HCategoryCard = ({ item }) => {
                 <img src={bg} alt="" />
             </div>
             <div className="hcategory-card-detail">
-                <img src={item.cover} alt="" />
+                <div className="hcategory-image">
+                    <img src={item.cover} alt="" />
+                </div>
                 <h5>{item.title}</h5>
                 <p>{item.description}</p>
                 <div className="hcategory-card-detail-items">
                     <div className="hcategory-items-card">
-                        <PiHospitalFill/>
+                        <PiHospitalFill />
                     </div>
                     <div className="hcategory-items-card">
-                        <PiHospitalFill/>
+                        <PiHospitalFill />
                     </div>
                     <div className="hcategory-items-card">
-                        <PiHospitalFill/>
+                        <PiHospitalFill />
                     </div>
                     <div className="hcategory-items-card">
-                        <PiHospitalFill/>
+                        <PiHospitalFill />
                     </div>
                 </div>
             </div>
