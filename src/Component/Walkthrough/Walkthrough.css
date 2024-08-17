@@ -67,4 +67,7 @@
   .category-card {
     height: 200px;
   }
+  .walkthrough-left img {
+    aspect-ratio: auto;
+  }
 }

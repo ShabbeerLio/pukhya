@@ -140,6 +140,9 @@
 }
 
 @media only screen and (max-width: 420px) {
+  .Testimo-right {
+    padding: 2rem 10px;
+  }
   .Testimo-box {
     flex-wrap: wrap;
   }
@@ -150,16 +153,9 @@
     margin: 0;
   }
 
-  .testimo-right-card p {
-    line-height: 1.8;
-    font-size: 20px;
-    color: #c6c8c9;
-    margin: 0rem;
-  }
-
   .Testimo-right .owl-nav {
-    right: 35%;
-    bottom: -15%;
+    right: 30%;
+    bottom: -20%;
     position: absolute;
   }
 }
