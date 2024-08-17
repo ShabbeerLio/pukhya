@@ -18,49 +18,16 @@ const Footer = () => {
     return (
         <>
             <div className="Footer">
-                <div className="Footer-bg">
-                    <img src={fimg} alt="" />
-                </div>
                 <div className="Footer-main">
-                    <div className="footer-top">
-                        <div className="footer-top-left">
-                            <h2>Be the first to know.</h2>
-                            <p>Our close collaboration with leading hospitals provides the environment that favours the creation of practical and user-friendly system solutions.</p>
-                        </div>
-                        <div className="footer-top-right">
-                            <div className="footer-right-quick">
-                                <h2>Research & Sports</h2>
-                                <ul>
-                                    <li>
-                                        <Link onClick={scrollTop} to="/">Sports Science</Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={scrollTop} to="/">Ergonomics</Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={scrollTop} to="/">Physilogy</Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={scrollTop} to="/">Biomechanics</Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={scrollTop} to="/">Phychology</Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={scrollTop} to="/">Scientific Gym</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                     <div className="footer-detail-box">
                         <div className="footer-left">
                             <Link onClick={scrollTop} to="/">
                                 <img className="image2" src={Aboutimg} alt="" />
                             </Link>
+                            <p>Our close collaboration with leading hospitals provides the environment that favours the creation of practical and user-friendly system solutions.</p>
                         </div>
                         <div className="footer-right-quick">
-                            {/* <h2>Quick Links</h2> */}
+                            <h2>Quick Links</h2>
                             <ul>
                                 <li>
                                     <Link onClick={scrollTop} to="/pukhya">Home</Link>
@@ -79,17 +46,50 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="footer-social-media">
-                            <SocialMedia />
+                        <div className="footer-right-quick">
+                            <h2>Research & Spots</h2>
+                            <ul>
+                                <li>
+                                    <Link onClick={scrollTop} to="/sports-science">Sports Science</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={scrollTop} to="/ergonomics">Ergonomics</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={scrollTop} to="/physilogy">Physilogy</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={scrollTop} to="/biomechanics">Biomechanics</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={scrollTop} to="/phychology">Phychology</Link>
+                                </li>
+                                <li>
+                                    <Link onClick={scrollTop} to="/scientific-gym">Scientific Gym</Link>
+                                </li>
+                            </ul>
                         </div>
-
-                        {/*  */}
+                        <div className="footer-right-quick">
+                            <h2>Contact</h2>
+                            <ul>
+                                <li>
+                                    <Link>Address</Link>
+                                </li>
+                                <li>
+                                    <Link to='tel: +918800913399'>8800913399</Link>
+                                </li>
+                                <li>
+                                    <Link to='mailto: pukhya123@gmail.com'>pukhya123@gmail.com</Link>
+                                </li>
+                            </ul>
+                            <div className="footer-social-media">
+                                <SocialMedia />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="footer-down">
-                    <div className="footer-copyright">
-                        <p>© 2024 Pukhya Pvt. Ltd. | All rights reserved</p>
-                    </div>
+
                     <div className="footer-copyright-menu">
                         <ul>
                             <li>
@@ -102,6 +102,9 @@ const Footer = () => {
                                 <Link onClick={scrollTop} to="/">Privacy Policy</Link>
                             </li>
                         </ul>
+                    </div>
+                    <div className="footer-copyright">
+                        <p>© 2024 Pukhya Pvt. Ltd. | All rights reserved</p>
                     </div>
 
                 </div>

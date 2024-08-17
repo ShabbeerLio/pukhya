@@ -22,17 +22,17 @@ const PresClients = () => {
             <div className='PresClients-main'>
                 <div className="PresClients-heading">
                     <h2>Some of Our Prestigeous Clients</h2>
-                    <p>As we have worked with numerous industry leaders which shines our expertise in language translations & interpretation. Here we have shown some of our prestigious clients.</p>
+                    <p>As we have worked with numerous industry leaders which shines our expertise in pukhya. Here we have shown some of our prestigious clients.</p>
                 </div>
                 <div className="presClients-box">
                     <ReactOwlCarousel
                         items={6}
                         nav={false}
                         loop={true}
-                        autoplay={{
-                            delay: 1500,
-                            disableOnInteraction: false,
-                        }}
+                        autoplay={true}
+                        autoplayTimeout={1500}
+                        autoplayHoverPause={false}
+                        smartSpeed={800}
                         dots={false}
                         responsive={responsiveOptions}
                     >

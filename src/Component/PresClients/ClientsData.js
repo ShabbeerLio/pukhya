@@ -115,54 +115,6 @@ const ClientData = [
         id: 29,
         cover: require("../../Assets/PresClients/c29.jpg")
     },
-    {
-        id: 30,
-        cover: require("../../Assets/PresClients/c30.jpg")
-    },
-    {
-        id: 31,
-        cover: require("../../Assets/PresClients/c31.jpg")
-    },
-    {
-        id: 32,
-        cover: require("../../Assets/PresClients/c32.jpg")
-    },
-    {
-        id: 33,
-        cover: require("../../Assets/PresClients/c33.jpg")
-    },
-    {
-        id: 34,
-        cover: require("../../Assets/PresClients/c34.jpg")
-    },
-    {
-        id: 35,
-        cover: require("../../Assets/PresClients/c35.jpg")
-    },
-    {
-        id: 36,
-        cover: require("../../Assets/PresClients/c36.jpg")
-    },
-    {
-        id: 37,
-        cover: require("../../Assets/PresClients/c37.jpg")
-    },
-    {
-        id: 38,
-        cover: require("../../Assets/PresClients/c38.jpg")
-    },
-    {
-        id: 39,
-        cover: require("../../Assets/PresClients/c39.jpg")
-    },
-    {
-        id: 40,
-        cover: require("../../Assets/PresClients/c40.jpg")
-    },
-    {
-        id: 41,
-        cover: require("../../Assets/PresClients/c41.jpg")
-    },
 ]
 
 export default ClientData;

@@ -34,10 +34,12 @@
   /* margin-right: 1.8rem; */
   position: relative;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
-  border: 12px solid #2c82ad;
-
+  border: 12px solid #95cce7;
 }
 
+.hcategory-card-detail:hover .hcategory-image img{
+  border: 12px solid #2c82ad;
+}
 .hcategory-card-detail h5 {
   margin-bottom: 1rem;
 }
