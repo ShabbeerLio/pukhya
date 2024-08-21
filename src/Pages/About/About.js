@@ -1,14 +1,67 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./About.css"
 import abouti from "../../Assets/About/about.jpg"
+import director from "../../Assets/About/director-sir-pic.jpeg.jpg"
 import Aboutcard from '../../Component/AboutP/Aboutcard'
+import { useLocation } from 'react-router-dom'
 
-const About = () => {
+const About = (props) => {
+    /* global dataLayer */
+    const location = useLocation();
+
+    useEffect(() => {
+        document.title = props.title;
+
+        const canonicalUrl = `${window.location.origin}${location.pathname}`;
+        let canonicalLink = document.querySelector("link[rel='canonical']");
+        if (canonicalLink) {
+            canonicalLink.setAttribute("href", canonicalUrl);
+        } else {
+            canonicalLink = document.createElement("link");
+            canonicalLink.setAttribute("rel", "canonical");
+            canonicalLink.setAttribute("href", canonicalUrl);
+            document.head.appendChild(canonicalLink);
+        }
+
+        const description = props.descriptions;
+        let metaDescription = document.querySelector("meta[name='description']");
+        if (metaDescription) {
+            metaDescription.setAttribute("content", description);
+        } else {
+            metaDescription = document.createElement("meta");
+            metaDescription.setAttribute("name", "description");
+            metaDescription.setAttribute("content", description);
+            document.head.appendChild(metaDescription);
+        }
+
+        // Ensure dataLayer is initialized before the GA script loads
+        // window.dataLayer = window.dataLayer || [];
+        // function gtag() {
+        //   dataLayer.push(arguments);
+        // }
+
+        // Load the Google Analytics script only once
+        // const gaScriptId = 'ga-gtag';
+        // if (!document.getElementById(gaScriptId)) {
+        //   const script = document.createElement('script');
+        //   script.id = gaScriptId;
+        //   script.async = true;
+        //   script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3BK9F87D6E';
+        //   document.head.appendChild(script);
+
+        //   script.onload = () => {
+        //     gtag('js', new Date());
+        //     gtag('config', 'G-3BK9F87D6E');
+        //   };
+        // }
+    }, [props.title, props.descriptions, location.pathname]);
+
     return (
         <div className='About'>
             <div className='About-main'>
                 <div className="about-title">
-                    <h1>About</h1>
+                    <p>Pukhya</p>
+                    <h3>About<span>Us</span></h3>
                 </div>
                 <div className='About-box'>
                     <div className="about-left">
@@ -23,7 +76,7 @@ const About = () => {
                 <Aboutcard />
                 <div className='About-box-director'>
                     <div className="about-right-director">
-                        <img src="https://static.vecteezy.com/system/resources/previews/008/358/607/non_2x/profile-shot-of-pretty-pleased-woman-wears-makeup-rosy-lipstick-dressed-in-polka-dot-blouse-has-healthy-skin-poses-against-white-background-with-blank-space-for-your-advert-or-promotion-free-photo.JPG" alt="" />
+                        <img src={director} alt="" />
                     </div>
                     <div className="about-left-director">
                         <h2>Director Name</h2>

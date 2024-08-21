@@ -34,7 +34,7 @@
 }
 
 .about-card-right img {
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   border-radius: 50%;
   aspect-ratio: 1/1;

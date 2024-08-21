@@ -161,23 +161,16 @@ const Navbar = (props) => {
 
                                         <li className="nav-item">
                                             <Link
-                                                className={`nav-link ${activeLink === '/career' ? 'active' : ''}`}
-                                                to="/career"
-                                                onClick={() => closeMenu('/career')}
-                                            >Career</Link>
+                                                className={`nav-link ${activeLink === '/pukhya/products' ? 'active' : ''}`}
+                                                to="/pukhya/products"
+                                                onClick={() => closeMenu('/pukhya/products')}
+                                            >Products</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
-                                                className={`nav-link ${activeLink === '/contact-us' ? 'active' : ''}`}
-                                                to="/contact-us"
-                                                onClick={() => closeMenu('/contact-us')}
-                                            >Send Enquiry</Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link
-                                                className={`nav-link ${activeLink === '/contact-us' ? 'active' : ''}`}
-                                                to="/contact-us"
-                                                onClick={() => closeMenu('/contact-us')}
+                                                className={`nav-link ${activeLink === '/pukhya/contact' ? 'active' : ''}`}
+                                                to="/pukhya/contact"
+                                                onClick={() => closeMenu('/pukhya/contact')}
                                             >Contact Us</Link>
                                         </li>
 
