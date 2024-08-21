@@ -134,9 +134,9 @@ const Navbar = (props) => {
                                         </li>
                                         <li className="nav-item">
                                             <a
-                                                className={`nav-link ${activeLink === '/about' ? 'active' : ''}`}
-                                                href="/about"
-                                                onClick={() => closeMenu('/about')}
+                                                className={`nav-link ${activeLink === '/pukhya/about' ? 'active' : ''}`}
+                                                href="/pukhya/about"
+                                                onClick={() => closeMenu('/pukhya/about')}
                                             >
                                                 About
                                             </a>
