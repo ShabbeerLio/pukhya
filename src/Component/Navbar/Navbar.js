@@ -7,6 +7,7 @@ import FormFloat from './FormFloat';
 import { IoReorderTwo } from "react-icons/io5";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import NavFloat from './NavFloat';
+import CategoryDown from './CategoryDown';
 
 const Navbar = (props) => {
 
@@ -96,14 +97,14 @@ const Navbar = (props) => {
                         <div className="container-fluid">
                             <div className="company-logo">
                                 <div className="company-logo-box">
-                                    <a
+                                    <Link
                                         className={`nav-link ${activeLink === '/pukhya' ? 'active' : ''}`}
-                                        href="/pukhya"
+                                        to="/pukhya"
                                         onClick={() => handleLinkClick('/pukhya')}
                                     >
                                         <img src={Logo} alt="" />
                                         {/* <h5>Godrej Jardinia</h5> */}
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="nav-button">
@@ -124,22 +125,22 @@ const Navbar = (props) => {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav ml-auto">
                                         <li className="nav-item">
-                                            <a
+                                            <Link
                                                 className={`nav-link ${activeLink === '/pukhya' ? 'active' : ''}`}
-                                                href="/pukhya"
+                                                to="/pukhya"
                                                 onClick={() => closeMenu('/pukhya')}
                                             >
                                                 Home
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a
+                                            <Link
                                                 className={`nav-link ${activeLink === '/pukhya/about' ? 'active' : ''}`}
-                                                href="/pukhya/about"
+                                                to="/pukhya/about"
                                                 onClick={() => closeMenu('/pukhya/about')}
                                             >
                                                 About
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle"
@@ -158,13 +159,17 @@ const Navbar = (props) => {
                                                 <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}> <RiArrowDropDownLine />Scientific Gym</Link></li>
                                             </ul>
                                         </li>
-
-                                        <li className="nav-item">
-                                            <Link
-                                                className={`nav-link ${activeLink === '/pukhya/products' ? 'active' : ''}`}
-                                                to="/pukhya/products"
-                                                onClick={() => closeMenu('/pukhya/products')}
-                                            >Products</Link>
+                                        <li className="nav-item dropdown">
+                                            <Link className="nav-link dropdown-toggle"
+                                                to="#" id="navbarDropdown"
+                                                role="button"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Products
+                                            </Link>
+                                            <ul className="dropdown-menu category" aria-labelledby="navbarDropdown">
+                                                <CategoryDown activeLink={activeLink} closeMenu={closeMenu} />
+                                            </ul>
                                         </li>
                                         <li className="nav-item">
                                             <Link

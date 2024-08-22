@@ -6,6 +6,8 @@ import Footer from './Component/Footer/Footer';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Products from './Pages/Products/Products';
+import CategoriesData from './Pages/Products/CategoriesData';
+import ProductDetail from './Pages/ProductDetail/ProductDetail';
 
 function App() {
   return (
@@ -15,7 +17,10 @@ function App() {
         <Routes>
           <Route path="/pukhya" exact element={<Home />} />
           <Route path="/pukhya/about" exact element={<About />} />
-          <Route path="/pukhya/products" exact element={<Products />} />
+          {CategoriesData.map((item) => (
+            <Route path={item.link} exact element={<Products heading={item.Category} />} key={item.id} />
+          ))}
+          <Route path="/pukhya/:pathName" exact element={<ProductDetail />} />
           <Route path="/pukhya/contact" exact element={<Contact />} />
         </Routes>
         <Footer />
