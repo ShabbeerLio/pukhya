@@ -22,10 +22,10 @@ const ProductCard = ({ item }) => {
             </div>
             <div className="productcard-right">
                 <img src={item.brand} alt="" />
-                <h4>{item.title}</h4>
+                <h4>{item.subcategory}</h4>
                 <p>{item.description}</p>
                 <Link to={{
-                    pathname: `/pukhya/${formatPathname(item.title)}/`
+                    pathname: `/pukhya/${formatPathname(item.subcategory)}/`
                 }} onClick={scrollToTop}>Explore</Link>
             </div>
         </div >

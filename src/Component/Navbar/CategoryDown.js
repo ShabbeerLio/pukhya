@@ -37,9 +37,9 @@ const CategoryDown = () => {
                     <div className='category-right-product' >
                         {allSubcategories.map((subItem, index) => (
                             <Link to={{
-                                pathname: `/pukhya/${formatPathname(subItem.title)}/`
+                                pathname: `/pukhya/${formatPathname(subItem.subcategory)}/`
                             }} onClick={scrollToTop} key={subItem.id}>
-                                {subItem.title}
+                                {subItem.subcategory}
                             </Link>
                         ))}
                     </div>
@@ -63,46 +63,12 @@ const CategoryDown = () => {
                             <div className='category-right-product' >
                                 {item.subcategories.map((subItem, subIndex) => (
                                     <>
-                                        {subItem.subProduct?.length > 0 ? (
-                                            <div className="accordion accordion-flush" id={`accordionFlush-${index}-${subIndex}`} key={subIndex}>
-                                                <div className="accordion-item">
-                                                    <h2 className="accordion-header" id={`flush-heading-${index}-${subIndex}`}>
-                                                        <button
-                                                            className="accordion-button collapsed"
-                                                            type="button"
-                                                            data-bs-toggle="collapse"
-                                                            data-bs-target={`#flush-collapse-${index}-${subIndex}`}
-                                                            aria-expanded="false"
-                                                            aria-controls={`flush-collapse-${index}-${subIndex}`}
-                                                        >
-                                                            <Link to={subItem.link}>{subItem.title}</Link>
-                                                        </button>
-                                                    </h2>
-                                                    <div
-                                                        id={`flush-collapse-${index}-${subIndex}`}
-                                                        className="accordion-collapse collapse"
-                                                        aria-labelledby={`flush-heading-${index}-${subIndex}`}
-                                                        data-bs-parent={`#accordionFlush-${index}-${subIndex}`}
-                                                    >
-                                                        <div className="accordion-body">
-                                                            {subItem.subProduct.map((i, subProductIndex) => (
-                                                                <Link
-                                                                    to={{
-                                                                        pathname: `/pukhya/${formatPathname(i.name)}/`
-                                                                    }} onClick={scrollToTop} key={i.id}>{i.name}</Link>
-                                                            ))}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        ) : (
-                                            <Link
-                                                to={{
-                                                    pathname: `/pukhya/${formatPathname(subItem.title)}/`
-                                                }} onClick={scrollToTop} key={subIndex}>
-                                                {subItem.title}
-                                            </Link>
-                                        )}
+                                        <Link
+                                            to={{
+                                                pathname: `/pukhya/${formatPathname(subItem.subcategory)}/`
+                                            }} onClick={scrollToTop} key={subIndex}>
+                                            {subItem.subcategory}
+                                        </Link>
                                     </>
                                 ))}
                             </div>

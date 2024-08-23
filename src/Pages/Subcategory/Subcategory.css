@@ -1,0 +1,145 @@
+.Subcategory {
+  margin-top: 40px;
+  padding: 3rem 0rem 0 0;
+  width: 100%;
+  border-bottom: 1px solid #cecece;
+}
+
+.Subcategory-banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 65vh;
+}
+
+.Subcategory-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Subcategory-products {
+  background-color: #f1f1f1;
+  margin-top: 3rem;
+  padding: 2rem 0 6rem 0;
+}
+
+.Subcategory-products-box {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Subcategory-box {
+  /* display: flex; */
+  align-items: center;
+  gap: 2rem;
+}
+
+.Subcategory-left {
+  width: 100%;
+}
+
+.Subcategory-right {
+  width: 100%;
+  margin-top: 2rem;
+}
+.Subcategory-right h1 {
+  /* font-size: 30px; */
+  margin-bottom: 1rem;
+}
+.Subcategory-right h2 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.Subcategory-right img {
+  width: 20%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.Subcategory-details {
+  margin-top: 2rem;
+}
+.Subcategory-details h3 {
+  font-size: 25px;
+}
+
+.subcategory-categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.Subcategory-products h3 {
+  text-align: center;
+  margin: 0rem 0 2rem 0;
+}
+
+.Subcategory-categories-card {
+  position: relative;
+  cursor: pointer;
+}
+.Subcategory-categories-card img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 2/1.3;
+  border-radius: 8px;
+}
+.Subcategory-categories-card:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  display: inline-block;
+  opacity: 0.9;
+  background-image: linear-gradient(0deg, #000 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 8px;
+}
+
+.Subcategory-card-detail {
+  font-size: 20px;
+  text-align: start;
+  margin-top: 1rem;
+  position: absolute;
+  color: white;
+  bottom: 0%;
+  padding: 1.5rem;
+  margin: 0;
+  z-index: 2;
+}
+.Subcategory-card-detail h2 {
+  font-size: 26px;
+}
+.Subcategory-card-detail p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.subcategory-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.subcategory-btn p {
+  margin: 0;
+  padding: 8px 40px;
+  background-color: #f0800f;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  .Subcategory-main,
+  .Subcategory-products-box {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+}
