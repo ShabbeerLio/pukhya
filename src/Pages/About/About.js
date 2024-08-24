@@ -4,11 +4,15 @@ import abouti from "../../Assets/About/about.jpg"
 import director from "../../Assets/About/director-sir-pic.jpeg.jpg"
 import Aboutcard from '../../Component/AboutP/Aboutcard'
 import { useLocation } from 'react-router-dom'
+import aboutb from "../../Assets/About/about-banner.jpeg"
 
 const About = (props) => {
 
     return (
         <div className='About'>
+            <div className="about-banner">
+                <img src={aboutb} alt="" />
+            </div>
             <div className='About-main'>
                 <div className="about-title">
                     <p>Pukhya</p>

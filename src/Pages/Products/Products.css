@@ -3,7 +3,7 @@
   padding: 5rem 0rem 0 0;
   width: 100%;
   /* background-color: #ccc; */
-  border-bottom: 1px solid #d4d4d4;
+  /* border-bottom: 1px solid #d4d4d4; */
 }
 
 .Products-main {
@@ -22,7 +22,7 @@
 .Products-categories {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .Products-categories-card {

@@ -59,8 +59,10 @@ const Subcategory = () => {
                                 <div className='Subcategory-box'>
 
                                     <div className='Subcategory-right'>
-                                        <img src={subcategory.brand} alt="" />
-                                        {/* <h1>{subcategory.title}</h1> */}
+                                        <div className="subcategory-title">
+                                            <img src={subcategory.brand} alt="" />
+                                            <h1>{subcategory.subcategory}</h1>
+                                        </div>
                                         <h2>{subcategory.title}</h2>
                                         <p>{subcategory.description}</p>
                                         <div className="Subcategory-details">
@@ -73,6 +75,7 @@ const Subcategory = () => {
                         </div>
                         <div className="Subcategory-products">
                             <div className="Subcategory-products-box">
+                                <span>{subcategory.subcategory} products</span>
                                 <h3>Products</h3>
                                 <div className="subcategory-categories">
                                     {subcategory.Products.map((i) => (
@@ -83,7 +86,8 @@ const Subcategory = () => {
                                                 <img src={i.cover} alt="" />
                                                 <div className="Subcategory-card-detail">
                                                     <h2>{i.title}</h2>
-                                                    {/* <p>{i.description}</p> */}
+                                                    <p> {i.description.split(' ').slice(0, 18).join(' ')}
+                                                        {i.description.split(' ').length > 18 && '...'}</p>
                                                     <div className="subcategory-btn">
                                                         <p>view detail</p>
                                                     </div>

@@ -2,7 +2,6 @@
   margin-top: 40px;
   padding: 3rem 0rem 0 0;
   width: 100%;
-  border-bottom: 1px solid #cecece;
 }
 
 .Subcategory-banner img {
@@ -22,7 +21,7 @@
 .Subcategory-products {
   background-color: #f1f1f1;
   margin-top: 3rem;
-  padding: 2rem 0 6rem 0;
+  padding: 3rem 0 6rem 0;
 }
 
 .Subcategory-products-box {
@@ -31,6 +30,13 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
+}
+
+.Subcategory-products-box span {
+  color: #f0800f;
+  margin-bottom: 1rem;
+  font-size: 18x;
 }
 
 .Subcategory-box {
@@ -47,18 +53,25 @@
   width: 100%;
   margin-top: 2rem;
 }
-.Subcategory-right h1 {
-  /* font-size: 30px; */
-  margin-bottom: 1rem;
-}
+
 .Subcategory-right h2 {
   font-size: 20px;
   margin-bottom: 1rem;
 }
-.Subcategory-right img {
-  width: 20%;
+
+.subcategory-title {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.subcategory-title h1 {
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+.subcategory-title img {
+  width: 10%;
   object-fit: cover;
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 
 .Subcategory-details {
@@ -76,7 +89,8 @@
 
 .Subcategory-products h3 {
   text-align: center;
-  margin: 0rem 0 2rem 0;
+  margin: 0rem 0 3rem 0;
+  font-size: 35px;
 }
 
 .Subcategory-categories-card {
@@ -114,7 +128,7 @@
   z-index: 2;
 }
 .Subcategory-card-detail h2 {
-  font-size: 26px;
+  font-size: 25px !important;
 }
 .Subcategory-card-detail p {
   font-size: 16px;
