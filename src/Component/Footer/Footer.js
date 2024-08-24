@@ -79,7 +79,10 @@ const Footer = () => {
                                     <Link to='tel: +918800913399'>8800913399</Link>
                                 </li>
                                 <li>
-                                    <Link to='mailto: pukhya123@gmail.com'>pukhya123@gmail.com</Link>
+                                    <Link to='mailto: info@pukhya.com'>info@pukhya.com</Link>
+                                </li>
+                                <li>
+                                    <Link to='mailto: pritam@pukhya.com'>pritam@pukhya.com</Link>
                                 </li>
                             </ul>
                             <div className="footer-social-media">

@@ -4,12 +4,12 @@ const BannerItem = [
     {
         id: 1,
         title: "Cognitive Therepy",
-        cover: require("../../Assets/Banner/BannerItem/Cognitive.webp")
+        cover: require("../../Assets/Banner/BannerItem/cognitive.jpg")
     },
     {
         id: 2,
         title: "Motion capture technology",
-        cover: require("../../Assets/Banner/BannerItem/Motion.jpg")
+        cover: require("../../Assets/Banner/BannerItem/Motion capture technology.jpg")
     },
     {
         id: 3,

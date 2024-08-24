@@ -14,7 +14,7 @@ const HCategory = () => {
         <div className='HCategory'>
             <div className='HCategory-main'>
                 <div className="HCategory-head">
-                    <h2>RESEARCH & SPORTS MEDICINE</h2>
+                    <h2>SPORTS MEDICINE & RESEARCH </h2>
                     <p>Critical care to mobile health, BPL is the preferred choice for total solutions across specialties.</p>
                 </div>
                 <div className='HCategory-box'>

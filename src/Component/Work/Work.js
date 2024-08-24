@@ -2,7 +2,7 @@ import React from 'react'
 import "./Work.css"
 import box1 from "../../Assets/Work/work1.jpg"
 import box2 from "../../Assets/Work/work2.jpg"
-import box3 from "../../Assets/Work/work3.jpg"
+import box3 from "../../Assets/Work/work3.jpeg"
 
 const Work = () => {
     return (
