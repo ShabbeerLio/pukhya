@@ -32,7 +32,11 @@
   position: relative;
   text-decoration: none;
   font-weight: 400 !important;
-  color: black !important;
+  color: black;
+}
+.category-right-product a:hover {
+  background-color: #2c82ad;
+  color: white !important;
 }
 
 .categorydown {
@@ -81,7 +85,8 @@
 
 .categorydown.active .categorydown-left {
   font-weight: 500;
-  background-color: #f0f0f0;
+  background-color: #2c82ad;
+  color: white !important;
 }
 
 .category-right-product .accordion-button {

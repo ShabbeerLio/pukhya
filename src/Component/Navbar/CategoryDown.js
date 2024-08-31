@@ -28,11 +28,11 @@ const CategoryDown = () => {
                 onMouseEnter={() => setActiveCategory(null)}
             >
                 <Link className='categorydown-left'>
-                    All Products
+                    All Category
                 </Link>
                 <div className='categorydown-right all-products'>
                     <h5><Link >
-                        All Products
+                        All Category
                     </Link></h5>
                     <div className='category-right-product' >
                         {allSubcategories.map((subItem, index) => (

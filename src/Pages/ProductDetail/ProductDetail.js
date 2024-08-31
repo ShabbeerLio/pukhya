@@ -5,10 +5,14 @@ import CategoriesData from '../Products/CategoriesData';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, } from 'swiper/modules';
 import { FaBacteria } from "react-icons/fa6";
+import { CiMedicalCross } from "react-icons/ci";
+import { LuSunMedium } from "react-icons/lu";
+import { CiMedicalMask } from "react-icons/ci";
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import ProductHighlight from './ProductHighlight';
 
 const ProductDetail = () => {
     const { pathName } = useParams();
@@ -57,74 +61,77 @@ const ProductDetail = () => {
                 </div>
             ) : (
                 product && (
-                    <div className='ProductDetail-main'>
-                        <div className='ProductDetail-card'>
-                            <div className='ProductDetail-box'>
-                                <div className='ProductDetail-left'>
-                                    <img src={product.cover} alt={product.title} />
+                    <>
+                        <ProductHighlight data={product} />
+                        <div className='ProductDetail-main'>
+                            <div className='ProductDetail-card'>
+                                <div className='ProductDetail-box'>
+                                    <div className='ProductDetail-left'>
+                                        <img src={product.cover} alt={product.title} />
+                                    </div>
+                                    <div className='ProductDetail-right'>
+                                        <h2>{product.title}</h2>
+                                        <p>{product.description}Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor soluta repudiandae natus praesentium dolorem labore ut est, voluptate impedit, cum temporibus, odio libero cupiditate sunt consequatur ipsum aliquid! Iure veniam placeat ullam, dolor, deleniti tenetur explicabo possimus provident deserunt, aut dicta id.</p>
+                                    </div>
                                 </div>
-                                <div className='ProductDetail-right'>
-                                    <h2>{product.title}</h2>
-                                    <p>{product.description}Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor soluta repudiandae natus praesentium dolorem labore ut est, voluptate impedit, cum temporibus, odio libero cupiditate sunt consequatur ipsum aliquid! Iure veniam placeat ullam, dolor, deleniti tenetur explicabo possimus provident deserunt, aut dicta id.</p>
-                                </div>
-                            </div>
-                            <div className="productDetail-details">
-                                <h4>Applications for motion capture technology</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor soluta repudiandae natus praesentium dolorem labore ut est, voluptate impedit, cum temporibus, odio libero cupiditate sunt consequatur ipsum aliquid! Iure veniam placeat ullam, dolor, deleniti tenetur explicabo possimus provident deserunt, aut dicta id. Aliquam temporibus error dolore provident inventore ipsam autem at obcaecati. Ipsa perferendis quod animi. Numquam ab doloremque voluptates sunt expedita at voluptate consequuntur fugiat quod. Id alias voluptatum suscipit, quaerat corrupti, consequatur accusantium natus tempore magnam odit dolorum distinctio autem, eius repudiandae sed vel fugiat quibusdam explicabo velit earum voluptas.</p>
-                                <div className="productDetail-details-box">
-                                    <h3>{product.title} at a glance</h3>
-                                    <div className="productDetail-box-features">
-                                        <div className="productDetail-box-features-left">
-                                            <h4>Facts about Arjo</h4>
-                                            <div className="productDetail-features-box">
-                                                <ul>
-                                                    <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                    <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                    <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                    <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                    <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                    <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                </ul>
+                                <div className="productDetail-details">
+                                    <h4>Applications for motion capture technology</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor soluta repudiandae natus praesentium dolorem labore ut est, voluptate impedit, cum temporibus, odio libero cupiditate sunt consequatur ipsum aliquid! Iure veniam placeat ullam, dolor, deleniti tenetur explicabo possimus provident deserunt, aut dicta id. Aliquam temporibus error dolore provident inventore ipsam autem at obcaecati. Ipsa perferendis quod animi. Numquam ab doloremque voluptates sunt expedita at voluptate consequuntur fugiat quod. Id alias voluptatum suscipit, quaerat corrupti, consequatur accusantium natus tempore magnam odit dolorum distinctio autem, eius repudiandae sed vel fugiat quibusdam explicabo velit earum voluptas.</p>
+                                    <div className="productDetail-details-box">
+                                        <h3>{product.title} at a glance</h3>
+                                        <div className="productDetail-box-features">
+                                            <div className="productDetail-box-features-left">
+                                                <h4>Facts about Arjo</h4>
+                                                <div className="productDetail-features-box">
+                                                    <ul>
+                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div className="productDetail-box-features-right">
-                                            <h4>We ensure value by</h4>
-                                            <div className="productDetail-features-box-right">
-                                                <div className="productDetail-features-box-card">
-                                                    <FaBacteria/>
-                                                    <h5>Lorem, ipsum.</h5>
-                                                </div>
-                                                <div className="productDetail-features-box-card">
-                                                    <FaBacteria/>
-                                                    <h5>Lorem, ipsum.</h5>
-                                                </div>
-                                                <div className="productDetail-features-box-card">
-                                                    <FaBacteria/>
-                                                    <h5>Lorem, ipsum.</h5>
-                                                </div>
-                                                <div className="productDetail-features-box-card">
-                                                    <FaBacteria/>
-                                                    <h5>Lorem, ipsum.</h5>
+                                            <div className="productDetail-box-features-right">
+                                                <h4>We ensure value by</h4>
+                                                <div className="productDetail-features-box-right">
+                                                    <div className="productDetail-features-box-card">
+                                                        <CiMedicalCross />
+                                                        <h5>Lorem, ipsum.</h5>
+                                                    </div>
+                                                    <div className="productDetail-features-box-card">
+                                                        <LuSunMedium />
+                                                        <h5>Lorem, ipsum.</h5>
+                                                    </div>
+                                                    <div className="productDetail-features-box-card">
+                                                        <CiMedicalMask />
+                                                        <h5>Lorem, ipsum.</h5>
+                                                    </div>
+                                                    <div className="productDetail-features-box-card">
+                                                        <FaBacteria />
+                                                        <h5>Lorem, ipsum.</h5>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="productDetail-highlights">
-                                    <div className="productDetail-highlights-left">
-                                        <img src={product.cover} alt="" />
-                                    </div>
-                                    <div className="productDetail-highlights-right">
-                                        <h3>Introducing MyArjo: Your portal to Arjo tools and services</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis incidunt, necessitatibus molestias temporibus id et molestiae labore, est illo nam vero culpa doloribus, maiores quidem dignissimos amet quis unde.</p>
-                                        <div className="productDetail-link">
-                                            <Link to={"https://www.qualisys.com/"}>Visit the Company Website :- qualisys.com</Link>
+                                    <div className="productDetail-highlights">
+                                        <div className="productDetail-highlights-left">
+                                            <img src={product.coverfet} alt="" />
+                                        </div>
+                                        <div className="productDetail-highlights-right">
+                                            <h3>Introducing MyArjo: Your portal to Arjo tools and services</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis incidunt, necessitatibus molestias temporibus id et molestiae labore, est illo nam vero culpa doloribus, maiores quidem dignissimos amet quis unde.</p>
+                                            <div className="productDetail-link">
+                                                <Link to={"https://www.qualisys.com/"}>Visit the Company Website :- qualisys.com</Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </>
                 )
             )}
 

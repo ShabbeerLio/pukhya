@@ -20,43 +20,120 @@ const CategoriesData = [
                         id: 1,
                         title: "Biofeedback",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Neurofeedback",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 3,
                         title: "Heart Rate Variability",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 4,
                         title: "Muscle Rehabilitation",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 5,
                         title: "Peak Performance",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 6,
                         title: "Research",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 7,
                         title: "Training",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -75,13 +152,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -100,13 +199,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -125,13 +246,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -158,14 +301,36 @@ const CategoriesData = [
                     {
                         id: 1,
                         title: "Miqus",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        cover: require("../../Assets/Products/miqus.jpg"),
+                        coverfet: require("../../Assets/Products/miqusfet.jpg"),
                         description: "Motion capture for life science , engg , entrainment ,Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eaque, praesentium voluptate perspiciatis in distinctio fugiat saepe cumque, et eum temporibus beatae reprehenderit quia rerum tempora voluptas quos sapiente magni!",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/Miqus1.webp"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/Miqus2.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Arqus",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
+                        cover: require("../../Assets/Products/arqus.jpg"),
+                        coverfet: require("../../Assets/Products/arqusfet.jpg"),
                         description: "Motion capture for life science , engg , entrainment ,Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eaque, praesentium voluptate perspiciatis in distinctio fugiat saepe cumque, et eum temporibus beatae reprehenderit quia rerum tempora voluptas quos sapiente magni!",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/Arqus1.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/Arqus2.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -184,49 +349,137 @@ const CategoriesData = [
                         id: 1,
                         title: "Tringo Avanti",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Tringo Galileo",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 3,
                         title: "Tringo Maze",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 4,
                         title: "Tringo mini",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 5,
                         title: "Tringo Duo",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 6,
                         title: "Tringo Quattro",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 7,
                         title: "Goniometer",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 8,
                         title: "Force sensor",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
                         description: "this is description",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -245,13 +498,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -270,37 +545,103 @@ const CategoriesData = [
                         id: 1,
                         title: "ERGOMASTER",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
                         description: "Ergonomics and human modeling ",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "ERGOINTELLIGENCE",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
                         description: "Ergonomics and human modeling ",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 3,
                         title: "MVTA(Multimedia video task analysis)",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
                         description: "Ergonomics and human modeling ",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 4,
                         title: "Human Modeling(Anybody modeling system)",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
                         description: "Ergonomics and human modeling ",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 5,
                         title: "AnyBody AnyGait",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
                         description: "Ergonomics and human modeling ",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 6,
                         title: "VATS(Vibration analysis toolset)",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2023/07/Smarteye.jpg",
                         description: "Ergonomics and human modeling ",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -327,13 +668,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -352,13 +715,34 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -377,13 +761,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -410,13 +816,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -435,13 +863,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -460,13 +910,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
@@ -485,13 +957,35 @@ const CategoriesData = [
                         id: 1,
                         title: "Force Plate",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
                         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
+                        highlights :[
+                            {
+                                id:1,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id:2,
+                                cover:require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
                     },
                 ]
             },
