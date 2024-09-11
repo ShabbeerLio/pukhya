@@ -4,6 +4,11 @@ import Highlights from '../../Component/Highlights/Highlights'
 import ProductCard from '../../Component/ProductCard/ProductCard'
 import CategoriesData from './CategoriesData'
 import { Link } from 'react-router-dom'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation, } from 'swiper/modules';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 const Products = (props) => {
 
@@ -46,7 +51,51 @@ const Products = (props) => {
             <div className='Products-box2'>
                 <h3>All Categories</h3>
                 <div className="Products-categories">
-                    {CategoriesData.map((item) => (
+                    <Swiper
+                        className="mySwiper"
+                        slidesPerView={4}
+                        spaceBetween={20}
+                        loop={true}
+                        speed={1000}
+                        navigation={true}
+                        modules={[Autoplay, Navigation]}
+                        breakpoints={{
+                            // when window width is >= 320px
+                            320: {
+                                slidesPerView: 1,
+                                spaceBetween: 10,
+                            },
+                            // when window width is >= 480px
+                            480: {
+                                slidesPerView: 2,
+                                spaceBetween: 15,
+                            },
+                            // when window width is >= 768px
+                            768: {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                            // when window width is >= 1024px
+                            1024: {
+                                slidesPerView: 4,
+                                spaceBetween: 20,
+                            },
+                        }}
+                    >
+                        {CategoriesData.map((item) => (
+                            <SwiperSlide key={item.id}>
+                                <Link to={{
+                                    pathname: `/${formatPathname(item.link)}/`
+                                }} onClick={scrollToTop} key={item.id}>
+                                    <div className="Products-categories-card" >
+                                        <img src={item.cover} alt="" />
+                                        <h2>{item.Category}</h2>
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                    {/* {CategoriesData.map((item) => (
                         <Link to={{
                             pathname: `/${formatPathname(item.link)}/`
                         }} onClick={scrollToTop} key={item.id}>
@@ -55,7 +104,7 @@ const Products = (props) => {
                                 <h2>{item.Category}</h2>
                             </div>
                         </Link>
-                    ))}
+                    ))} */}
                 </div>
             </div>
         </div>

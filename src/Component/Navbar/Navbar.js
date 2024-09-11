@@ -139,10 +139,10 @@ const Navbar = (props) => {
                                                 to="/pukhya/about"
                                                 onClick={() => closeMenu('/pukhya/about')}
                                             >
-                                                About
+                                                About Us
                                             </Link>
                                         </li>
-                                        <li className="nav-item dropdown">
+                                        {/* <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle"
                                                 to="#" id="navbarDropdown"
                                                 role="button"
@@ -158,18 +158,32 @@ const Navbar = (props) => {
                                                 <li><Link className={`dropdown-item ${activeLink === '/phychology' ? 'active' : ''}`} to="/phychology" onClick={() => closeMenu('/phychology')}> <RiArrowDropDownLine />Phychology</Link></li>
                                                 <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}> <RiArrowDropDownLine />Scientific Gym</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle"
                                                 to="#" id="navbarDropdown"
                                                 role="button"
                                                 data-bs-toggle="dropdown"
                                                 aria-expanded="false">
-                                                Products
+                                                Our Products
                                             </Link>
                                             <ul className="dropdown-menu category" aria-labelledby="navbarDropdown">
                                                 <CategoryDown activeLink={activeLink} closeMenu={closeMenu} />
                                             </ul>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link
+                                                className={`nav-link ${activeLink === '/pukhya/contact' ? 'active' : ''}`}
+                                                to="/pukhya/contact"
+                                                onClick={() => closeMenu('/pukhya/contact')}
+                                            >Associated Brands</Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link
+                                                className={`nav-link ${activeLink === '/pukhya/contact' ? 'active' : ''}`}
+                                                to="/pukhya/contact"
+                                                onClick={() => closeMenu('/pukhya/contact')}
+                                            >Gallery</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link

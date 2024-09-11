@@ -6,10 +6,16 @@ import "./CategoryDown.css";
 const CategoryDown = () => {
 
     const [activeCategory, setActiveCategory] = useState(null);
+    const [activeSubCategory, setActiveSubCategory] = useState(null);
+
     const allSubcategories = CategoriesData.reduce((acc, category) => {
         return [...acc, ...category.subcategories];
     }, []);
+    const allProducts = allSubcategories.reduce((acc, subcategories) => {
+        return [...acc, ...subcategories.Products];
+    }, []);
 
+    console.log(allProducts, "allProducts")
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -28,18 +34,36 @@ const CategoryDown = () => {
                 onMouseEnter={() => setActiveCategory(null)}
             >
                 <Link className='categorydown-left'>
-                    All Category
+                    All Products
                 </Link>
-                <div className='categorydown-right all-products'>
+                <div className='categorydown-right all-brands'>
                     <h5><Link >
-                        All Category
+                        All Brands
                     </Link></h5>
                     <div className='category-right-product' >
                         {allSubcategories.map((subItem, index) => (
+                            <>
+                                <Link
+                                    onMouseEnter={() => setActiveCategory(null)}
+                                    to={{
+                                        pathname: `/pukhya/${formatPathname(subItem.subcategory)}/`
+                                    }} onClick={scrollToTop} key={subItem.id}>
+                                    {subItem.subcategory}
+                                </Link>
+                            </>
+                        ))}
+                    </div>
+                </div>
+                <div className='categorydown-right all-products'>
+                    <h5><Link >
+                        All Products
+                    </Link></h5>
+                    <div className='category-right-product' >
+                        {allProducts.map((subItem, index) => (
                             <Link to={{
-                                pathname: `/pukhya/${formatPathname(subItem.subcategory)}/`
+                                pathname: `/pukhya/${formatPathname(subItem.title)}/`
                             }} onClick={scrollToTop} key={subItem.id}>
-                                {subItem.subcategory}
+                                {subItem.title}
                             </Link>
                         ))}
                     </div>
@@ -64,11 +88,33 @@ const CategoryDown = () => {
                                 {item.subcategories.map((subItem, subIndex) => (
                                     <>
                                         <Link
+                                            className={`categorydown ${activeCategory === item ? 'active' : ''}`}
+                                            onMouseEnter={() => setActiveSubCategory(subItem)}
                                             to={{
                                                 pathname: `/pukhya/${formatPathname(subItem.subcategory)}/`
                                             }} onClick={scrollToTop} key={subIndex}>
                                             {subItem.subcategory}
                                         </Link>
+                                        {activeSubCategory === subItem && (
+                                            <div className='categorydown-right-products'>
+                                                <h5><Link to={subItem.link}>
+                                                    {subItem.subcategory}
+                                                </Link></h5>
+
+                                                <div className='category-product' >
+                                                    {subItem.Products.map((products, subIndex) => (
+                                                        <>
+                                                            <Link
+                                                                to={{
+                                                                    pathname: `/pukhya/productdetail/${formatPathname(products.title)}/`
+                                                                }} onClick={scrollToTop} key={subIndex}>
+                                                                {products.title}
+                                                            </Link>
+                                                        </>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        )}
                                     </>
                                 ))}
                             </div>

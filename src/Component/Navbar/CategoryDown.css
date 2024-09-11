@@ -1,6 +1,6 @@
 .dropdown-menu.category {
   width: 850px;
-  left: -450%;
+  left: -200%;
 }
 .dropdown-menu.category .nav-menu ul li {
   position: none !important;
@@ -11,22 +11,33 @@
   width: 100%;
 }
 .categorydown-left {
-  width: 40%;
+  width: 30%;
   display: flex;
   text-decoration: none;
   border-right: 1px solid rgb(199, 199, 199);
 }
 
 .categorydown-right {
-  width: 60%;
+  width: 70%;
+  overflow: auto;
+}
+.categorydown-right.all-brands{
+  width: 70%;
+  overflow: auto;
+}
+.categorydown-right.all-products{
+  width: 40%;
+  overflow: auto;
 }
 
 .category-right-product {
-  position: relative;
+  width: 100%;
+  /* position: relative; */
   padding: 5px 0px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   background: #fff;
+  border-left: 1px solid #a5a5a5;
 }
 .category-right-product a {
   position: relative;
@@ -37,6 +48,26 @@
 .category-right-product a:hover {
   background-color: #2c82ad;
   color: white !important;
+}
+
+.categorydown-products {
+  width: 50%;
+}
+.categorydown-products {
+  z-index: 9;
+  height: 100%;
+  display: none;
+  position: absolute;
+  right: 0%;
+  top: 0;
+  list-style: none;
+  background: #fff;
+  padding-top: 10px;
+  border-left: 1px solid gray;
+}
+
+.categorydown.active .categorydown-products {
+  display: block;
 }
 
 .categorydown {
@@ -81,6 +112,33 @@
 .categorydown.active .categorydown-right {
   display: block;
   grid-template-columns: repeat(2, 1fr);
+}
+
+/*  */
+.categorydown-right-products {
+  width: 60%;
+  overflow: auto;
+  border-left: 1px solid #a5a5a5;
+}
+.categorydown-right-products {
+  z-index: 9;
+  height: 100%;
+  display: none;
+  position: absolute;
+  right: 0%;
+  top: 0;
+  list-style: none;
+  background: #fff;
+  padding-top: 10px;
+}
+.categorydown.active .categorydown-right-products {
+  display: block;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.category-product{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
 }
 
 .categorydown.active .categorydown-left {

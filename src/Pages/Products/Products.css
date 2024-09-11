@@ -19,11 +19,11 @@
   margin: 4rem 0;
 }
 
-.Products-categories {
+/* .Products-categories {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-}
+} */
 
 .Products-categories-card {
   position: relative;
