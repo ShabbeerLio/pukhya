@@ -4,14 +4,14 @@ const HighlightData = [
         title: "CAPTIV SOFTWARE AND WIRELESS SENSORS",
         description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-        brand: "https://www.eyemotion.in/wp-content/uploads/2021/02/Qualisys-Logo.jpg",
+        brand: "https://acrm.org/wp-content/uploads/2021/03/logo-bertec-1.png",
     },
     {
         id: 2,
         title: "PRECISION MOTION CAPTURE AND 3D POSITIONING TRACKING SYSTEM",
         description: "The Swedish motion capture company.",
         cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-        brand: "https://acrm.org/wp-content/uploads/2021/03/logo-bertec-1.png",
+        brand: "https://www.eyemotion.in/wp-content/uploads/2021/02/Qualisys-Logo.jpg",
     },
     {
         id: 3,

@@ -129,9 +129,9 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
-                backcolor: "#00002d",
+                cover: require("../../Assets/Products/Psychology/neurotracker.jpg"),
+                brand: require("../../Assets/Products/Psychology/neurtrakerlogo.png"),
+                backcolor: "#5948be",
                 Products: [
                     {
                         id: 1,
@@ -177,7 +177,7 @@ const CategoriesData = [
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
                 cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
+                brand: require("../../Assets/Products/Psychology/hasomedlogo.png"),
                 backcolor: "#00002d",
                 Products: [
                     {
@@ -199,36 +199,6 @@ const CategoriesData = [
                     },
                 ]
             },
-            // {
-            //     id: 4,
-            //     subcategory: "Cognitive System",
-            //     title: "We help people measure and analyze motion",
-            //     subtitle: "Applications for motion capture technology",
-            //     subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
-            //     description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
-            //     cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-            //     brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
-            //     backcolor: "#00002d",
-            //     Products: [
-            //         {
-            //             id: 1,
-            //             title: "Rheacom(SOFTWARE: Screening , Training, Results) ",
-            //             cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-            //             coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-            //             description: "Gait balance and performance analysis",
-            //             highlights: [
-            //                 {
-            //                     id: 1,
-            //                     cover: require("../../Assets/Products/miqus.jpg"),
-            //                 },
-            //                 {
-            //                     id: 2,
-            //                     cover: require("../../Assets/Products/miqus.jpg"),
-            //                 },
-            //             ],
-            //         },
-            //     ]
-            // },
             {
                 id: 5,
                 subcategory: "NeuroCare Group",
@@ -236,8 +206,8 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
+                cover: require("../../Assets/Products/Psychology/neurocare.webp"),
+                brand: require("../../Assets/Products/Psychology/neurocarelogo.png"),
                 backcolor: "#00002d",
                 Products: [
                     {
@@ -318,7 +288,7 @@ const CategoriesData = [
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
                 cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
+                brand: require("../../Assets/Products/Psychology/Ergoneerslogo.png"),
                 backcolor: "#00002d",
                 Products: [
                     {
@@ -358,20 +328,20 @@ const CategoriesData = [
                 ]
             },
             {
-                id: 7,
+                id: 18,
                 subcategory: "Sports vision training",
                 title: "We help people measure and analyze motion",
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
-                backcolor: "#00002d",
+                cover: require("../../Assets/Products/Psychology/svt.gif"),                
+                brand: require("../../Assets/Products/Psychology/svtlogo.png"),
+                backcolor: "#6393be",
                 Products: [
                     {
                         id: 1,
-                        title: "32 light Sports ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        title: "32 light Sports Vision Trainer ",
+                        cover: require("../../Assets/Products/Psychology/Products/svt32.jpg"),                
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -387,8 +357,25 @@ const CategoriesData = [
                     },
                     {
                         id: 2,
-                        title: "Vision Trainer ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        title: "64 light Sports Vision Trainer ",
+                        cover: require("../../Assets/Products/Psychology/Products/svt32.jpg"),                
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        description: "Gait balance and performance analysis",
+                        highlights: [
+                            {
+                                id: 1,
+                                cover: require("../../Assets/Products/miqus.jpg"),
+                            },
+                            {
+                                id: 2,
+                                cover: require("../../Assets/Products/miqus.jpg"),
+                            },
+                        ],
+                    },
+                    {
+                        id: 3,
+                        title: "80 light Sports Vision Trainer ",
+                        cover: require("../../Assets/Products/Psychology/Products/svt80.jpg"),                
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -420,8 +407,8 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "Our optical tracking technology, also known as optical motion capture, makes it possible to measure the position of very fast moving objects with extremely high accuracy. Indoor, outdoor, ground-to-air or underwater – no matter what condition, we have your solution. The technology consists of motion capture cameras, software and other hardware, designed and produced by our team of experienced engineers.",
-                cover: "https://cdn-content.qualisys.com/2021/07/D2A4465-sv_crop.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2021/02/Qualisys-Logo.jpg",
+                cover: require("../../Assets/Products/Biomechanics/qualisys.jpg"),
+                brand: require("../../Assets/Products/Biomechanics/Qualisys-Logo.jpg"),
                 backcolor: "#a73b2c",
                 Products: [
                     {
@@ -501,16 +488,16 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
-                backcolor: "#00002d",
+                cover: require("../../Assets/Products/Biomechanics/delsys.jpg"),
+                brand: require("../../Assets/Products/Biomechanics/Delsyslogo.png"),
+                backcolor: "#0a0a0a",
                 Products: [
                     {
                         id: 1,
                         title: "4-channel EMG & IMU Sensor ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                        description: "this is description",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/4-channel EMG & IMU Sensor.png"),
+                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        description: "Gait balance and performance analysis",
                         highlights: [
                             {
                                 id: 1,
@@ -531,14 +518,14 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "The Swedish motion capture company.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-                brand: "https://acrm.org/wp-content/uploads/2021/03/logo-bertec-1.png",
+                cover: require("../../Assets/Products/Biomechanics/bertec.webp"),
+                brand: require("../../Assets/Products/Biomechanics/berteclogo.png"),
                 backcolor: "grey",
                 Products: [
                     {
                         id: 1,
                         title: "Bertec Force Plate",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/force-plate.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -555,7 +542,7 @@ const CategoriesData = [
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/trademill.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -572,7 +559,7 @@ const CategoriesData = [
                     {
                         id: 3,
                         title: "Computerized Dynamic Posturography",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/Posturography.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -605,9 +592,9 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
-                backcolor: "#00002d",
+                cover: require("../../Assets/Products/Physiology/moxymonitor.jpg"),
+                brand: require("../../Assets/Products/Physiology/moxy-logo.webp"),
+                backcolor: "#AEAAA0",
                 Products: [
                     {
                         id: 1,
@@ -635,9 +622,9 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "The Swedish motion capture company.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-                brand: "https://acrm.org/wp-content/uploads/2021/03/logo-bertec-1.png",
-                backcolor: "grey",
+                cover: require("../../Assets/Products/Physiology/mes.jpg"),
+                brand: require("../../Assets/Products/Physiology/meslogo.gif"),
+                backcolor: "#5fc1d2",
                 Products: [
                     {
                         id: 1,
@@ -707,10 +694,10 @@ const CategoriesData = [
                 title: "We help people measure and analyze motion",
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
-                description: "Our optical tracking technology, also known as optical motion capture, makes it possible to measure the position of very fast moving objects with extremely high accuracy. Indoor, outdoor, ground-to-air or underwater – no matter what condition, we have your solution. The technology consists of motion capture cameras, software and other hardware, designed and produced by our team of experienced engineers.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2021/02/Qualisys-Logo.jpg",
-                backcolor: "#a73b2c",
+                description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
+                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
+                brand: require("../../Assets/Products/Psychology/Ergoneerslogo.png"),
+                backcolor: "#00002d",
                 Products: [
                     {
                         id: 1,
@@ -756,7 +743,7 @@ const CategoriesData = [
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
                 cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
+                brand: require("../../Assets/Products/Ergonomics/nexgenlogo.png"),
                 backcolor: "#00002d",
                 Products: [
                     {
@@ -878,14 +865,14 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "The Swedish motion capture company.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-                brand: "https://acrm.org/wp-content/uploads/2021/03/logo-bertec-1.png",
+                cover: require("../../Assets/Products/Biomechanics/bertec.webp"),
+                brand: require("../../Assets/Products/Biomechanics/berteclogo.png"),
                 backcolor: "grey",
                 Products: [
                     {
                         id: 1,
                         title: "Bertec Force Plate",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/force-plate.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -902,7 +889,7 @@ const CategoriesData = [
                     {
                         id: 2,
                         title: "Instrumented Treadmill",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/trademill.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -919,7 +906,7 @@ const CategoriesData = [
                     {
                         id: 3,
                         title: "Computerized Dynamic Posturography",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/Posturography.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -942,8 +929,8 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/Tea-banner-1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2023/08/Delsys-1.png",
+                cover: require("../../Assets/Products/SportsScience/catapult.jpg"),
+                brand: require("../../Assets/Products/SportsScience/catapult-logo.jpeg"),
                 backcolor: "#00002d",
                 Products: [
                     {
@@ -972,14 +959,14 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "The Swedish motion capture company.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-                brand: "https://acrm.org/wp-content/uploads/2021/03/logo-bertec-1.png",
-                backcolor: "grey",
+                cover: require("../../Assets/Products/SportsScience/Hawkins Dynmics.webp"),
+                brand: require("../../Assets/Products/SportsScience/Hawkinslogo.png"),
+                backcolor: "#b66c6c",
                 Products: [
                     {
                         id: 1,
                         title: "Portable force plate and isometric rack ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover: require("../../Assets/Products/SportsScience/Products/plates.webp"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -997,14 +984,14 @@ const CategoriesData = [
             },
             {
                 id: 18,
-                subcategory: "SVT",
+                subcategory: "Sports vision training",
                 title: "We help people measure and analyze motion",
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
-                description: "The Swedish motion capture company.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
-                brand: "https://acrm.org/wp-content/uploads/2021/03/logo-bertec-1.png",
-                backcolor: "grey",
+                description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
+                cover: require("../../Assets/Products/Psychology/svt.gif"),                
+                brand: require("../../Assets/Products/Psychology/svtlogo.png"),
+                backcolor: "#6393be",
                 Products: [
                     {
                         id: 1,
@@ -1065,15 +1052,15 @@ const CategoriesData = [
                 title: "We help people measure and analyze motion",
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
-                description: "Our optical tracking technology, also known as optical motion capture, makes it possible to measure the position of very fast moving objects with extremely high accuracy. Indoor, outdoor, ground-to-air or underwater – no matter what condition, we have your solution. The technology consists of motion capture cameras, software and other hardware, designed and produced by our team of experienced engineers.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2021/02/Qualisys-Logo.jpg",
-                backcolor: "#a73b2c",
+                description: "Our optical tracking technology, also known as optical motion capture, makes it possible to measure the position of very fast moving objects with extremely high accuracy. Indoor, outdoor, ground-to-air or underwater – no matter what condition, we have your solution. ",
+                cover: require("../../Assets/Products/SportsScience/fft.jpg"),                
+                brand: require("../../Assets/Products/SportsScience/FTT-Logo.png"),
+                backcolor: "#6C584A",
                 Products: [
                     {
                         id: 1,
                         title: "Isokinetic MED ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/SportsScience/Products/med.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1090,7 +1077,7 @@ const CategoriesData = [
                     {
                         id: 2,
                         title: "Isokinetic KNEE",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/SportsScience/Products/knee.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1107,7 +1094,7 @@ const CategoriesData = [
                     {
                         id: 3,
                         title: "Isokinetic Squat ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/SportsScience/Products/SQUAt.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1124,7 +1111,7 @@ const CategoriesData = [
                     {
                         id: 4,
                         title: "Isokinetic HIP",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/SportsScience/Products/hip.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1141,7 +1128,7 @@ const CategoriesData = [
                     {
                         id: 5,
                         title: "Isokinetic JUMP SQUAT",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/SportsScience/Products/JUMP-Squat.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1173,14 +1160,14 @@ const CategoriesData = [
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
                 description: "Our optical tracking technology, also known as optical motion capture, makes it possible to measure the position of very fast moving objects with extremely high accuracy. Indoor, outdoor, ground-to-air or underwater – no matter what condition, we have your solution. The technology consists of motion capture cameras, software and other hardware, designed and produced by our team of experienced engineers.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2021/02/Qualisys-Logo.jpg",
-                backcolor: "#a73b2c",
+                cover: require("../../Assets/Products/Strength/medilogic.jpg"),                
+                brand: require("../../Assets/Products/Strength/medilogic_logo.png"),
+                backcolor: "#926b3e",
                 Products: [
                     {
                         id: 1,
                         title: "Pressure Measuring Platform NX (WLAN) ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Strength/Products/pressuremessuring.png"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1197,7 +1184,7 @@ const CategoriesData = [
                     {
                         id: 2,
                         title: "medilogic WLAN insole ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Strength/Products/WLAN.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1214,7 +1201,7 @@ const CategoriesData = [
                     {
                         id: 3,
                         title: "Foot scanner  ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Strength/Products/footscanner.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
@@ -1244,15 +1231,15 @@ const CategoriesData = [
                 title: "We help people measure and analyze motion",
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
-                description: "Our optical tracking technology, also known as optical motion capture, makes it possible to measure the position of very fast moving objects with extremely high accuracy. Indoor, outdoor, ground-to-air or underwater – no matter what condition, we have your solution. The technology consists of motion capture cameras, software and other hardware, designed and produced by our team of experienced engineers.",
-                cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                brand: "https://www.eyemotion.in/wp-content/uploads/2021/02/Qualisys-Logo.jpg",
-                backcolor: "#a73b2c",
+                description: "World leader in human measurement in complex and real environments for over 30 years, TEA innovates for the well-being of humans with agile solutions and services.",
+                cover: require("../../Assets/Products/Biomechanics/delsys.jpg"),
+                brand: require("../../Assets/Products/Biomechanics/Delsyslogo.png"),
+                backcolor: "#0a0a0a",
                 Products: [
                     {
                         id: 1,
                         title: "4-channel EMG & IMU Sensor ",
-                        cover: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
+                        cover:  require("../../Assets/Products/Biomechanics/Products/4-channel EMG & IMU Sensor.png"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/banner3-1.jpg",
                         description: "Gait balance and performance analysis",
                         highlights: [
