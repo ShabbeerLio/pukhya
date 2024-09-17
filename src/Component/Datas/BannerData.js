@@ -28,7 +28,7 @@ const BannerData = [
         id: 5,
         title: 'Sports Vision Technology (SVT)',
         heading: 'OVER 10, 000 PRODUCTS & EQUIPMENT OF MINIMALLY ',
-        cover: require("../../Assets/Banner/SpotsVision.jpg"),
+        cover: require("../../Assets/Banner/svt.gif"),
     },
     {
         id: 6,

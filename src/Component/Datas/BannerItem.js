@@ -9,7 +9,7 @@ const BannerItem = [
     {
         id: 2,
         title: "Neurofeedback",
-        cover: require("../../Assets/Banner/BannerItem/Motion capture technology.jpg")
+        cover: require("../../Assets/Banner/BannerItem/neurofeedback.png")
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ const BannerItem = [
     {
         id: 6,
         title: " Motion capture technology",
-        cover: require("../../Assets/Banner/BannerItem/trigno-centro-system.jpg")
+        cover: require("../../Assets/Banner/BannerItem/Motion capture technology.jpg")
     },
 ]
 

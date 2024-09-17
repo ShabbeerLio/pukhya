@@ -79,6 +79,8 @@
   width: 50%;
   border-right: 1px solid rgb(216, 216, 216);
   padding: 2rem 0;
+}
+.productDetail-box-features-left h4 {
   text-align: center;
 }
 .productDetail-box-features-right {
@@ -87,14 +89,14 @@
   text-align: center;
 }
 
-.productDetail-features-box-right{
+.productDetail-features-box-right {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
 }
 
-.productDetail-features-box-card svg{
+.productDetail-features-box-card svg {
   aspect-ratio: 1/1;
   border-radius: 50%;
   width: 80px;
@@ -103,7 +105,7 @@
   padding: 1rem;
 }
 
-.productDetail-features-box{
+.productDetail-features-box {
   margin-top: 2rem;
 }
 

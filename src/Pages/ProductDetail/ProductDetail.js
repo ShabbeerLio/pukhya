@@ -5,9 +5,9 @@ import CategoriesData from '../Products/CategoriesData';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, } from 'swiper/modules';
 import { FaBacteria } from "react-icons/fa6";
-import { CiMedicalCross } from "react-icons/ci";
+import { CiMedicalCross, CiMedicalMask } from "react-icons/ci";
 import { LuSunMedium } from "react-icons/lu";
-import { CiMedicalMask } from "react-icons/ci";
+import { } from "react-icons/ci";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -84,34 +84,23 @@ const ProductDetail = () => {
                                                 <h4>Facts about Arjo</h4>
                                                 <div className="productDetail-features-box">
                                                     <ul>
-                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                                                        <li><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                                                        {product.mainfet.map((i) => (
+                                                            <li>
+                                                                <p>{i.desc}</p>
+                                                            </li>
+                                                        ))}
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="productDetail-box-features-right">
                                                 <h4>We ensure value by</h4>
                                                 <div className="productDetail-features-box-right">
-                                                    <div className="productDetail-features-box-card">
-                                                        <CiMedicalCross />
-                                                        <h5>Lorem, ipsum.</h5>
-                                                    </div>
-                                                    <div className="productDetail-features-box-card">
-                                                        <LuSunMedium />
-                                                        <h5>Lorem, ipsum.</h5>
-                                                    </div>
-                                                    <div className="productDetail-features-box-card">
-                                                        <CiMedicalMask />
-                                                        <h5>Lorem, ipsum.</h5>
-                                                    </div>
-                                                    <div className="productDetail-features-box-card">
-                                                        <FaBacteria />
-                                                        <h5>Lorem, ipsum.</h5>
-                                                    </div>
+                                                    {product.mainhigh.map((i) => (
+                                                        <div className="productDetail-features-box-card">
+                                                            {i.logo}
+                                                            <h5>{i.title}</h5>
+                                                        </div>
+                                                    ))}
                                                 </div>
                                             </div>
                                         </div>

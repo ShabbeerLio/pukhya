@@ -16,18 +16,11 @@ const HCategoryCard = ({ item }) => {
                 <h5>{item.title}</h5>
                 <p>{item.description}</p>
                 <div className="hcategory-card-detail-items">
-                    <div className="hcategory-items-card">
-                        <PiHospitalFill />
-                    </div>
-                    <div className="hcategory-items-card">
-                        <PiHospitalFill />
-                    </div>
-                    <div className="hcategory-items-card">
-                        <PiHospitalFill />
-                    </div>
-                    <div className="hcategory-items-card">
-                        <PiHospitalFill />
-                    </div>
+                    {item.brands.map((i) => (
+                        <div className="hcategory-items-card">
+                            <img src={i.cover} alt="" />
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
