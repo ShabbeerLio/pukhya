@@ -173,16 +173,16 @@ const Navbar = (props) => {
                                         </li>
                                         <li className="nav-item">
                                             <Link
-                                                className={`nav-link ${activeLink === '/pukhya/contact' ? 'active' : ''}`}
-                                                to="/pukhya/contact"
-                                                onClick={() => closeMenu('/pukhya/contact')}
+                                                className={`nav-link ${activeLink === '/pukhya/associated-brands' ? 'active' : ''}`}
+                                                to="/pukhya/associated-brands"
+                                                onClick={() => closeMenu('/pukhya/associated-brands')}
                                             >Associated Brands</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
-                                                className={`nav-link ${activeLink === '/pukhya/contact' ? 'active' : ''}`}
-                                                to="/pukhya/contact"
-                                                onClick={() => closeMenu('/pukhya/contact')}
+                                                className={`nav-link ${activeLink === '/pukhya/gallery' ? 'active' : ''}`}
+                                                to="/pukhya/gallery"
+                                                onClick={() => closeMenu('/pukhya/gallery')}
                                             >Gallery</Link>
                                         </li>
                                         <li className="nav-item">

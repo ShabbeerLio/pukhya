@@ -23,7 +23,7 @@ const Testimonial = () => {
                 <div className="testimonial-main-body">
                     <div className="testimonial-main-left">
                         <h2>Pukhya</h2>
-                        <h4>With a perfect blend of creativity, expertise, and dedication, we specialize in offering a seamless design-build home construction experience that encompasses every step of your project – from conceptualization to construction and beyond.</h4>
+                        <h4>At Pukhya Private Limited, we provide high-quality sports medicine products designed to enhance performance, support recovery, and prevent injuries. With a focus on innovation and research, we deliver advanced solutions for athletes and fitness enthusiasts, making us a trusted name in sports medicine.</h4>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ const HCategoryData = [
         id: 1,
         cover: require("../../Assets/Category/PSYCHOLOGY.jpg"),
         title: "PSYCHOLOGY ",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque.", 
+        description: "Psychology explores behavior and mental processes, aiming to understand and improve mental health and well-being.", 
         brands:[
             {
                 id: 1,
@@ -27,7 +27,7 @@ const HCategoryData = [
         id: 2,
         cover: require("../../Assets/Category/BIOMECHANICS.jpg"),
         title: "BIOMECHANICS ",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque.", 
+        description: "Biomechanics studies the mechanical aspects of living organisms to understand movement and improve function.", 
         brands:[
             {
                 id: 1,
@@ -51,7 +51,7 @@ const HCategoryData = [
         id: 3,
         cover: require("../../Assets/Category/PHYSIOLOGY.jpg"),
         title: "PHYSIOLOGY",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque.", 
+        description: "Physiology studies the functions and processes of living organisms to understand how they work.", 
         brands:[
             {
                 id: 1,
@@ -75,7 +75,7 @@ const HCategoryData = [
         id: 4,
         cover: require("../../Assets/Category/ERGONOMICS.jpeg"),
         title: "ERGONOMICS",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque.", 
+        description: "Ergonomics designs and optimizes work environments to improve comfort, efficiency, and safety.", 
         brands:[
             {
                 id: 1,
@@ -99,7 +99,7 @@ const HCategoryData = [
         id: 5,
         cover: require("../../Assets/Category/SCIENTIFIC GYM.jpeg"),
         title: "SCIENTIFIC GYM",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque.", 
+        description: "Scientific Gym uses evidence-based methods and technology to optimize workouts and enhance fitness results.", 
         brands:[
             {
                 id: 1,
@@ -123,7 +123,7 @@ const HCategoryData = [
         id: 6,
         cover: require("../../Assets/Category/SPORTS SCIENCE.jpeg"),
         title: "SPORTS SCIENCE",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque.", 
+        description: "Sports Science applies scientific principles to enhance athletic performance, training, and recovery.", 
         brands:[
             {
                 id: 1,

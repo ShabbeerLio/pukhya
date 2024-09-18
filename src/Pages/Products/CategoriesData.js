@@ -3460,8 +3460,8 @@ const CategoriesData = [
                                 title:"this is title",
                                 desc:"this is description",
                                 cover: require("../../Assets/Products/SportsScience/Products/plates fet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                linkname:"hawkindynamics",
+                                link:"https://www.hawkindynamics.com/",
                             }
                         ],
                         highlights: [
@@ -3732,10 +3732,10 @@ const CategoriesData = [
                     {
                         id: 1,
                         title: "Isokinetic MED ",
+                        title2: "FOOTPRINT",
                         cover: require("../../Assets/Products/SportsScience/Products/med.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "The  multi joint Iso-Med machine provides Rehabilitation professionals with an ideal Isokinetic testing and monitoring apparatus. It both regenerates injured muscle tissue and improves performance. For platform exercises, includes; Hip – all movements. Shoulder – all movements. Elbow – Flexion/Extension. Trunk – Flexion/Extension. Ankle/Wrist – Optional.",
+                        description2: "Width  3.0m.  Length 3.0m Height 2.1m. Weight 300kg This multi joint machine is for unilateral knee function with Range Limiter device. Right motor moves 180 degrees. For platform exercises, includes the following machines: Hip – all movements. Shoulder – all movements. Elbow – Flexion/Extension. Trunk – Flexion/Extension. Ankle/Wrist – Optional.",
                         mainhigh:[
                             {
                                 id:1,
@@ -3789,29 +3789,29 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/med fet.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/med h1.jpg"),
                             },
                             {
                                 id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/med h2.jpg"),
                             },
                         ],
                     },
                     {
                         id: 2,
                         title: "Isokinetic KNEE",
+                        title2: "FOOTPRINT",
                         cover: require("../../Assets/Products/SportsScience/Products/knee.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "This High Speed Isokinetic Knee machine is the ultimate speed leg extension/flexion machine. Isolate the knee and fire the quadriceps and hamstrings. Perfect for rehabilitation, sports performance and training at speeds that are simply not achievable on other forms of training. Imagine being able to fire the nervous system against resistance at the same speeds you play sports.",
+                        description2: "Width 1.2m Length 1.3m Height 1.4m Weight 150kg This High Speed Isokinetic Knee machine is the ultimate speed leg extension/flexion machine. Isolate the knee and fire the quadriceps and hamstrings. Perfect for rehabilitation, sports performance and training at speeds that are simply not achievable on other forms of training. Imagine being able to fire the nervous system against resistance at the same speeds you play sports. Suitable for Isometric/ Isokinetic speeds from 2 degrees/ second to 600 degrees/second. Displays unilateral results for both limbs simultaneously.",
                         mainhigh:[
                             {
                                 id:1,
@@ -3865,29 +3865,26 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/knee.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
-                                id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
                                 id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/knee h2.jpg"),
                             },
                         ],
                     },
                     {
                         id: 3,
                         title: "Isokinetic Squat ",
+                        title2: "FOOTPRINT",
                         cover: require("../../Assets/Products/SportsScience/Products/SQUAt.jpg"),
                         coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "The Squat machine is the flagship Isokinetic machine. The importance of squats in athletic performance is well documented. Now you can achieve more power, more speed and more strength safer and faster than any other form of squatting. Imagine being able to fire the nervous system and achieve triple extension against resistance and use data reporting to show improvements over time.",
+                        description2: "Width 1.2m Length 2.2m Height 1.6m Weight 200 kg The Squat machine is the flagship Isokinetic machine. The importance of squats in athletic performance is well documented. Now you can achieve more power, more speed and more strength safer and faster than any other form of squatting. Imagine being able to fire the nervous system and achieve triple extension against resistance and use data reporting to show improvements over time.  Select two-way resistance settings to neurologically activate Flexion and Extension contractions. Perfect for rehabilitation, sports performance and training at speeds that are simply not achievable on other forms of training.",
                         mainhigh:[
                             {
                                 id:1,
@@ -3941,29 +3938,29 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/squat ft.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/squat h1.jpg"),
                             },
                             {
                                 id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/squat h2.jpeg"),
                             },
                         ],
                     },
                     {
                         id: 4,
                         title: "Isokinetic HIP",
+                        title2: "FOOTPRINT",
                         cover: require("../../Assets/Products/SportsScience/Products/hip.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "The Hip machine is ideal for increasing running speed. It is capable of achieving in excess of 600 – 800 degrees per second in the running flexion/extension position. Replicates high knee lift component of expolsive movements Instantaneously switching resistance between glute and hip flexor, to engage high speed muscle contraction for speed/power development. ",
+                        description2: "Length 1.5m Width 1.2m Height 1.4m Weight 150kg The Hip machine is one of the most robust machines on the market. It is capable of achieving in excess of 600 – 800 degrees per second in the running flexion/extension position. Ideal for increasing running speed Glute, hip flexor activation is the ideal way to safely move at these speeds under resistance. Instantaneously switching resistance between glute and hip flexor, to engage high speed muscle contraction for speed/power development. Imagine being able to fire the nervous system against resistance in the running mechanical position at the same speeds you play sports. ",
                         mainhigh:[
                             {
                                 id:1,
@@ -4017,29 +4014,25 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/hip fet.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/hip h1.jpg"),
                             },
                         ],
                     },
                     {
                         id: 5,
                         title: "Isokinetic JUMP SQUAT",
+                        title2: "FOOTPRINT",
                         cover: require("../../Assets/Products/SportsScience/Products/JUMP-Squat.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "This is a simpler form of technology incorporating the same features of the Squat machine. You will still achieve triple extension against resistance (1 to 8 in the resistance scale). It doesn’t have a full computerised function instead a digital LED mini computer counting repetitions, time and calories. Performs dual concentric and concentric/eccentric.",
+                        description2: "Width 1.2m Length 2.2m Height 1.6m Weight 200 kg This is a simpler form of technology incorporating the same features of the Squat machine. You will still achieve triple extension against resistance (1 to 8 in the resistance scale). It doesn’t have a full computerised function instead a digital LED mini computer counting repetitions, time and calories. Performs dual concentric and concentric/eccentric.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4094,8 +4087,8 @@ const CategoriesData = [
                                 title:"this is title",
                                 desc:"this is description",
                                 cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
@@ -4134,10 +4127,10 @@ const CategoriesData = [
                     {
                         id: 1,
                         title: "Pressure Measuring Platform NX (WLAN) ",
+                        title2: "A functional measurement system on highest technical level",
                         cover: require("../../Assets/Products/Strength/Products/pressuremessuring.png"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "The medilogic foot pressure measuring platform NX offers the unique possibility to enlargen your gangway to your own fits. THe modular concept enables to link up to 25 measuring platforms. In a row, in a double-row or in a rectangle. A single platform gives you the option of dynamic or static pressure measuring underneath the foot. The measuring field is 384 x 384 mm and has 4.096 sensors. This means 2,8 Sensors per square centimeter. The evaluation of the middle step out of several single steps is given by the medilogic software.",
+                        description2: "The pressure measuring platform NX as single platform with dynamic footprint. The dynamic footprint evaluated of several steps. The view shows every single step for left and right side as overlay as well as the gaitline of several steps. The pressure measuring Platform NX in the configuration with 7 platforms is a N7 – Here you see it as a gangway.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4191,29 +4184,25 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                               cover: require("../../Assets/Products/Strength/Products/pressuremessuring fet.png"),
+                               linkname:"medilogic",
+                               link:"https://medilogic.com/en/home/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/Strength/Products/pressuremessuring h1.png"),
                             },
                         ],
                     },
                     {
                         id: 2,
                         title: "medilogic WLAN insole ",
+                        title2: "A functional measurement system on highest technical level",
                         cover: require("../../Assets/Products/Strength/Products/WLAN.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "The high resolution of the pressure load distribution is a useful tool especially for the orthopaedic shoemaker supporting improved diagnosis and quality control. Thus the medilogic foot pressure measuring system facilitates well adapted patient care with insoles and other orthopaedic aids.",
+                        description2: "Easy  handling You can choose different lengths for the bootleg of medilogic insoles Thanks to the intuitive software of medilogic you can start directly to work with the system.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4267,29 +4256,25 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/Strength/Products/WLAN fet.jpg"),
+                                linkname:"medilogic",
+                                link:"https://medilogic.com/en/home/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/Strength/Products/WLAN h1.jpg"),
                             },
                         ],
                     },
                     {
                         id: 3,
                         title: "Foot scanner  ",
+                        title2: "A functional recording device at the highest technical level",
                         cover: require("../../Assets/Products/Strength/Products/footscanner.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "The kit of the medilogic FootScanner with its single components allows a well-priced start while buying the single optical FootScann. You can expand it at anytime with the pressure messurement or the messurement of balance.The user-friendly graphical user interface allows a quick and detailled analyses of your messurement results. The medilogic FootScann is the ideal tool for an effective diagnostic, accomodation and documentation. Use our innovate cross linking of approved methods. The interdisciplinary diagnostic tool for an optimal patient treatment.",
+                        description2: "The foot scanner in action in everyday clinical use. It can bear anything (up to 180 kg). The easy handling of the medilogic software.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4343,19 +4328,15 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/Strength/Products/footscanner fet.jpg"),
+                                linkname:"medilogic",
+                                link:"https://medilogic.com/en/home/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/Strength/Products/footscanner fet.jpg"),
                             },
                         ],
                     },
@@ -4370,7 +4351,7 @@ const CategoriesData = [
         link: "pukhya/rehabilitation",
         subcategories: [
             {
-                id: 23,
+                id: 9,
                 subcategory: "Delsys",
                 title: "We help people measure and analyze motion",
                 subtitle: "Applications for motion capture technology",
@@ -4383,10 +4364,10 @@ const CategoriesData = [
                     {
                         id: 1,
                         title: "4-channel EMG & IMU Sensor ",
+                        title2: "4-channel EMG & IMU Sensor ",
                         cover: require("../../Assets/Products/Biomechanics/Products/4-channel EMG & IMU Sensor.png"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        description: "4-channel EMG & IMU Sensor",
+                        description2: "4-channel EMG & IMU Sensor",
                         mainhigh:[
                             {
                                 id:1,
@@ -4440,19 +4421,19 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/Biomechanics/Products/4-channel EMG fet.png"),
+                                linkname:"Delsys",
+                                link:"https://delsys.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/Biomechanics/Products/4-channel h1.jpg"),
                             },
                             {
                                 id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/Biomechanics/Products/4-channel h2.jpg"),
                             },
                         ],
                     },
@@ -4460,7 +4441,7 @@ const CategoriesData = [
             },
             {
                 id: 24,
-                subcategory: "Fast Twitch ISTE",
+                subcategory: "Fast Twitch (ISTE)",
                 title: "We help people measure and analyze motion",
                 subtitle: "Applications for motion capture technology",
                 subdesc: "Our technology is used by researchers, biomechanists, physicians and engineers from all over the world. However, anyone that is interested in getting objective information about how things move can benefit from our technology. For example, our motion capture systems can be used to find and prevent injuries, improve performance in biomechanics and help engineers build better products and increase production efficiency.",
@@ -4472,10 +4453,10 @@ const CategoriesData = [
                     {
                         id: 6,
                         title: "Rehab Shoulder",
-                        cover: require("../../Assets/Products/SportsScience/Products/med.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        title2: "FOOTPRINT",
+                        cover: require("../../Assets/Products/SportsScience/Products/reshoulder.jpg"),
+                        description: "Rehab Shoulder Isokinetic machine. This multi-function Shoulder training machine is for both Low speed and High Speed use. Has bio feedback system and can be fully computerised. This single station multi-function rotary shoulder machine follows the variable speed isokinetic resistance system that naturally adjusts to the acceleration-deceleration strength curve throughout the range of movement (ROM).",
+                        description2: "Width: 1.2 m (56”)   Length: 1.6m (63”)   Height 1.6m (63”) Weight 140kg ( 308 lb ) Load 10nm – 500nm Universal Shoulder Isokinetic machine. Multi-function Shoulder training machine is for Low Speed and High Speed use. Can operate as 10 Deg/sec to 600 Deg/sec with two-way independent adjustable resistance. Has bio feedback system and can be fully computerised. This single station multi-function rotary shoulder machine follows the variable speed isokinetic resistance system that naturally adjusts to the acceleration-deceleration strength curve throughout the ROM. Most important when training smaller muscle groups found in the exercise range. Maintains the quality of independent resistance control for appropriate load settings in either direction. Seat pivots 180° for opposite limb exercises and adjusts from flat to 90 degrees period upright period.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4529,29 +4510,25 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/reshoulder fet.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/reshoulder h1.jpg"),
                             },
                         ],
                     },
                     {
                         id: 7,
                         title: "Rehab Torso",
-                        cover: require("../../Assets/Products/SportsScience/Products/knee.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        title2: "FOOTPRINT",
+                        cover: require("../../Assets/Products/SportsScience/Products/retorso.jpg"),
+                        description: "Incorrect lumbar stability is the leading cause of injury across all sports. The Torso machine addresses this perfectly by allowing high speed rotation against resistance equally in both directions with zero break effect and eccentric slowing of movement. The Torso machine activates all core muscles allowing for greater stabilisation of the lumbar spine vertebra and discs. Increase your rotational speed and core efficiency.",
+                        description2: "Width: 1.3 (51”)  Length: 1.2m (47”)  Height: 2.1m (84”)  Weight: 140kg ( 308 lb ) Load 10nm- 600nm When it comes to safely rotating the spine and core rotators, it imperative it’s done safely. Incorrect lumbar stability is the leading cause of injury across all sports. The Torso machine addresses this perfectly by allowing high speed rotation against resistance equally in both directions with zero break effect and eccentric slowing of movement. The Torso machine activates all core muscles (Rectus Abdominals, Obliques, Transverse Abdominals and Erector Spinae) allowing for greater stabilisation of the lumbar spine vertebra and discs. Increase your rotational speed and core efficiency.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4605,29 +4582,25 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/retorso fet.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/retorso h1.jpg"),
                             },
                         ],
                     },
                     {
                         id: 8,
                         title: "Rehab Transformer",
-                        cover: require("../../Assets/Products/SportsScience/Products/SQUAt.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        title2: "FOOTPRINT",
+                        cover: require("../../Assets/Products/SportsScience/Products/reTransformer.jpg"),
+                        description: "The most affordable and versatile portable Isokinetic machine on the market with its compact design and small footprint. It has a height adjustable linear column and comes with all handle attachments to complete a range of movements for all shoulder exercises as well as ankle, wrist, trunk and hip. The Transformer’s speciality is for all Shoulder Rehab exercises with bi-directional independent settings.",
+                        description2: "Width:  0.7m   Length: 0.7m   Height: 0.9m   Weight: 70kg The most affordable and versatile portable Isokinetic machine on the market with its compact design and small footprint. The Transformer’s speciality is for all Shoulder Rehab exercises with bi-directional, independent settings. This machine is based around the portable ankle unit. When placed on a height-adjustable linear column, it transforms into the perfect machine for all shoulder exercises as well as wrist, trunk, and hip. It is available to purchase as a non-computerised model or as fully computerised  with a touch screen P/C to view performance output. Record results via a hard copy print out. The Transformer machine has a light weight isokinetic resistance motor and dual resistance control. Comes with all handle attachments to complete all exercises.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4681,29 +4654,25 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/reTransformer fet.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/reTransformer h1.jpg"),
                             },
                         ],
                     },
                     {
                         id: 9,
-                        title: "Rehab Ankle/wrist",
-                        cover: require("../../Assets/Products/SportsScience/Products/hip.jpg"),
-                        coverfet: "https://www.eyemotion.in/wp-content/uploads/2021/02/qualisys-cameras1.jpg",
-                        description: "Get the most out of your neurofeedback protocols by adding peripheral physiological measures. The ProComp Infiniti system is our most versatile encoder device and includes a set of classic biofeedback sensors with 2 EEG sensors and a pIR HEG headset. This allows any user to combine EEG or HEG with physiology or heart rate variability (HRV) when assessing or doing self-regulation training.",
-                        description2: "Our top of the line neurofeedback system includes the versatile 8 channel ProComp Infiniti device with 2 EEG sensors, pIR HEG and key physiological sensors, including skin conductance, peripheral temperature, muscle tension, heart rate (from finger pulse or EKG), and respiration. With BioGraph Infiniti and the 360 suite, you can incorporate classical biofeedback or heart rate variability training to your neurofeedback protocols to get the broadest physiological perspective on the market. This complete system is the wise choice for universities, hospitals and private clinics who want to have the widest selection of psychophysiological tools.",
+                        title: "Rehab Ankle-wrist",
+                        title2: "FOOTPRINT",
+                        cover: require("../../Assets/Products/SportsScience/Products/reankle.jpg"),
+                        description: "Ankle/ Wrist Isokinetic conditioning machine. Very compact, portable and versatile unit with adjustable independent two-way resistance settings. Exercises: Pronation / Supernation, Inversion / Eversion, Planti / Dorsi Flexion. Internal/ External Rotation. Optional portable p/c for complete Power strength / ROM readings.",
+                        description2: "Width: 0.4m (14”)  Length: 0.4m (14”)  Height: 0.25m (10”)  Weight: 45kg ( 99 lb ) Ankle/ Wrist Isokinetic conditioning machine. Very compact portable and versatile unit with adjustable independent two-way resistance settings. Exercises: Pronation / Supernation. Inversion / Eversion. Planti / Dorsi Flexion. Internal/ External Rotation.  Optional portable p/c for complete power strength / ROM readings.",
                         mainhigh:[
                             {
                                 id:1,
@@ -4757,19 +4726,15 @@ const CategoriesData = [
                                 id: 1,
                                 title:"this is title",
                                 desc:"this is description",
-                                cover: require("../../Assets/Products/Biomechanics/Products/biofeedbackfet.jpg"),
-                                linkname:"Thought tec",
-                                link:"https://thoughttechnology.com/",
+                                cover: require("../../Assets/Products/SportsScience/Products/reankle fet.jpg"),
+                                linkname:"fasttwitch",
+                                link:"https://fasttwitchisokinetics.com/",
                             }
                         ],
                         highlights: [
                             {
                                 id: 1,
-                                cover: require("../../Assets/Products/miqus.jpg"),
-                            },
-                            {
-                                id: 2,
-                                cover: require("../../Assets/Products/miqus.jpg"),
+                                cover: require("../../Assets/Products/SportsScience/Products/reankle h1.jpg"),
                             },
                         ],
                     },

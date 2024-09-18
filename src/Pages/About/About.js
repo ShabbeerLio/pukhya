@@ -28,9 +28,8 @@ const About = (props) => {
                         <img src={abouti} alt="" />
                     </div>
                     <div className="about-left">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis delectus vero quia ipsam autem accusamus velit unde assumenda fuga ad similique aspernatur, hic eum porro inventore. Officia enim, dignissimos nihil repellat facilis reiciendis possimus, impedit beatae corrupti esse cupiditate sit, ad quae ea quos rerum quaerat quibusdam ab assumenda.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis delectus vero quia ipsam autem accusamus velit unde assumenda fuga ad similique aspernatur, hic eum porro inventore.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis delectus vero quia ipsam autem accusamus velit unde assumenda fuga ad similique aspernatur, hic eum porro inventore. Officia enim, dignissimos nihil repellat facilis reiciendis possimus, impedit beatae corrupti esse cupiditate sit, ad quae ea quos rerum quaerat quibusdam ab assumenda.</p>
+                        <p>Welcome to Pukhya Private Limited, a leader in sports medicine and research products. Our mission is to empower athletes, fitness enthusiasts, and healthcare professionals by providing top-quality, scientifically-backed solutions that enhance performance, support recovery, and prevent injuries. With a deep commitment to innovation, research, and customer satisfaction, we are dedicated to advancing the field of sports medicine and contributing to the overall well-being of the athletic community.</p>
+                        <p>We continually invest in cutting-edge technology and collaborate with global experts to ensure that our products meet the highest standards, making a lasting impact on athletic performance and healthcare.</p>
                     </div>
                 </div>
                 <Aboutcard />
@@ -44,9 +43,9 @@ const About = (props) => {
                         <img src={director} alt="" />
                     </div>
                     <div className="about-left-director">
-                        <h2>Director Name</h2>
-                        <h5>position</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis delectus vero quia ipsam autem accusamus velit unde assumenda fuga ad similique aspernatur, hic eum porro inventore. Officia enim, dignissimos nihil repellat facilis reiciendis possimus, impedit beatae corrupti esse cupiditate sit, ad quae ea quos rerum quaerat quibusdam ab assumenda.</p>
+                        <h2>PRITAM KUMAR</h2>
+                        <h5>CEO</h5>
+                        <p>As CEO of Pukhya Private Limited, Pritam Kumar spearheads the company's growth with a focus on innovation and excellence in sports medicine. His leadership drives the development of cutting-edge products and solutions, shaping Pukhya’s success in the global market.</p>
                     </div>
                 </div>
             </div>

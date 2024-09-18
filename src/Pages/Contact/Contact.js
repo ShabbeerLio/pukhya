@@ -69,8 +69,8 @@ const Contact = (props) => {
                         <p>123, Ist Floor, Behind Bank of Baroda, Munirka, New Delhi, Delhi 110067</p> */}
                         {/* <div className="ukrain-office"> */}
                             <h4>Office </h4>
-                            <p>Ukraine, Dnepropetrovsk, Naberezhnaya Lenina Street, 39</p>
-                            <p>Email: pukhya123@gmail.com</p>
+                            <p>Office No-814, NEXTRA The Address District Centre Mayur Vihar Ph-1 Extn <br /> Delhi-110091</p>
+                            <p>Email: info@pukhya.com</p>
                             <p>Phone: +91 8800913399 </p>
                         {/* </div> */}
                     </div>
@@ -109,7 +109,7 @@ const Contact = (props) => {
                         <IoMail />
                         <div className="contactcard-detail">
                             <h6>Email Address</h6>
-                            <p>pukhya123@gmail.com</p>
+                            <p>info@pukhya.com</p>
                         </div>
                     </div>
                     <div className="contact-detail-card">

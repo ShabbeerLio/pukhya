@@ -1,7 +1,7 @@
 const BannerData = [
     {
         id: 1,
-        title: "Thought Technology",
+        title: "Biofeedback&Neurofeedback",
         heading: 'to Become a Better Human',
         cover: require("../../Assets/Banner/banner2.jpg"),
     },
@@ -10,7 +10,7 @@ const BannerData = [
         id: 2,
         title: 'NeurotrackerX',
         heading: 'World leader in Biofeedback,',
-        cover: require("../../Assets/Banner/Banner2e.jpg"),
+        cover: require("../../Assets/Banner/neurotracker x.png"),
     },
     {
         id: 3,
@@ -20,21 +20,15 @@ const BannerData = [
     },
     {
         id: 4,
-        title: 'Delsys',
+        title: 'Bertec',
         heading: 'OVER 10, 000 PRODUCTS & EQUIPMENT OF MINIMALLY ',
-        cover: require("../../Assets/Banner/Delsys.jpg"),
+        cover: require("../../Assets/Banner/bertecbanner.jpg"),
     },
     {
         id: 5,
         title: 'Sports Vision Technology (SVT)',
         heading: 'OVER 10, 000 PRODUCTS & EQUIPMENT OF MINIMALLY ',
         cover: require("../../Assets/Banner/svt.gif"),
-    },
-    {
-        id: 6,
-        title: 'Fast Twich Isokinetics',
-        heading: 'OVER 10, 000 PRODUCTS & EQUIPMENT OF MINIMALLY ',
-        cover: require("../../Assets/Banner/fasttwitch.jpg"),
     },
 ]
 

@@ -9,6 +9,7 @@ import Products from './Pages/Products/Products';
 import CategoriesData from './Pages/Products/CategoriesData';
 import ProductDetail from './Pages/ProductDetail/ProductDetail';
 import Subcategory from './Pages/Subcategory/Subcategory';
+import Brands from './Pages/Brands/Brands';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           ))}
           <Route path="/pukhya/productdetail/:pathName" exact element={<ProductDetail />} />
           <Route path="/pukhya/:pathName" exact element={<Subcategory />} />
+          <Route path="/pukhya/associated-brands" exact element={<Brands />} />
           <Route path="/pukhya/contact" exact element={<Contact />} />
         </Routes>
         <Footer />

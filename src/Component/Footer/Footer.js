@@ -4,6 +4,7 @@ import Aboutimg from "../../Assets/Logo-footer.png"
 import SocialMedia from '../Navbar/SocialMedia';
 import { Link } from 'react-router-dom';
 import fimg from "../../Assets/Footer/texture-2-light.png"
+import CategoriesData from '../../Pages/Products/CategoriesData';
 
 
 const Footer = () => {
@@ -14,6 +15,8 @@ const Footer = () => {
             behavior: 'auto'
         });
     };
+
+    console.log(CategoriesData,"data")
 
     return (
         <>
@@ -36,10 +39,10 @@ const Footer = () => {
                                     <Link onClick={scrollTop} to="/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/career">Career</Link>
+                                    <Link onClick={scrollTop} to="/associated-brands">Associated Brands</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/contact-us">Send Enquiry</Link>
+                                    <Link onClick={scrollTop} to="/gallery">Gallery</Link>
                                 </li>
                                 <li>
                                     <Link onClick={scrollTop} to="/contact-us">Contact Us</Link>
@@ -47,26 +50,13 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-right-quick">
-                            <h2>Research & Spots</h2>
+                            <h2>Our Products</h2>
                             <ul>
-                                <li>
-                                    <Link onClick={scrollTop} to="/sports-science">Sports Science</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={scrollTop} to="/ergonomics">Ergonomics</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={scrollTop} to="/physilogy">Physilogy</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={scrollTop} to="/biomechanics">Biomechanics</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={scrollTop} to="/phychology">Phychology</Link>
-                                </li>
-                                <li>
-                                    <Link onClick={scrollTop} to="/scientific-gym">Scientific Gym</Link>
-                                </li>
+                                {CategoriesData.map((item, index) => (
+                                    <li key={index}>
+                                        <Link onClick={scrollTop} to={item.link}>{item.Category}</Link>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div className="footer-right-quick">
