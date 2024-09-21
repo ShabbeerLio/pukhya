@@ -9,14 +9,14 @@ const ChooseUs = () => {
                 <div className='ChooseUs-box'>
                     <div className="choose-left">
                         <h4>Why Choose Us</h4>
-                        <h2>Pukhya for Superior Healthcare System Solutions</h2>
+                        <h2>Pukhya for Superior sports science, Research ,and healthcare solutions</h2>
                         <div className="choose-card">
                             <div className="choose-card-head">
                                 <p><GiCheckMark /></p>
                                 <h5>Expert Collaborations</h5>
                             </div>
                             <div className="choose-card-body">
-                                <p> Partnering with leading hospitals, we ensure our solutions are grounded in real-world medical expertise and best practices.</p>
+                                <p> Partnering with leading sports science , research equipment and healthcare leading manufacturers.</p>
                             </div>
                         </div>
                         <div className="choose-card">
@@ -25,7 +25,7 @@ const ChooseUs = () => {
                                 <h5>Innovative Technology</h5>
                             </div>
                             <div className="choose-card-body">
-                                <p>We leverage cutting-edge technology to develop practical, user-friendly systems that enhance healthcare delivery and patient outcomes.</p>
+                                <p>Enhance sports science , research and healthcare solutions .</p>
                             </div>
                         </div>
                         <div className="choose-card">

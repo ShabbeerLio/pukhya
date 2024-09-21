@@ -12,11 +12,13 @@ const Aboutcard = () => {
 
             <div className='Aboutcard-box'>
                 <div className="about-card-left">
-                    <h3>What we do</h3>
-                    <p>At Pukhya Private Limited, we specialize in delivering innovative sports medicine products that cater to the needs of athletes, fitness enthusiasts, and healthcare professionals. Our product range includes rehabilitation tools, performance enhancement devices, and injury prevention solutions, all designed to optimize athletic performance and recovery. By partnering with top global brands, we ensure that every product we offer meets the highest standards of quality and safety</p>
+                    <h3>Vision</h3>
+                    <p> To become preferred vendors due to committed and sincere customer support services in our advance euipment industry.</p>
                 </div>
+
                 <div className="about-card-right">
-                    <img src={about1} alt="" />
+                    <img src={about3} alt="" />
+
                 </div>
             </div>
             <div className='Aboutcard-box'>
@@ -30,11 +32,11 @@ const Aboutcard = () => {
             </div>
             <div className='Aboutcard-box'>
                 <div className="about-card-left">
-                    <h3>Vision</h3>
-                    <p>Our vision is to be a global leader in sports medicine by consistently delivering innovative, research-backed solutions that enhance athletic performance, health, and longevity. We aim to create a world where every athlete and healthcare professional has access to the most advanced tools and resources needed to optimize physical performance and recovery, ultimately revolutionizing the sports medicine industry.</p>
+                    <h3>What we do</h3>
+                    <p>At Pukhya Private Limited, we specialize in delivering innovative sports medicine products that cater to the needs of athletes, fitness enthusiasts, and healthcare professionals. Our product range includes rehabilitation tools, performance enhancement devices, and injury prevention solutions, all designed to optimize athletic performance and recovery. By partnering with top global brands, we ensure that every product we offer meets the highest standards of quality and safety</p>
                 </div>
                 <div className="about-card-right">
-                    <img src={about3} alt="" />
+                    <img src={about1} alt="" />
                 </div>
             </div>
             <div className='Aboutcard-box'>
@@ -43,7 +45,7 @@ const Aboutcard = () => {
                 </div>
                 <div className="about-card-left">
                     <h3>Mission</h3>
-                    <p>Our mission at Pukhya Private Limited is to empower athletes, fitness enthusiasts, and healthcare providers with scientifically-proven sports medicine products that enhance performance, promote recovery, and prevent injuries. We are committed to continuous research, innovation, and excellence in delivering the highest quality solutions to improve the overall health and well-being of the athletic community.</p>
+                    <p>At Pukhaya, we are committed to understand the needs of our customers and bring innovative and proven advance technologies and solutions to India that is within reach of most.</p>
                 </div>
             </div>
         </>
