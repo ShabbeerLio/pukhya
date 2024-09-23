@@ -41,3 +41,22 @@
   font-size: 12px;
   border-radius: 8px;
 }
+
+@media only screen and (max-width: 520px) {
+  .ProductCard {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  .productcard-left {
+    width: 100%;
+  }
+  
+  .productcard-right {
+    width: 100%;
+  }
+  .productcard-right img {
+    width: 50% !important;
+}
+
+}

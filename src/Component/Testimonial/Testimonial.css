@@ -245,7 +245,7 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
   .testimonial-main-left h2 {
     font-size: 48px;
     overflow: hidden;

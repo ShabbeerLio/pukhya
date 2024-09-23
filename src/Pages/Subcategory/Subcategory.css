@@ -156,4 +156,7 @@
 }
 
 @media only screen and (max-width: 540px) {
+  .subcategory-categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

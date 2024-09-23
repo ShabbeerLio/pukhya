@@ -23,24 +23,6 @@ const Navbar = (props) => {
             setShowEnquiry(show);
         };
 
-        const sections = document.querySelectorAll('section[id]');
-
-        function scrollActive() {
-            const scrollY = window.scrollY;
-
-            sections.forEach(current => {
-                const sectionHeight = current.offsetHeight;
-                const sectionTop = current.offsetTop - 50 + 80;
-                const sectionId = current.getAttribute('id');
-
-                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-                    document.querySelector(`.nav-menu a[href*=${sectionId}]`).classList.add('active-link');
-                } else {
-                    document.querySelector(`.nav-menu a[href*=${sectionId}]`).classList.remove('active-link');
-                }
-            });
-        }
-
         window.addEventListener('scroll', handleScroll);
 
         // Cleanup function to remove the event listener
@@ -48,12 +30,17 @@ const Navbar = (props) => {
     }, []);
 
 
-
-    const closeMenu = (path) => {
+    const handleLinkClick = (path) => {
         window.scrollTo({
             top: 0,
             behavior: 'auto'
         });
+        setActiveLink(path);
+        closeMenu();
+    };
+
+    const closeMenu = () => {
+
         const navbarCollapse = document.getElementById('navbarSupportedContent');
         if (navbarCollapse.classList.contains('show')) {
             navbarCollapse.classList.remove('show');
@@ -63,12 +50,8 @@ const Navbar = (props) => {
             icon.classList.toggle('active');
         });
         setIsCollapseOpen(!isCollapseOpen);
-        handleLinkClick(path);
     };
 
-    const handleLinkClick = (path) => {
-        setActiveLink(path);
-    };
 
     const formIsOpen = () => {
         setFormopen(!formopen);
@@ -76,16 +59,6 @@ const Navbar = (props) => {
 
     const formIsClose = () => {
         setFormopen(false);
-    };
-
-    const [navFloat, setNavFloat] = useState(false)
-
-    const NavFormIsOpen = () => {
-        setNavFloat(!formopen);
-    };
-
-    const NavFormIsClose = () => {
-        setNavFloat(false);
     };
 
 
@@ -100,7 +73,7 @@ const Navbar = (props) => {
                                     <Link
                                         className={`nav-link ${activeLink === '/pukhya' ? 'active' : ''}`}
                                         to="/pukhya"
-                                        onClick={() => handleLinkClick('/pukhya')}
+                                    // onClick={() => handleLinkClick('/pukhya')}
                                     >
                                         <img src={Logo} alt="" />
                                         {/* <h5>Godrej Jardinia</h5> */}
@@ -128,7 +101,7 @@ const Navbar = (props) => {
                                             <Link
                                                 className={`nav-link ${activeLink === '/pukhya' ? 'active' : ''}`}
                                                 to="/pukhya"
-                                                onClick={() => closeMenu('/pukhya')}
+                                                onClick={() => handleLinkClick('/pukhya')}
                                             >
                                                 Home
                                             </Link>
@@ -137,28 +110,11 @@ const Navbar = (props) => {
                                             <Link
                                                 className={`nav-link ${activeLink === '/pukhya/about' ? 'active' : ''}`}
                                                 to="/pukhya/about"
-                                                onClick={() => closeMenu('/pukhya/about')}
+                                                onClick={() => handleLinkClick('/pukhya/about')}
                                             >
                                                 About Us
                                             </Link>
                                         </li>
-                                        {/* <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle"
-                                                to="#" id="navbarDropdown"
-                                                role="button"
-                                                data-bs-toggle="dropdown"
-                                                aria-expanded="false">
-                                                Research & Sports Medicine
-                                            </Link>
-                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link className={`dropdown-item ${activeLink === '/sports-science' ? 'active' : ''}`} to="/sports-science" onClick={() => closeMenu('/sports-science')}> <RiArrowDropDownLine />Sports Science</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/ergonomics' ? 'active' : ''}`} to="/ergonomics" onClick={() => closeMenu('/ergonomics')}> <RiArrowDropDownLine />Ergonomics</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/physilogy' ? 'active' : ''}`} to="/physilogy" onClick={() => closeMenu('/physilogy')}> <RiArrowDropDownLine />Physilogy</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/biomechanics' ? 'active' : ''}`} to="/biomechanics" onClick={() => closeMenu('/biomechanics')}> <RiArrowDropDownLine />Biomechanics</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/phychology' ? 'active' : ''}`} to="/phychology" onClick={() => closeMenu('/phychology')}> <RiArrowDropDownLine />Phychology</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/scientific-gym' ? 'active' : ''}`} to="/scientific-gym" onClick={() => closeMenu('/scientific-gym')}> <RiArrowDropDownLine />Scientific Gym</Link></li>
-                                            </ul>
-                                        </li> */}
                                         <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle"
                                                 to="#" id="navbarDropdown"
@@ -168,28 +124,28 @@ const Navbar = (props) => {
                                                 Our Products
                                             </Link>
                                             <ul className="dropdown-menu category" aria-labelledby="navbarDropdown">
-                                                <CategoryDown activeLink={activeLink} closeMenu={closeMenu} />
+                                                <CategoryDown activeLink={activeLink} closeMenu={handleLinkClick} />
                                             </ul>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/pukhya/associated-brands' ? 'active' : ''}`}
                                                 to="/pukhya/associated-brands"
-                                                onClick={() => closeMenu('/pukhya/associated-brands')}
+                                                onClick={() => handleLinkClick('/pukhya/associated-brands')}
                                             >Associated Brands</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/pukhya/gallery' ? 'active' : ''}`}
                                                 to="/pukhya/gallery"
-                                                onClick={() => closeMenu('/pukhya/gallery')}
+                                                onClick={() => handleLinkClick('/pukhya/gallery')}
                                             >Gallery</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/pukhya/contact' ? 'active' : ''}`}
                                                 to="/pukhya/contact"
-                                                onClick={() => closeMenu('/pukhya/contact')}
+                                                onClick={() => handleLinkClick('/pukhya/contact')}
                                             >Contact Us</Link>
                                         </li>
 

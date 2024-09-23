@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import CategoriesData from '../../Pages/Products/CategoriesData';
 import "./CategoryDown.css";
 
-const CategoryDown = () => {
+const CategoryDown = ({closeMenu}) => {
 
     const [activeCategory, setActiveCategory] = useState(null);
     const [activeSubCategory, setActiveSubCategory] = useState(null);
@@ -21,6 +21,7 @@ const CategoryDown = () => {
             top: 0,
             behavior: 'auto'
         });
+        closeMenu();
     };
 
     const formatPathname = (pathname) => {

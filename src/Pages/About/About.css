@@ -5,7 +5,7 @@
   border-bottom: 1px solid #d4d4d4;
 }
 
-.about-banner img{
+.about-banner img {
   width: 100%;
   object-fit: cover;
   height: 65vh;
@@ -20,7 +20,7 @@
   margin-left: auto;
 }
 
-.about-title{
+.about-title {
   text-align: center;
 }
 
@@ -92,4 +92,26 @@
 }
 
 @media only screen and (max-width: 540px) {
+  .About-box {
+    flex-wrap: wrap;
+  }
+
+  .about-left {
+    width: 100%;
+  }
+  .about-right {
+    width: 100%;
+  }
+
+  .About-box-director{
+    flex-wrap: wrap;
+  }
+
+  .about-left-director {
+    width: 100%;
+  }
+  
+  .about-right-director {
+    width: 100%;
+  }
 }
