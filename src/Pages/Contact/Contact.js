@@ -34,26 +34,6 @@ const Contact = (props) => {
             document.head.appendChild(metaDescription);
         }
 
-        // Ensure dataLayer is initialized before the GA script loads
-        // window.dataLayer = window.dataLayer || [];
-        // function gtag() {
-        //   dataLayer.push(arguments);
-        // }
-
-        // Load the Google Analytics script only once
-        // const gaScriptId = 'ga-gtag';
-        // if (!document.getElementById(gaScriptId)) {
-        //   const script = document.createElement('script');
-        //   script.id = gaScriptId;
-        //   script.async = true;
-        //   script.src = 'https://www.googletagmanager.com/gtag/js?id=G-3BK9F87D6E';
-        //   document.head.appendChild(script);
-
-        //   script.onload = () => {
-        //     gtag('js', new Date());
-        //     gtag('config', 'G-3BK9F87D6E');
-        //   };
-        // }
     }, [props.title, props.descriptions, location.pathname]);
 
     return (
@@ -68,10 +48,10 @@ const Contact = (props) => {
                         {/* <h4> DELHI OFFICE </h4>
                         <p>123, Ist Floor, Behind Bank of Baroda, Munirka, New Delhi, Delhi 110067</p> */}
                         {/* <div className="ukrain-office"> */}
-                            <h4>Office </h4>
-                            <p>Office No-814, NEXTRA The Address District Centre Mayur Vihar Ph-1 Extn <br /> Delhi-110091</p>
-                            <p>Email: info@pukhya.com</p>
-                            <p>Phone: +91 8800913399 </p>
+                        <h4>Office </h4>
+                        <p>Office No-814, NEXTRA The Address District Centre Mayur Vihar Ph-1 Extn <br /> Delhi-110091</p>
+                        <p>Email: info@pukhya.com</p>
+                        <p>Phone: +91 8800913399 </p>
                         {/* </div> */}
                     </div>
                     <div className='Contactbox-right'>

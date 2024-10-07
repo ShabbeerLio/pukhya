@@ -46,7 +46,7 @@
   aspect-ratio: 1/1;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 680px) {
   .Aboutcard-box {
     flex-wrap: wrap;
     gap: 2rem;

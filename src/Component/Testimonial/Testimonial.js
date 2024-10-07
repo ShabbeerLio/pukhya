@@ -23,7 +23,7 @@ const Testimonial = () => {
                 <div className="testimonial-main-body">
                     <div className="testimonial-main-left">
                         <h2>Pukhya</h2>
-                        <h4>At Pukhya Private Limited, we provide high-quality sports medicine products designed to enhance performance, support recovery, and prevent injuries. With a focus on innovation and research, we deliver advanced solutions for athletes and fitness enthusiasts, making us a trusted name in sports medicine.</h4>
+                        <h4>The advancement of technology, along with science, has helped us to become self-reliant in all spheres of life. With the innovation of a particular technology, it becomes part of society and integral to human lives after a point in time. Pukhya Private Limited was established with the mission to provide high end equipment of international standards to the Indian user, engaged in scientific research in fields as varied as Sports Psychology, Sports Biomechanics, Sports Medicine,  Ergonomics, Physiology, different branches in medical sciences, Rehabilitation, etc.</h4>
                     </div>
                 </div>
             </div>

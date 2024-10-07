@@ -23,8 +23,11 @@
 
   .presClients-image img{
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
+    aspect-ratio: 3/2;
+    background-color: white;
+    border: 1px solid #f0800f;
   }
 
   @media (min-width: 1200px) {
@@ -33,6 +36,6 @@
     }
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 680px) {
     
   }

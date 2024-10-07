@@ -62,7 +62,7 @@ const CategoryDown = ({closeMenu}) => {
                     <div className='category-right-product' >
                         {allProducts.map((subItem, index) => (
                             <Link to={{
-                                pathname: `/pukhya/${formatPathname(subItem.title)}/`
+                                pathname: `/pukhya/productdetail/${formatPathname(subItem.title)}/`
                             }} onClick={scrollToTop} key={subItem.id}>
                                 {subItem.title}
                             </Link>

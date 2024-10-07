@@ -16,7 +16,7 @@ const ChooseUs = () => {
                                 <h5>Expert Collaborations</h5>
                             </div>
                             <div className="choose-card-body">
-                                <p> Partnering with leading sports science , research equipment and healthcare leading manufacturers.</p>
+                                <p>Partnering with leading sports science , research equipment and healthcare leading manufacturers.</p>
                             </div>
                         </div>
                         <div className="choose-card">
@@ -25,7 +25,7 @@ const ChooseUs = () => {
                                 <h5>Innovative Technology</h5>
                             </div>
                             <div className="choose-card-body">
-                                <p>Enhance sports science , research and healthcare solutions .</p>
+                                <p>We leverage cutting-edge technology to develop practical, user-friendly systems that enhance sports science , research and healthcare solutions.</p>
                             </div>
                         </div>
                         <div className="choose-card">
@@ -34,7 +34,7 @@ const ChooseUs = () => {
                                 <h5>Commitment to Excellence</h5>
                             </div>
                             <div className="choose-card-body">
-                                <p>Our unwavering dedication to quality and continuous improvement drives us to provide the best possible solutions for our clients and their patients.</p>
+                                <p>Our unwavering dedication to quality and continuous improvement drives us to provide the best possible solutions for our customers.</p>
                             </div>
                         </div>
                     </div>

@@ -164,7 +164,7 @@
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 680px) {
   .ProductDetail-box {
     flex-wrap: wrap;
   }

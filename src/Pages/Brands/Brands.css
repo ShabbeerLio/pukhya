@@ -62,7 +62,7 @@
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 680px) {
   .Brands-box {
     flex-wrap: wrap;
   }

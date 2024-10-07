@@ -64,7 +64,7 @@
 }
 
 .testimonial-main-left h4 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 300;
   color: white;
   margin-bottom: 2rem;
@@ -80,7 +80,7 @@
   -webkit-transition: all 0.6s;
   -o-transition: all 0.6s;
   transition: all 0.6s;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   position: relative;
   padding-bottom: 12px;
 }
@@ -245,7 +245,7 @@
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 680px) {
   .testimonial-main-left h2 {
     font-size: 48px;
     overflow: hidden;

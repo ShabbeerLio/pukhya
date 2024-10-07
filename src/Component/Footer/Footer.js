@@ -36,16 +36,16 @@ const Footer = () => {
                                     <Link onClick={scrollTop} to="/pukhya">Home</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/about">About</Link>
+                                    <Link onClick={scrollTop} to="/pukhya/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/associated-brands">Associated Brands</Link>
+                                    <Link onClick={scrollTop} to="/pukhya/associated-brands">Associated Brands</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/gallery">Gallery</Link>
+                                    <Link onClick={scrollTop} to="/pukhya/gallery">Gallery</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/contact-us">Contact Us</Link>
+                                    <Link onClick={scrollTop} to="/pukhya/contact">Contact Us</Link>
                                 </li>
                             </ul>
                         </div>

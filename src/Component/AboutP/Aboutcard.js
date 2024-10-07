@@ -45,7 +45,7 @@ const Aboutcard = () => {
                 </div>
                 <div className="about-card-left">
                     <h3>Mission</h3>
-                    <p>At Pukhaya, we are committed to understand the needs of our customers and bring innovative and proven advance technologies and solutions to India that is within reach of most.</p>
+                    <p>Our mission at Pukhya Private Limited is to empower , SPORTS SCIENCE CENTRE , RESEARCH INSTITUTE  , AND HEALTHCARE  INSTITUTE  TO guide and  SETUP MOST ADVANCE LAB for their institute .   We are committed to DELIVER MOST innovative and latest TECHNOLOGY to customers.</p>
                 </div>
             </div>
         </>

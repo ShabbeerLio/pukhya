@@ -4,12 +4,12 @@ const BannerItem = [
     {
         id: 1,
         title: "Biofeedback",
-        cover: require("../../Assets/Banner/BannerItem/cognitive.jpg")
+        cover: require("../../Assets/Banner/BannerItem/biofeedback_logo_imagefor-circle.jpg")
     },
     {
         id: 2,
         title: "Neurofeedback",
-        cover: require("../../Assets/Banner/BannerItem/neurofeedback.png")
+        cover: require("../../Assets/Banner/BannerItem/neurofeedback_logo_imagefor-circle.jpg")
     },
     {
         id: 3,
