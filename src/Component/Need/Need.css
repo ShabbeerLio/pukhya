@@ -148,4 +148,7 @@
   .need-right-botm-right {
     height: 160px;
   }
+  .StyleCard-box h2 {
+    font-size: 30px;
+}
 }

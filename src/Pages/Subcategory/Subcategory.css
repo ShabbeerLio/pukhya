@@ -1,5 +1,5 @@
 .Subcategory {
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 3rem 0rem 0 0;
   width: 100%;
 }
@@ -64,10 +64,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .subcategory-title h1 {
   font-size: 50px;
   margin-bottom: 2rem;
 }
+
 .subcategory-title img {
   width: 10%;
   object-fit: cover;
@@ -77,6 +79,7 @@
 .Subcategory-details {
   margin-top: 2rem;
 }
+
 .Subcategory-details h3 {
   font-size: 25px;
 }
@@ -97,12 +100,14 @@
   position: relative;
   cursor: pointer;
 }
+
 .Subcategory-categories-card img {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 2/1.3;
   border-radius: 8px;
 }
+
 .Subcategory-categories-card:after {
   content: "";
   position: absolute;
@@ -127,9 +132,11 @@
   margin: 0;
   z-index: 2;
 }
+
 .Subcategory-card-detail h2 {
   font-size: 25px !important;
 }
+
 .Subcategory-card-detail p {
   font-size: 16px;
   margin: 0;
@@ -140,6 +147,7 @@
   align-items: center;
   margin-top: 1rem;
 }
+
 .subcategory-btn p {
   margin: 0;
   padding: 8px 40px;
@@ -149,6 +157,7 @@
 }
 
 @media (min-width: 1200px) {
+
   .Subcategory-main,
   .Subcategory-products-box {
     max-width: 1140px;
@@ -159,4 +168,23 @@
   .subcategory-categories {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .Subcategory-banner img {
+    height: 35vh;
+  }
+
+  .Subcategory-card-detail h2 {
+    font-size: 20px !important;
+  }
+
+  .Subcategory-card-detail p {
+    font-size: 14px;
+  }
+  .subcategory-title img {
+    width: 50%;
+}
+.subcategory-title h1 {
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
 }

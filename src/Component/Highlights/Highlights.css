@@ -42,4 +42,20 @@
   .hightlights-text {
     width: 80%;
   }
+  .Highlights-image img {
+    height: 35vh;
+    object-fit: cover;
+    width: 100%;
+}
+.hightlights-text h3 {
+  color: white;
+  font-size: 20px;
+}
+.hightlights-text p {
+  color: white;
+  font-size: 16px;
+}
+.hightlights-text {
+  top: 10%;
+}
 }
